@@ -16,24 +16,25 @@
 	q=q_0\cos(\omega t +\varphi)\ \text{C}, 
 \end{equation}
 \begin{equation}
-	i=\frac{dq}{dt}=I_0 \cos(\omega +\varphi+ \frac{\pi}{2})\ \text{A},
+	i=\frac{dq}{dt}=I_0 \cos(\omega t +\varphi+ \frac{\pi}{2})\ \text{A},
 \end{equation}
 trong đó: $I_0=q_0\omega, \omega =\dfrac{1}{\sqrt {LC}}$.
 \subsection {Dao động điện từ tự do}
 Sự biến thiên điều hòa theo thời gian của điện tích $q$ của một bản tụ điện và cường độ dòng điện $i$ (hoặc cường độ điện trường $\vec{E}$ và cảm ứng từ $\vec{B}$) trong mạch dao động được gọi là dao động điện từ tự do.
 \subsection {Chu kì và tần số dao động riêng của mạch dao đông}
-Gồm tụ điện có điện dung $C$ mắc với một cuộn cảm có độ tự cảm $L$ thành mạch kín.
 \begin{equation}
 	T=2\pi \sqrt {LC},
 \end{equation}
 \begin{equation}
 	f=\frac{1}{2\pi\sqrt {LC}},
 \end{equation}
-trong đó:\\
-$L$: Độ tự cảm của cuộn dây ($\text{H}$);\\
-$C$: Điện dung của tụ điện ($\text{F}$);\\
-$T$: Chu kì dao động ($\text{s}$);\\
-$f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
+trong đó:
+\begin{itemize}
+	\item $L$: Độ tự cảm của cuộn dây ($\text{H}$);
+	\item $C$: Điện dung của tụ điện ($\text{F}$);
+	\item $T$: Chu kì dao động ($\text{s}$);
+	\item $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
+\end{itemize}
 \subsection {Năng lượng điện từ}
 \begin{itemize}
 	\item Tổng năng lượng điện trường trong tụ điện và năng lượng từ trường trong cuộn cảm của mạch gọi là năng lượng điện từ.\\
@@ -41,6 +42,9 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 		W=W_{\text{đ}}+W_{t}=\frac{1}{2}Cu^2+\frac{1}{2}Li^2
 	\end{equation}
 	\item Nếu không có sự tiêu hao năng lượng thì năng lượng điện từ trong mạch sẽ được bảo toàn.
+	\begin{equation}
+		W=W_\text{đ max}=W_\text{t max}=\dfrac{1}{2}CU^2_0=\dfrac{1}{2}LI^2_0
+	\end{equation}
 \end{itemize}
 \section{Mục tiêu bài học - Ví dụ minh họa}
 \begin{dang}{Xác định chu kỳ, tần số, điện tích của mạch dao động}
@@ -295,7 +299,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 \section{Bài tập tự luyện}
 \begin{enumerate}[label=\bfseries Câu \arabic*:]
 	%------------------------------------------------------------------------------------------
-	\item \mkstar{1} [1] %Cau 1
+	\item \mkstar{1}
 	
 	{Một mạch dao động lí tưởng gồm tụ điện có điện dung $C$ và cuộn cảm thuần có độ tự cảm $L$, đang thực hiện dao động điện từ tự do. Biết dòng điện qua mạch có dạng $i = I_0 \cos \left( \omega t \right)$. Điện tích tụ điện có giá trị cực đại bằng
 		\begin{mcq}(4)
@@ -316,26 +320,8 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{1} [2] %Cau 2
-	{Trong máy thu thanh vô tuyến, bộ phận dùng để biến đổi trực tiếp dao động điện thành dao động âm có cùng tần số là
-		\begin{mcq}(4)
-			\item mạch tách sóng. 
-			\item mạch chọn sóng. 
-			\item micrô. 
-			\item loa. 
-		\end{mcq}
-	}
 	
-	\hideall
-	{		\textbf{Đáp án: D.}
-		
-		Trong máy thu thanh vô tuyến, bộ phận dùng để biến đổi trực tiếp dao động điện thành dao động âm có cùng tần số là loa.
-		
-	}
-	
-	%--------------------------------------------------------------------------------------------------------------
-	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{1} [2] %Cau 3
+	\item \mkstar{1}
 	
 	{Mạch dao động điện từ lí tưởng, cuộn cảm có độ tự cảm L và tụ điện có điện dung C. Chu kì dao động là
 		\begin{mcq}(4)
@@ -355,7 +341,89 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{1} [4] %Cau 4
+		\item \mkstar{1}
+	
+	{Phát biểu nào sau đây là sai khi nói về năng lượng của mạch dao động điện từ $LC$ có điện trở thuần không đáng kể?
+		
+		\begin{mcq}
+			\item Năng lượng điện từ của mạch dao động biến đổi tuần hoàn theo thời gian.
+			\item Năng lượng điện trường và năng lượng từ trường cũng biến thiên tuần hoàn theo một tần số chung.
+			\item Năng lượng điện từ của mạch dao động bằng năng lượng điện trường cực đại ở tụ điện.
+			\item Năng lượng điện từ của mạch dao động bằng năng lượng từ trường cực đại ở cuộn cảm.
+			
+		\end{mcq}
+	}
+	
+	\hideall
+	{		\textbf{Đáp án: A.}
+		
+		Khi điện trở thuần không đáng kể khi đó năng lượng điện từ được bảo toàn nên A sai.
+		
+	}
+	\item \mkstar{1}
+	
+	{
+		Phát biểu nào sau đây là sai khi nói về mạch dao động điện từ $LC$ có điện trở thuần không đáng kể?
+		
+		\begin{mcq}
+			\item Năng lượng của mạch dao động gồm năng lượng điện trường tập trung ở tụ điện và năng lượng từ trường tập trung ở cuộn cảm.
+			
+			\item Năng lượng điện trường và năng lượng từ trường cùng biến thiên tuần hoàn theo một tần số chung là tần số của dao động điện từ.
+			
+			\item Tại mọi thời điểm, tổng năng lượng điện trường và năng lượng từ trường là không đổi.
+			\item  Dao động điện từ trong mạch là một dao động tự do.
+			
+		\end{mcq}
+	}
+	
+	\hideall
+	{		\textbf{Đáp án: B.}
+		
+		Năng lượng điện trường và năng lượng từ trường cùng biến thiên tuần hoàn theo một tần số chung và gấp đôi tần số của dao động điện từ do đó B sai. 
+		
+	}
+	\item \mkstar{1}
+	
+	{
+		Biểu thức nào sau đây không phải là biểu thức tính năng lượng điện từ trong mạch dao động?
+		\begin{mcq}(4)
+			\item $W = \dfrac{Q_0^2}{2L}.$
+			\item $W = \dfrac{1}{2}CU^2_0.$
+			\item $W = \dfrac{1}{2}LI^2_0.$
+			\item $W = \dfrac{Q_0^2}{2C}.$
+		\end{mcq}
+	}
+	
+	\hideall
+	{		\textbf{Đáp án: A.}
+		
+		
+		
+	}
+	\item \mkstar{1}
+	
+	{Nhận xét nào sau đây liên quan đến năng lượng điện từ của mạch dao động là đúng? Điện tích trong mạch dao động lí tưởng biến đổi với chu kỳ $T$ thì
+		
+		
+		\begin{mcq}(2)
+			\item Năng lượng điện trường biển đối với chu kỳ $2T$.
+			\item Năng lượng từ trường biến đổi với chu kỳ $2T$.
+			
+			\item Năng lượng điện trường biến đổi với chu kỳ $T/2$.
+			
+			\item Năng lượng điện từ biến đổi với chu kỳ $T/2$.
+			
+		\end{mcq}
+	}
+	
+	\hideall
+	{		\textbf{Đáp án: C.}
+		
+		
+		
+	}
+	
+	\item \mkstar{1}
 	
 	{Trong mạch dao động điện từ lí tưởng đang hoạt động, điện tích trên một bản tụ điện biến thiên điều hòa
 		\begin{mcq}(1)
@@ -375,7 +443,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{1} [12] %Cau 5
+	\item \mkstar{1}
 	
 	{Trong mạch dao động  $LC$ lí tưởng $L$ và $C$ thay đổi được, muốn giảm tần số dao động riêng của mạch thì có thể
 		\begin{mcq}(2)
@@ -398,7 +466,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{1} [7] %Cau 6
+	\item \mkstar{1}
 	
 	{Một mạch dao động LC lí tưởng đang có dao động điện từ tự do với tần số góc $\omega$. Gọi $q_0$ là điện tích cực đại của một bản tụ điện thì cường độ dòng điện cực đại trong mạch là
 		\begin{mcq}(4)
@@ -421,7 +489,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{1} [7] %Cau 7
+	\item \mkstar{1}
 	
 	{Trong mạch dao động điện từ tự do $LC$, so với cường độ dòng điện trong mạch thì điện tích trên một bản tụ luôn
 		\begin{mcq}(2)
@@ -441,7 +509,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{1} [7]
+	\item \mkstar{1}
 	
 	{Một mạch dao động gồm cuộn cảm thuần có độ tự cảm L và tụ điện có điện dung C. Chu kì dao động riêng của mạch là
 		\begin{mcq}(4)
@@ -461,7 +529,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{1} [12]
+	\item \mkstar{1}
 	
 	{Điện tích của một bản tụ trong mạch dao động LC đang thực hiện dao động điện từ tự do là $q = 4\cdot10^{-7} \cos \left( 4000t \right)$ (C). Điện tích cực đại có độ lớn
 		\begin{mcq}(4)
@@ -481,7 +549,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{2} [3]
+	\item \mkstar{2}
 	
 	{Gọi $I_0$ và $Q_0$ là giá trị cực đại của điện tích trên bản tụ và cường độ dòng điện cực đại trong mạch dao động điện từ LC. Chu kì dao động điện từ tự do trong mạch có biểu thức
 		\begin{mcq}(4)
@@ -504,7 +572,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{2} [12]
+	\item \mkstar{2}
 	
 	{Điện tích của một bản tụ trong mạch dao động LC lí tưởng là $q = 6\cdot10^{-6} \cos \left( 4000t + \dfrac{\pi}{2} \right)$ (C). Tại thời điểm $t = \xsi{10^{-4}}{s}$, điện tích trên bản tụ có độ lớn xấp xỉ bằng 
 		\begin{mcq}(4)
@@ -527,7 +595,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{2} [9]
+	\item \mkstar{2}
 	
 	{Một mạch dao động LC có điện trở thuần không đáng kể, tụ điện có điện dung $\SI{5}{\mu F}$. Dao động điện từ tự do của mạch LC với hiệu điện thế cực đại ở hai đầu tụ điện bằng $\SI{6}{V}$. Khi hiệu điện thế ở hai đầu tụ điện là $\SI{4}{V}$ thì năng lượng điện từ trong mạch bằng
 		\begin{mcq}(4)
@@ -548,7 +616,130 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	}
 	
 	%------------------------------------------------------------------------------------------
-	\item \mkstar{2} [7]
+		\item \mkstar{2}
+	
+	{
+		Mạch dao động lí tưởng $LC$, cường độ dòng điện cực đại qua cuộn dây là $\SI{36}{mA}$. Khi năng lượng điện trường bằng 3 lần năng lượng từ trường thì cường độ dòng điện qua cuộn dây là
+		
+		\begin{mcq}(4)
+			\item $\SI{18}{mA}$.
+			\item $\SI{9}{mA}$.
+			\item $\SI{12}{mA}$.
+			\item $\SI{36}{mA}$.
+		\end{mcq}
+	}
+	
+	\hideall
+	{		\textbf{Đáp án: A.}
+		
+		Khi $W_\text{đ} = 3W_\text{t} \Rightarrow W = 4W_\text{t} \Rightarrow i = \dfrac{I_0}{2} = \SI{18}{mA}.$
+		
+	}
+	\item \mkstar{2}
+	
+	{
+		Một mạch dao động $LC$ có điện trở thuần không đáng kể, tụ điện có điện dung $\SI{5}{\mu F}$. Dao động điện từ tự do của mạch $LC$ với hiệu điện thế cực đại ở hai đầu tụ điện bằng $\SI{6}{V}$. Khi hiệu điện thế ở hai đầu tụ điện là $\SI{4}{V}$ thì năng lượng từ trường trong mạch bằng
+		
+		\begin{mcq}(4)
+			\item $4\cdot 10^{-5}\ \text J$.
+			\item $5\cdot 10^{-5}\ \text J$.
+			\item $9\cdot 10^{-5}\ \text J$.
+			\item $\cdot 10^{-5}\ \text J$.
+		\end{mcq}
+	}
+	
+	\hideall
+	{		\textbf{Đáp án: B.}
+		
+		Ta có:
+		
+		$$W_\text t = W - W_\text{đ} = \dfrac{1}{2}C(U_0^2 - u^2) = \xsi{5\cdot 10^{-5}}{J}.$$
+		
+	}
+	\item \mkstar{2}
+	
+	{Mạch dao động lí tưởng $LC$ gồm tụ điện có điện dung $C = \SI{25}{nF}$ và cuộn dây có độ tụ cảm $L$. Dòng điện trong mạch biến thiên theo phương trình $i = \text{0,02} \cos 8000 t\ \text A$. Năng lượng điện trường vào thời điểm $t = \dfrac{\pi}{48000}\ \text s$ là
+		
+		\begin{mcq}(4)
+			\item $W_C = \SI{38,5}{\mu J}$.
+			\item $W_C = \SI{39,5}{\mu J}.$ 
+			\item $W_C = \SI{93,75}{\mu J}.$
+			\item $W_C = \SI{36,5}{\mu J}.$
+		\end{mcq}
+	}
+	
+	\hideall
+	{		\textbf{Đáp án: C.}
+		
+		Vào thời điểm $t = \dfrac{\pi}{48000}\ \text s$ thì $i = \SI{0,01}{A}.$
+		
+		Do đó năng lượng điện trường
+		
+		$$W_\text{đ} = \dfrac{1}{2} L(I_0^2 -i^2) = \dfrac{1}{2} \cdot \dfrac{1}{\omega^2 C} (I_0^2 - i^2) = \SI{93,75}{\mu J}.$$
+		
+		
+	}
+	\item \mkstar{2}
+	
+	{
+		Cường độ dòng điện tức thời trong một mạch dao động $LC$ lí tưởng là $i =\text{0,08} \cos 2000 t\ \text A$ với $t$ tính bằng giây. Cuộn dây có độ tự cảm là $L = \SI{50}{mH}$. Tại thời điểm cường độ dòng điện tức thời trong mạch bằng giá trị cường độ dòng điện hiệu dụng thì điện áp giữa hai bản tụ điện có độ lớn bằng:
+		
+		\begin{mcq}(4)
+			\item $4\sqrt 2\ \text V$.
+			\item $\SI{2}{V}.$
+			\item $2\sqrt 2\ \text V.$
+			\item $\SI{4}{V}.$
+		\end{mcq}
+	}
+	
+	\hideall
+	{		\textbf{Đáp án: A.}
+		
+		Ta có: 
+		
+		$$\dfrac{1}{2}LI^2_0 = \dfrac{1}{2} CU^2_0 \Rightarrow U_0 = \sqrt{\dfrac{L}{C}I_0} = \sqrt{L^2\omega^2}I_0 = \SI{8}{V}  \Rightarrow u = 4\sqrt 2\ \text{V}.$$
+		
+	}
+	\item \mkstar{2}
+	
+	{
+		Một mạch dao động điện từ $LC$ lý tưởng đang dao động với điện tích cực đại trên một bản cực của tụ điện là $Q_0$. Cứ sau những khoảng thời gian bằng nhau và bằng $10^{-6}\ \text{s}$ thì năng lượng từ trường lại bằng $\dfrac{Q_0^2}{4C}$. Tần số của mạch dao động là
+		
+		\begin{mcq}(4)
+			\item $\text{2,5}\cdot 10^7\ \text{Hz}$.
+			\item $10^6\ \text{Hz}.$
+			\item $\text{2,5}\cdot 10^5\ \text{Hz}$.
+			\item $10^5\ \text{Hz}.$
+		\end{mcq}
+	}
+	
+	\hideall
+	{		\textbf{Đáp án: C.}
+		
+		
+		
+	}
+	\item \mkstar{2}
+	
+	{
+		Trong mạch $LC$ điện tích của tụ điện biến thiên điều hoà với giá trị cực đại bằng $Q_0$. Điện tích của tụ điện khi năng lượng từ trường gấp 3 lần năng lượng điện trường là
+		
+		\begin{mcq}(4)
+			\item $q = \pm \dfrac{Q_0}{3}$.
+			\item $q = \pm \dfrac{Q_0}{4}.$
+			\item $q = \pm \dfrac{Q_0\sqrt 2}{2}.$
+			\item $q = \pm \dfrac{Q_0}{2}.$
+		\end{mcq}
+	}
+	
+	\hideall
+	{		\textbf{Đáp án: D.}
+		
+		
+		
+	}
+	
+	\item \mkstar{2}
 	
 	{Mạch dao động LC lí tưởng gồm cuộn cảm có độ tự cảm $L = \SI{2}{mH}$ và tụ điện có điện dung $C = \SI{2}{pF}$. Tần số dao động của mạch gần bằng
 		\begin{mcq}(4)
@@ -572,7 +763,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{2} [4]
+	\item \mkstar{2}
 	
 	{Mạch dao động điện từ lí tưởng gồm cuộn dây thuần cảm có độ tự cảm L và tụ điện có điện dung C. Khi tăng điện dung của tụ điện lên 9 lần thì chu kì dao động riêng của mạch
 		\begin{mcq}(4)
@@ -595,7 +786,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{2} [10]
+	\item \mkstar{2}
 	
 	{Coi dao động điện từ của một mạch dao động LC là dao động tự do. Biết độ tự cảm của cuộn dây là $\xsi{2\cdot10^{-2}}{H}$, điện dung tụ điện là $\xsi{2\cdot10^{-10}}{F}$. Chu kì dao động điện từ tự do trong mạch này là
 		\begin{mcq}(4)
@@ -616,7 +807,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{2} [10]
+	\item \mkstar{2}
 	
 	{Mạch dao động điện từ LC lí tưởng gồm cuộn thuần cảm có độ tự cảm $\xsi{1}{mH}$ và tụ điện có điện dung $\xsi{0,1}{\mu F}$. Dao động điện từ riêng của mạch có tần số góc là
 		\begin{mcq}(4)
@@ -637,7 +828,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{2} [1] %Cau17
+	\item \mkstar{2}
 	
 	{Một mạch dao động lí tưởng gồm tụ điện có điện dung $C = 2 \mu F$ và cuộn cảm thuần có độ tự cảm $L$, đang thực hiện dao động điện từ tự do. Biết dòng điện qua mạch có dạng $i = 2 \cos \left( 5000t \right)(mA,s)$. Giá trị của L bằng
 		\begin{mcq}(4)
@@ -659,29 +850,8 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{2} [2] %Cau18
-	
-	{Điện tích của một bản tụ trong mạch dao động điện từ có phương trình là $q = Q_0 \cos \left( 4\pi \cdot 10^{4}t \right)$. Trong đó $t$ tính theo giây. Tần số dao động của mạch là
-		\begin{mcq}(4)
-			\item $ \SI{1e4}{Hz} $.
-			\item $ \SI{20e14}{Hz} $.
-			\item $ \SI{2e4}{Hz} $.
-			\item $ \SI{2e4}{kHz} $.
-		\end{mcq}
-	}
-	
-	\hideall
-	{		\textbf{Đáp án: C.}
-		
-		Từ phương trình $q = Q_0 \cos \left( 4\pi \cdot 10^{4}t \right)$ ta rút ra tần số góc của mạch là $\omega = \xsi{4 \pi e4}{rad/s}.$ \\
-		Tần số dao động của mạch cho bởi
-		$$f = \dfrac{\omega}{2\pi} = \dfrac{4\pi \cdot 10^{4}}{2\pi} = \SI{2 e4}{Hz}.$$
-		
-	}
-	
-	%--------------------------------------------------------------------------------------------------------------
-	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{3} [10] %Cau19
+
+	\item \mkstar{3}
 	
 	{Một mạch dao động lí tưởng gồm cuộn cảm thuần có độ tự cảm $\xsi{4}{\mu H}$ và một tụ điện có điện dung biến đổi từ $\xsi{10}{pF}$ đến $\xsi{640}{pF}$. Lấy $\pi^2 = 10$. Chu kì dao động riêng của mạch có giá trị
 		\begin{mcq}(2)
@@ -709,7 +879,7 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 	
 	%--------------------------------------------------------------------------------------------------------------
 	%--------------------------------------------------------------------------------------------------------------
-	\item \mkstar{3} [1] %Cau20
+	\item \mkstar{3}
 	
 	{Một mạch dao động lí tưởng gồm tụ điện có điện dung $C$ và cuộn cảm thuần có độ tự cảm $L$, đang thực hiện dao động điện từ tự do với tần số $f$. Nếu tăng điện dung của tụ điện lên 16 lần thì tần số dao động của mạch giảm lượng $\SI{24}{MHz}$. Giá trị của $f$ bằng
 		\begin{mcq}(4)
@@ -735,209 +905,8 @@ $f$: Tần số dao động riêng của mạch dao động ($\text{Hz}$).
 		$$f = \SI{32}{MHz}.$$
 		
 	}
-		\item \mkstar{1}
 	
-	{Phát biểu nào sau đây là sai khi nói về năng lượng của mạch dao động điện từ $LC$ có điện trở thuần không đáng kể?
-		
-		\begin{mcq}
-			\item Năng lượng điện từ của mạch dao động biến đổi tuần hoàn theo thời gian.
-			\item Năng lượng điện trường và năng lượng từ trường cũng biến thiên tuần hoàn theo một tần số chung.
-			\item Năng lượng điện từ của mạch dao động bằng năng lượng điện trường cực đại ở tụ điện.
-			\item Năng lượng điện từ của mạch dao động bằng năng lượng từ trường cực đại ở cuộn cảm.
-			
-		\end{mcq}
-	}
 	
-	\hideall
-	{		\textbf{Đáp án: A.}
-		
-	Khi điện trở thuần không đáng kể khi đó năng lượng điện từ được bảo toàn nên A sai.
-		
-	}
-		\item \mkstar{1}
-	
-	{
-		Phát biểu nào sau đây là sai khi nói về mạch dao động điện từ $LC$ có điện trở thuần không đáng kể?
-		
-		\begin{mcq}
-			\item Năng lượng của mạch dao động gồm năng lượng điện trường tập trung ở tụ điện và năng lượng từ trường tập trung ở cuộn cảm.
-			
-			\item Năng lượng điện trường và năng lượng từ trường cùng biến thiên tuần hoàn theo một tần số chung là tần số của dao động điện từ.
-			
-			\item Tại mọi thời điểm, tổng năng lượng điện trường và năng lượng từ trường là không đổi.
-			\item  Dao động điện từ trong mạch là một dao động tự do.
-			
-		\end{mcq}
-	}
-	
-	\hideall
-	{		\textbf{Đáp án: B.}
-		
-		Năng lượng điện trường và năng lượng từ trường cùng biến thiên tuần hoàn theo một tần số chung và gấp đôi tần số của dao động điện từ do đó B sai. 
-		
-	}
-		\item \mkstar{1}
-	
-	{
-		Biểu thức nào sau đây không phải là biểu thức tính năng lượng điện từ trong mạch dao động?
-		\begin{mcq}(4)
-			\item $W = \dfrac{Q_0^2}{2L}.$
-			\item $W = \dfrac{1}{2}CU^2_0.$
-			\item $W = \dfrac{1}{2}LI^2_0.$
-			\item $W = \dfrac{Q_0^2}{2C}.$
-		\end{mcq}
-	}
-	
-	\hideall
-	{		\textbf{Đáp án: A.}
-		
-		
-		
-	}
-		\item \mkstar{1}
-	
-	{Nhận xét nào sau đây liên quan đến năng lượng điện từ của mạch dao động là đúng? Điện tích trong mạch dao động lí tưởng biến đổi với chu kỳ $T$ thì
-		
-		
-		\begin{mcq}
-			\item Năng lượng điện trường biển đối với chu kỳ $2T$.
-			\item Năng lượng từ trường biến đổi với chu kỳ $2T$.
-			
-			\item Năng lượng điện trường biến đổi với chu kỳ $T/2$.
-			
-			\item Năng lượng điện từ biến đổi với chu kỳ $T/2$.
-			
-		\end{mcq}
-	}
-	
-	\hideall
-	{		\textbf{Đáp án: C.}
-		
-		
-		
-	}
-		\item \mkstar{2}
-	
-	{
-		Mạch dao động lí tưởng $LC$, cường độ dòng điện cực đại qua cuộn dây là $\SI{36}{mA}$. Khi năng lượng điện trường bằng 3 lần năng lượng từ trường thì cường độ dòng điện qua cuộn dây là
-		
-		\begin{mcq}(4)
-			\item $\SI{18}{mA}$.
-			\item $\SI{9}{mA}$.
-			\item $\SI{12}{mA}$.
-			\item $\SI{36}{mA}$.
-		\end{mcq}
-	}
-	
-	\hideall
-	{		\textbf{Đáp án: A.}
-		
-		Khi $W_\text{đ} = 3W_\text{t} \Rightarrow W = 4W_\text{t} \Rightarrow i = \dfrac{I_0}{2} = \SI{18}{mA}.$
-		
-	}
-		\item \mkstar{2}
-	
-	{
-		Một mạch dao động $LC$ có điện trở thuần không đáng kể, tụ điện có điện dung $\SI{5}{\mu F}$. Dao động điện từ tự do của mạch $LC$ với hiệu điện thế cực đại ở hai đầu tụ điện bằng $\SI{6}{V}$. Khi hiệu điện thế ở hai đầu tụ điện là $\SI{4}{V}$ thì năng lượng từ trường trong mạch bằng
-		
-		\begin{mcq}(4)
-			\item $4\cdot 10^{-5}\ \text J$.
-			\item $5\cdot 10^{-5}\ \text J$.
-			\item $9\cdot 10^{-5}\ \text J$.
-			\item $\cdot 10^{-5}\ \text J$.
-		\end{mcq}
-	}
-	
-	\hideall
-	{		\textbf{Đáp án: B.}
-		
-		Ta có:
-		
-		$$W_\text t = W - W_\text{đ} = \dfrac{1}{2}C(U_0^2 - u^2) = \xsi{5\cdot 10^{-5}}{J}.$$
-		
-	}
-		\item \mkstar{2}
-	
-	{Mạch dao động lí tưởng $LC$ gồm tụ điện có điện dung $C = \SI{25}{nF}$ và cuộn dây có độ tụ cảm $L$. Dòng điện trong mạch biến thiên theo phương trình $i = \text{0,02} \cos 8000 t\ \text A$. Năng lượng điện trường vào thời điểm $t = \dfrac{\pi}{48000}\ \text s$ là
-		
-		\begin{mcq}(4)
-			\item $W_C = \SI{38,5}{\mu J}$.
-			\item $W_C = \SI{39,5}{\mu J}.$ 
-			\item $W_C = \SI{93,75}{\mu J}.$
-			\item $W_C = \SI{36,5}{\mu J}.$
-		\end{mcq}
-	}
-	
-	\hideall
-	{		\textbf{Đáp án: C.}
-		
-		Vào thời điểm $t = \dfrac{\pi}{48000}\ \text s$ thì $i = \SI{0,01}{A}.$
-		
-		Do đó năng lượng điện trường
-		
-		$$W_\text{đ} = \dfrac{1}{2} L(I_0^2 -i^2) = \dfrac{1}{2} \cdot \dfrac{1}{\omega^2 C} (I_0^2 - i^2) = \SI{93,75}{\mu J}.$$
-		
-		
-	}
-		\item \mkstar{2}
-	
-	{
-		Cường độ dòng điện tức thời trong một mạch dao động $LC$ lí tưởng là $i =\text{0,08} \cos 2000 t\ \text A$ với $t$ tính bằng giây. Cuộn dây có độ tự cảm là $L = \SI{50}{mH}$. Tại thời điểm cường độ dòng điện tức thời trong mạch bằng giá trị cường độ dòng điện hiệu dụng thì điện áp giữa hai bản tụ điện có độ lớn bằng:
-		
-		\begin{mcq}(4)
-			\item $4\sqrt 2\ \text V$.
-			\item $\SI{2}{V}.$
-			\item $2\sqrt 2\ \text V.$
-			\item $\SI{4}{V}.$
-		\end{mcq}
-	}
-	
-	\hideall
-	{		\textbf{Đáp án: A.}
-		
-		Ta có: 
-		
-		$$\dfrac{1}{2}LI^2_0 = \dfrac{1}{2} CU^2_0 \Rightarrow U_0 = \sqrt{\dfrac{L}{C}I_0} = \sqrt{L^2\omega^2}I_0 = \SI{8}{V}  \Rightarrow u = 4\sqrt 2\ \text{V}.$$
-		
-	}
-		\item \mkstar{2}
-	
-	{
-		Một mạch dao động điện từ $LC$ lý tưởng đang dao động với điện tích cực đại trên một bản cực của tụ điện là $Q_0$. Cứ sau những khoảng thời gian bằng nhau và bằng $10^{-6}\ \text{s}$ thì năng lượng từ trường lại bằng $\dfrac{Q_0^2}{4C}$. Tần số của mạch dao động là
-		
-		\begin{mcq}(4)
-			\item $\text{2,5}\cdot 10^7\ \text{Hz}$.
-			\item $10^6\ \text{Hz}.$
-			\item $\text{2,5}\cdot 10^5\ \text{Hz}$.
-			\item $10^5\ \text{Hz}.$
-		\end{mcq}
-	}
-	
-	\hideall
-	{		\textbf{Đáp án: C.}
-		
-		
-		
-	}
-		\item \mkstar{2}
-	
-	{
-		Trong mạch $LC$ điện tích của tụ điện biến thiên điều hoà với giá trị cực đại bằng $Q_0$. Điện tích của tụ điện khi năng lượng từ trường gấp 3 lần năng lượng điện trường là
-		
-		\begin{mcq}(4)
-			\item $q = \pm \dfrac{Q_0}{3}$.
-			\item $q = \pm \dfrac{Q_0}{4}.$
-			\item $q = \pm \dfrac{Q_0\sqrt 2}{2}.$
-			\item $q = \pm \dfrac{Q_0}{2}.$
-		\end{mcq}
-	}
-	
-	\hideall
-	{		\textbf{Đáp án: D.}
-		
-		
-		
-	}
 		\item \mkstar{3}
 	
 	{
