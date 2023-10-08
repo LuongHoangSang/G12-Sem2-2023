@@ -1,0 +1,137 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  37. Phóng xạ
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Độ phóng xạ (đọc thêm)]{Độ phóng xạ (đọc thêm)}
+\section{Lý thuyết}
+
+\subsection{Định nghĩa độ phóng xạ}
+	Độ phóng xạ của một lượng chất phóng xạ tại thời điểm $t$ bằng tích của hằng số phóng xạ và số lượng hạt nhân phóng xạ chứa trong lượng chất đó ở thời điểm $t$
+	\begin{equation}
+	H=\lambda N,
+	\end{equation}
+	trong đó:
+	\begin{itemize}
+		\item $H$ là số hạt nhân ở thời điểm ban đầu $t$;
+		\item $N$ là số hạt nhân ở thời điểm ban đầu $t$;
+		\item $\lambda$ là hằng số phóng xạ.
+	\end{itemize}
+
+\subsection{Quy luật biến thiên của độ phóng xạ}
+	Độ phóng xạ của một lượng chất phóng xạ giảm theo thời gian theo cùng quy luật hàm số mũ giống như số hạt nhân (số nguyên tử) của nó
+	\begin{equation}
+		H=H_0\cdot 2^{-\frac{t}{T}}=H_0\cdot e^{-\lambda t},
+	\end{equation}
+	trong đó:
+		\begin{itemize}
+		\item $H$ là số hạt nhân ở thời điểm $t$;
+		\item $H_0$ là số hạt nhân ở thời điểm ban đầu $t_0=0$,
+		\item $\lambda$ là hằng số phóng xạ;
+		\item $T=\dfrac{\ln2}{\lambda}=\dfrac{0,693}{\lambda}$ là chu kì bán rã.
+	\end{itemize}
+
+\subsection{Đơn vị độ phóng xạ}
+	Đơn vị của độ phóng xạ là Becơren, kí hiệu là Bq hoặc Curi, kí hiệu là Ci.
+	\begin{equation}
+	\SI{1}{Bq}=1\, \text{phân rã/giây},
+	\end{equation}
+	\begin{equation}
+	\SI{1}{Ci}=\SI{3,7e10}{Bq}.
+	\end{equation}
+	\luuy{Khi tính độ phóng xạ $H$, $H_0$ theo đơn vị Bq thì chu kì phóng xạ $T$ phải đổi ra đơn vị giây (s).}
+	
+\section{Ví dụ minh họa}
+	
+\ppgiai{
+	\begin{description}
+		\item[Bước 1:] Xác được hạt nhân mẹ là hạt nhân tự phân rã. 
+		
+		\item[Bước 2:] Tìm và phát hiện các dữ kiện có trong đề bài và đổi chúng về đơn vị thích hợp (nếu có): độ phóng xạ ban đầu và độ phóng xạ tại thời điểm t, số hạt nhân ban đầu và số hạt nhân còn lại, khối lượng hạt nhân ban đầu và khối lượng hạt nhân còn lại, chu kì bán rã và thời gian phân rã.
+		
+		\item[Bước 3:] Xác định đại lượng cần tìm theo yêu cầu của đề bài dựa vào các công thức trong phần kiến thức cần nhớ.
+	\end{description}
+}
+
+\viduii{2}{ 
+Một chất phóng xạ có chu kỳ bán rã là 3,8 ngày. Sau thời gian 11,4 ngày thì độ phóng xạ của lượng chất phóng xạ còn lại bằng bao nhiêu phần trăm so với độ phóng xạ của lượng chất phóng xạ ban đầu?
+\begin{mcq}(4)
+	\item $25\%$.
+	\item $75\%$.
+	\item $12,5\%$.
+	\item $87,5\%$.
+\end{mcq}}
+	{\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+	
+	Độ phóng xạ sau thời gian 11,4 ngày là
+	\begin{equation*}
+	H=H_0\cdot 2^{-\frac{t}{T}}=H_0\cdot 2^{-\frac{11,4\textrm{ngày}}{3,8\textrm{ngày}}}=\dfrac{1}{8}H_0=12,5\%H_0.
+	\end{equation*}
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+	Một chất phóng xạ có chu kỳ bán rã là 3,8 ngày. Sau thời gian 15,2 ngày thì độ phóng xạ của lượng chất phóng xạ còn lại bằng bao nhiêu phần trăm so với độ phóng xạ của lượng chất phóng xạ ban đầu?
+\begin{mcq}(4)
+	\item $25\%$.
+	\item $75\%$.
+	\item $12,5\%$.
+	\item $6,25\%$.
+\end{mcq}
+
+	\textbf{Đáp án:} D.}
+	
+\viduii{3}{
+	Chất phóng xạ $^{25}\text{Na}$ có chu kì bán rã $T=\SI{62}{\second}$. Biết số nguyên tử $^{25}\text{Na}$ ban đầu có $6,49\cdot 10^{18}$ hạt. Độ phóng xạ sau 10 phút là
+	\begin{mcq}(2)
+		\item $\SI{9,17e12}{Bq}$.
+		\item $\SI{8,25e13}{Bq}$.
+		\item $\SI{9,74e12}{Bq}$.
+		\item $\SI{8,86e13}{Bq}$.
+	\end{mcq}}{
+	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+	
+	Số nguyên tử $\text{Na}$ còn lại sau 10 phút là
+	\begin{equation*}
+	N=N_0\cdot 2^{-\frac{t}{T}}=6,49\cdot 10^{18}\cdot 2^{-\frac{\SI{600}{\second}}{\SI{62}{\second}}}=7,93\cdot10^{15}.
+	\end{equation*}
+	
+	Độ phóng xạ sau 10 phút là
+	\begin{equation*}
+	H=\lambda N=\dfrac{\ln2}{T}\cdot N=\dfrac{0,693}{\SI{62}{\second}}\cdot7,93\cdot10^{15}=\SI{8,86e13}{Bq}.
+	\end{equation*}
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+	Chất phóng xạ $^{25}\text{Na}$ có chu kì bán rã $T=\SI{62}{\second}$. Biết số nguyên tử $^{25}\text{Na}$ ban đầu có $6,49\cdot 10^{18}$ hạt. Độ phóng xạ sau 15 phút là
+	\begin{mcq}(2)
+		\item $\SI{9,17e12}{Bq}$.
+		\item $\SI{8,25e13}{Bq}$.
+		\item $\SI{3,10e12}{Bq}$.
+		\item $\SI{8,86e13}{Bq}$.
+	\end{mcq}
+	
+	\textbf{Đáp án:} C.
+	}
+	
+
+

@@ -1,0 +1,47 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  38. Phản ứng phân hạch
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Phản ứng phân hạch (đọc thêm)]{Phản ứng phân hạch (đọc thêm)}
+
+\subsection{Cơ chế của phản ứng phân hạch}
+	\subsubsection{Phản ứng phân hạch là gì?}
+	Phản ứng phân hạch là phản ứng mà trong đó một hạt nhân rất nặng hấp thu một nơtron chậm rồi vỡ ra thành hai hạt nhân trung bình đồng thời phóng ra từ 2 đến 3 nơtron và tỏa ra năng lượng lớn.
+	\subsubsection{Phản ứng phân hạch kích thích}
+	Để tạo nên phản ứng phân hạch của hạt nhân $X$, cần phải truyền cho
+	$X$ một năng lượng đủ lớn (giá trị tối thiểu của năng lượng này gọi là năng lượng kích hoạt), vào cỡ MeV.
+	
+	
+	Phương pháp dễ nhất để truyền năng lượng kích hoạt cho hạt nhân $X$ là cho một nơtron bắn vào $X$ để $X$ "bắt" nơtron. Khi "bắt" nơtron, hạt nhân $X$ chuyển sang một trạng thái kích thích, kí hiệu $X^*$. Trạng thái này không bền vững và dễ xảy ra phân hạch.
+	\begin{equation}
+	n+X\rightarrow X^*\rightarrow Y+Z+kn,
+	\end{equation}
+	với $k=1,2,3$.
+\subsection{Năng lượng phân hạch}
+	Phản ứng phân hạch là phản ứng tỏa năng lượng, năng lượng đó gọi là năng lượng phân hạch.
+	\subsection{Phản ứng phân hạch dây chuyền}
+	Các nơtron sinh ra sau mỗi phân hạch có thể kích thích các hạt nhân khác của chất phân hạch tạo nên những phản ứng phân hạch mới. Kết quả là các phản ứng phân hạch xảy ra liên tiếp tạo thành phản ứng dây chuyền.
+	
+	Gọi $k$ là số nơtron sinh ra từ phản ứng phân hạch
+	\begin{itemize}
+		\item Nếu $k < 1$ phản ứng phân hạch dây chuyền tắt nhanh;
+		\item Nếu $k = 1$ phản ứng phân hạch dây chuyền tự duy trì, năng lượng phát ra không thay đổi theo thời gian;
+		\item Nếu $k > 1$ phản ứng phân hạch dây chuyền tự duy trì, năng lượng phát ra tăng nhanh và có thể gây nên bùng nổ.
+	\end{itemize}
+
+	Muốn cho $k \geq 1$, khối lượng của chất phân hạch phải đủ lớn để số nơtron bị bắt nhỏ hơn nhiều so với số nơtron được giải phóng. Khối lượng tối thiểu của chất phân hạch để phản ứng phân hạch duy trì được gọi là khối lượng tới hạn.
+	
+	Phản ứng phân hạch dây chuyền có điều khiển được tạo ra trong lò phản ứng hạt nhân ($k=1$).

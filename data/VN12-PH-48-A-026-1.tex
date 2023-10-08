@@ -1,0 +1,479 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  37. Phóng xạ
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Định luật phóng xạ]{Định luật phóng xạ}
+\section{Lý thuyết}
+
+
+\subsection{Số hạt nhân và khối lượng hạt nhân còn lại của chất phóng xạ}
+
+	\subsubsection{Số hạt nhân còn lại sau thời gian phóng xạ}
+	\begin{equation}
+	N=N_0\cdot 2^{-\frac{t}{T}}=N_0\cdot e^{-\lambda t};
+	\end{equation}
+	trong đó:
+	\begin{itemize}
+		\item $N$ là số hạt nhân ở thời điểm $t$;
+		\item $N_0$ là số hạt nhân ở thời điểm ban đầu $t_0=0$;
+		\item $\lambda$ là hằng số phóng xạ;
+		\item $T=\dfrac{\ln2}{\lambda}=\dfrac{0,693}{\lambda}$ là chu kì bán rã.
+	\end{itemize}
+	\subsubsection{Khối lượng hạt nhân còn lại sau thời gian phóng xạ}
+	\begin{equation}
+	m=m_0\cdot 2^{-\frac{t}{T}}=m_0\cdot e^{-\lambda t};
+	\end{equation}
+	trong đó:
+	\begin{itemize}
+		\item $m$ là số hạt nhân ở thời điểm $t$;
+		\item $m_0$ là số hạt nhân ở thời điểm ban đầu $t_0=0$;
+		\item $\lambda$ là hằng số phóng xạ;
+		\item $T=\dfrac{\ln2}{\lambda}=\dfrac{0,693}{\lambda}$ là chu kì bán rã.
+	\end{itemize}
+	\subsubsection{Quan hệ giữa khối lượng và số nguyên tử}
+	\begin{equation}
+	m=\dfrac{N}{N_A}M;
+	\end{equation}
+	trong đó:
+	\begin{itemize}
+		\item $m$ là khối lượng nguyên tử;
+		\item $N$ là số nguyên tử;
+		\item $N_A=\SI{6,023e23}{\text{hạt}/mol}$ là số Avôgađrô;
+		\item $M$ là khối lượng mol của nguyên tử, có đơn vị là g/mol.
+	\end{itemize}
+	\luuy{
+		Một nguyên tử có khối lượng xấp xỉ bằng số khối khi tính theo đơn vị khối lượng nguyên tử u.
+	}	
+
+\subsection{Xác định số hạt nhân và khối lượng hạt nhân bị phóng xạ}
+	
+	\subsubsection{Số hạt nhân bị phóng xạ sau thời gian phóng xạ}
+	\begin{equation}
+	\Delta N = N_0 - N = N_0 - N_0\cdot 2^{-\frac{t}{T}} = N_0\left( 1-2^{-\frac{t}{T}}\right),
+	\end{equation}
+	hay
+	\begin{equation}
+	\Delta N = N_0 - N = N_0 - N_0\cdot e^{-\lambda t} = N_0\left( 1-e^{-\lambda t}\right);
+	\end{equation}
+	trong đó:
+	\begin{itemize}
+		\item $N$ là số hạt nhân ở thời điểm $t$;
+		\item $N_0$ là số hạt nhân ở thời điểm ban đầu $t_0=0$;
+		\item $\lambda$ là hằng số phóng xạ;
+		\item $T=\dfrac{\ln2}{\lambda}=\dfrac{0,693}{\lambda}$ là chu kì bán rã.
+	\end{itemize}
+	\subsubsection{Khối lượng hạt nhân bị phóng xạ sau thời gian phóng xạ}
+	\begin{equation}
+	\Delta m = m_0 - m = m_0 - m_0\cdot 2^{-\frac{t}{T}} = m_0\left( 1-2^{-\frac{t}{T}}\right),
+	\end{equation}
+	hay
+	\begin{equation}
+	\Delta m = m_0 - m = m_0 - m_0\cdot e^{-\lambda t} = m_0\left( 1-e^{-\lambda t}\right);
+	\end{equation}
+	trong đó:
+	\begin{itemize}
+		\item $m$ là số hạt nhân ở thời điểm $t$;
+		\item $m_0$ là số hạt nhân ở thời điểm ban đầu $t_0=0$;
+		\item $\lambda$ là hằng số phóng xạ;
+		\item $T=\dfrac{\ln2}{\lambda}=\dfrac{0,693}{\lambda}$ là chu kì bán rã.
+	\end{itemize}
+
+
+\subsection{Xác định số hạt nhân và khối lượng hạt nhân mới tạo thành}
+
+	\subsubsection{Số hạt nhân mới tạo thành sau thời gian phóng xạ}	
+	Một hạt nhân mẹ bị phóng xạ thì sinh ra một hạt nhân con mới. Do đó, số hạt nhân con $N'$ tạo thành sau thời gian phóng xạ $t$ bằng số hạt nhân mẹ bị phóng xạ $\Delta N$ trong thời gian phóng xạ đó	
+	\begin{equation}
+	N'=\Delta N = N_0\left( 1-2^{-\frac{t}{T}}\right)=N_0\left( 1-e^{-\lambda t}\right).
+	\end{equation}
+	\subsubsection{Khối lượng hạt nhân mới tạo thành sau thời gian phóng xạ}
+	\begin{equation}
+	m'=\Delta m = m_0\left( 1-2^{-\frac{t}{T}}\right)=m_0\left( 1-e^{-\lambda t}\right).
+	\end{equation}
+	
+	Ngoài ra, ta cũng có thể tính khối lượng hạt nhân mới tạo thành dự vào quan hệ giữa khối lượng và số nguyên tử
+	\begin{equation}
+	m'=\dfrac{N'}{N_A}M'.
+	\end{equation}
+	
+\subsection{Xác định chu kì và thời gian bán rã}
+
+	Chu kì bán rã là thời gian qua đó số lượng các hạt nhân còn lại là $50\%$ (nghĩa là đã phân rã $50\%$) Chu kì bán rã kí hiệu là $T$ và được tính như sau:
+	\begin{equation}
+	T=\dfrac{\ln 2}{\lambda}=\dfrac{0,693}{\lambda},
+	\end{equation}
+	trong đó:
+	\begin{itemize}
+		\item $T$ là chu kì bán rã;
+		\item $\lambda$ là hằng số phóng xạ.
+	\end{itemize}
+
+	Chu kì bán rã $T$ và hằng số phóng xạ $\lambda$ không phụ thuộc vào các tác động bên ngoài mà chị phụ thuộc vào bản chất bên trong của chất phóng xạ.
+
+
+\section{Mục tiêu bài học - Ví dụ minh họa}
+
+\begin{dang}{Số hạt nhân và khối lượng hạt nhân còn lại của chất phóng xạ.}
+
+\ppgiai{
+	\begin{description}
+		\item[Bước 1:] Phân biệt được hạt nhân mẹ là hạt nhân tự phân rã và hạt nhân con là hạt nhân được tạo thành sau phân rã. 
+		
+		\item[Bước 2:] Tìm và phát hiện các dữ kiện có trong đề bài và đổi chúng về cùng một đơn vị (nếu có): số hạt nhân ban đầu và số hạt nhân còn lại, khối lượng hạt nhân ban đầu và khối lượng hạt nhân còn lại, chu kì bán rã và thời gian phân rã.
+		
+		\item[Bước 3:] Xác định đại lượng cần tìm theo yêu cầu của đề bài dựa vào các công thức trong phần kiến thức cần nhớ.
+	\end{description}
+}
+
+	\viduii{2}{ Hạt nhân $^{210}_{\ 84}\text{Po}$ phóng xạ $\alpha$ và biến thành hạt nhân $^{206}_{\ 82}\text{Pb}$. Cho chu kì bán rã của $^{210}_{\ 84}\text{Po}$ là 138 ngày và ban đầu có $\SI{0,02}{\gram}$ $^{210}_{\ 84}\text{Po}$ nguyên chất. Khối lượng $^{210}_{\ 84}\text{Po}$ còn lại sau 276 ngày là
+	\begin{mcq}(4)
+		\item $\SI{5}{\milli\gram}$.
+		\item $\SI{10}{\milli\gram}$.
+		\item $\SI{7,5}{\milli\gram}$.
+		\item $\SI{2,5}{\milli\gram}$.
+	\end{mcq}}
+	{
+	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+
+	
+	Khối lượng $^{210}_{\ 84}\text{Po}$ còn lại sau 276 ngày là
+	\begin{equation*}
+	m=m_0\cdot 2^{-\frac{t}{T}}=\SI{0,02}{\gram}\cdot2^{-\frac{276\,\text{ngày}}{138\,\text{ngày}}}=\SI{5e-3}{\gram}=\SI{5}{\milli\gram}.
+	\end{equation*}
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+	Hạt nhân $^{210}_{\ 84}\text{Po}$ phóng xạ $\alpha$ và biến thành hạt nhân $^{206}_{\ 82}\text{Pb}$. Cho chu kì bán rã của $^{210}_{\ 84}\text{Po}$ là 138 ngày và ban đầu có $\SI{0,02}{\gram}$ $^{210}_{\ 84}\text{Po}$ nguyên chất. Khối lượng $^{210}_{\ 84}\text{Po}$ còn lại sau 414 ngày là
+	\begin{mcq}(4)
+		\item $\SI{5}{\milli\gram}$.
+		\item $\SI{10}{\milli\gram}$.
+		\item $\SI{7,5}{\milli\gram}$.
+		\item $\SI{2,5}{\milli\gram}$.
+	\end{mcq}
+	
+	\textbf{Đáp án:} D.}
+	
+	\viduii{2}{ Gọi $\tau $ là khoảng thời gian để số hạt nhân của một lượng chất phóng xạ giảm đi $e$ lần ($e$ là cơ số của loga tự nhiên $\ln e=1$). Sau khoảng thời gian $0,51 \tau $ chất phóng xạ còn lại bao nhiêu phần trăm lượng ban đầu?
+	\begin{mcq}(4)
+		\item $50\%$.
+		\item $60\%$.
+		\item $80\%$.
+		\item $70\%$.
+	\end{mcq}}
+	{
+	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+	
+	Vì sau khoảng thời gian $t$ số hạt nhân của một lượng chất phóng xạ giảm đi $e$ lần nên
+	\begin{equation*}
+	\dfrac{N_0}{N}=e^{\lambda \tau }=e\Rightarrow \lambda \tau  = 1.
+	\end{equation*}
+	
+	Số hạt nhân còn lại sau khoảng thời gian $0,51 \tau$ là
+	\begin{equation*}
+	N=N_0\cdot e^{-\lambda t}=N_0\cdot e^{-0,51\lambda \tau}=N_0\cdot e^{-0,51}\approx0,6N_0.
+	\end{equation*}
+	
+	Vậy khoảng thời gian $0,51 \tau$ chất phóng xạ còn lại $60\%$ lượng ban đầu.
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+Gọi $\tau $ là khoảng thời gian để số hạt nhân của một lượng chất phóng xạ giảm đi $e$ lần ($e$ là cơ số của loga tự nhiên $\ln e=1$). Sau khoảng thời gian $0,223 \tau $ chất phóng xạ còn lại bao nhiêu phần trăm lượng ban đầu?
+	\begin{mcq}(4)
+		\item $50\%$.
+		\item $60\%$.
+		\item $80\%$.
+		\item $70\%$.
+	\end{mcq}
+	
+	\textbf{Đáp án:} C	.
+}
+
+\end{dang}
+
+\begin{dang}{Xác định số hạt nhân và khối lượng hạt nhân bị phóng xạ.}
+
+\ppgiai{
+\begin{description}
+	\item[Bước 1:] Phân biệt được hạt nhân mẹ là hạt nhân tự phân rã và hạt nhân con là hạt nhân được tạo thành sau phân rã. 
+	
+	\item[Bước 2:] Tìm và phát hiện các dữ kiện có trong đề bài và đổi chúng về cùng một đơn vị (nếu có): số hạt nhân ban đầu và số hạt nhân bị phân rã, khối lượng hạt nhân ban đầu và khối lượng hạt nhân bị phân rã, chu kì bán rã và thời gian phân rã.
+	
+	\item[Bước 3:] Xác định đại lượng cần tìm theo yêu cầu của đề bài dựa vào các công thức trong phần kiến thức cần nhớ.
+\end{description}
+}
+
+	\viduii{2}{ [THPT QG 2019 - Mã đề 201] Chất phóng xạ $X$ có chu kỳ bán rã là $T$. Ban đầu có một mẫu $X$ nguyên chất với khối lượng $\SI{4}{\gram}$. Sau khoảng thời gian $2T$, khối lượng chất $X$ trong mẫu đã bị phân rã là
+	\begin{mcq}(4)
+		\item $\SI{0,25}{\gram}$.
+		\item $\SI{3}{\gram}$.
+		\item $\SI{1}{\gram}$.
+		\item $\SI{2}{\gram}$.
+	\end{mcq}}
+{
+	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+	
+		Khối lượng chất $X$ trong mẫu đã bị phân rã khoảng thời gian $2T$ là
+		\begin{equation*}
+		\Delta m = m_0\left( 1-2^{-\frac{t}{T}}\right)= m_0\left( 1-2^{-\frac{2T}{T}}\right)=\dfrac{3}{4}m_0=\dfrac{3}{4}\cdot\SI{4}{\gram}=\SI{3}{\gram}.
+		\end{equation*}
+		
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+	Chất phóng xạ $X$ có chu kỳ bán rã là $T$. Ban đầu có một mẫu $X$ nguyên chất với khối lượng $\SI{4}{\gram}$. Sau khoảng thời gian $3T$, khối lượng chất $X$ trong mẫu đã bị phân rã là
+	\begin{mcq}(4)
+		\item $\SI{0,25}{\gram}$.
+		\item $\SI{3}{\gram}$.
+		\item $\SI{3,5}{\gram}$.
+		\item $\SI{2}{\gram}$.
+	\end{mcq}
+	
+	\textbf{Đáp án:} B.
+	}
+	\viduii{2}{ Ban đầu có một lượng chất phóng xạ nguyên chất của nguyên tố $X$, có chu kì bán rã là $T$. Sau thời gian $t=3T$, tỉ số giữa số hạt nhân chất phóng xạ $X$ phân rã thành hạt nhân khác và số hạt nhân còn lại của chất phóng xạ $X$ bằng
+	\begin{mcq}(4)
+		\item $\dfrac{1}{7}$.
+		\item $7$.
+		\item $\dfrac{1}{8}$.
+		\item $8$.
+	\end{mcq}}
+	{
+	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+	
+	Tỉ số giữa số hạt nhân chất phóng xạ $X$ phân rã thành hạt nhân khác và số hạt nhân còn lại của chất phóng xạ $X$ là
+	\begin{equation*}
+	\dfrac{\Delta N}{N}=\dfrac{N_0\left( 1-2^{-\frac{t}{T}}\right)}{N_0\cdot 2^{-\frac{t}{T}}}=\dfrac{1-2^{-3}}{2^{-3}}=7.
+	\end{equation*}
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+	Ban đầu có một lượng chất phóng xạ nguyên chất của nguyên tố $X$, có chu kì bán rã là $T$. Sau thời gian $t=2T$, tỉ số giữa số hạt nhân chất phóng xạ $X$ phân rã thành hạt nhân khác và số hạt nhân còn lại của chất phóng xạ $X$ bằng
+	\begin{mcq}(4)
+		\item $2$.
+		\item $7$.
+		\item $3$.
+		\item $8$.
+	\end{mcq}
+	
+	\textbf{Đáp án:} C.}
+
+\end{dang}
+
+\begin{dang}{Xác định số hạt nhân và khối lượng\\ hạt nhân mới tạo thành.}
+
+\ppgiai{
+\begin{description}
+	\item[Bước 1:] Phân biệt được hạt nhân mẹ là hạt nhân tự phân rã và hạt nhân con là hạt nhân được tạo thành sau phân rã. 
+	
+	\item[Bước 2:] Tìm và phát hiện các dữ kiện có trong đề bài và đổi chúng về cùng một đơn vị (nếu có): số hạt nhân ban đầu và số hạt nhân mới tạo thành, khối lượng hạt nhân ban đầu và khối lượng hạt nhân mới tạo thành, chu kì bán rã và thời gian phân rã.
+	
+	\item[Bước 3:] Xác định đại lượng cần tìm theo yêu cầu của đề bài dựa vào các công thức trong phần kiến thức cần nhớ.
+\end{description}
+}
+
+	\viduii{2}{ Chất phóng xạ $^{210}_{\ 84}\text{Po}$ có chu kì bán rã 138 ngày phóng xạ $\alpha$ và biến thành hạt chì $^{206}_{\ 82}\text{Pb}$. Lúc đầu có $\SI{0,2}{\gram}$ $\text{Po}$. Sau 414 ngày thì khối lượng chì thu được
+	\begin{mcq}(4)
+		\item $\SI{0,184}{\gram}$.
+		\item $\SI{0,025}{\gram}$.
+		\item $\SI{0,172}{\gram}$.
+		\item $\SI{0,024}{\gram}$.
+	\end{mcq}}
+{
+	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+
+	
+	Khối lượng Po sau 414 ngày là
+	\begin{equation*}
+	\Delta m= m_0\left( 1-2^{-\frac{t}{T}}\right)=\SI{0,2}{\gram}\cdot\left( 1-2^{-\frac{414\,\text{ngày}}{138\,\text{ngày}}}\right)=\SI{0,175}{\gram}.
+	\end{equation*}
+	
+	Khối lượng Po còn lại sau 414 ngày là
+	\begin{equation*}
+	m_\text{Pb}=\dfrac{\SI{206}{g/mol}\cdot \SI{0,175}{\gram}}{\SI{210}{g/mol}}=\SI{0,172}{\gram}.
+	\end{equation*}
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+Chất phóng xạ $^{210}_{\ 84}\text{Po}$ có chu kì bán rã 138 ngày phóng xạ $\alpha$ và biến thành hạt chì $^{206}_{\ 82}\text{Pb}$. Lúc đầu có $\SI{0,2}{\gram}$ $\text{Po}$. Sau 276 ngày thì khối lượng chì thu được
+	\begin{mcq}(4)
+		\item $\SI{0,184}{\gram}$.
+		\item $\SI{0,025}{\gram}$.
+		\item $\SI{0,147}{\gram}$.
+		\item $\SI{0,024}{\gram}$.
+	\end{mcq}
+	
+	\textbf{Đáp án:} C.}
+	
+	\viduii{3}{ Một mẫu $^{226}\text{Ra}$ nguyên chất có tổng số nguyên tử là $6,023\cdot10^{23}$. Sau thời gian nó phóng xạ tạo thành hạt nhân $^{222}\text{Rn}$ với chu kì bán rã 1570 năm. Số hạt nhân $^{222}\text{Rn}$ được tạo thành trong năm thứ 786 là
+	\begin{mcq}(4)
+		\item $2,0\cdot10^{20}$.
+		\item $1,8\cdot10^{20}$.
+		\item $1,7\cdot10^{20}$.
+		\item $1,9\cdot10^{20}$.
+	\end{mcq}}
+	{
+	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+	
+	Số hạt nhân $^{222}\text{Rn}$ trong 785 năm là
+	\begin{equation*}
+	N_{785}'= N_0\left( 1-2^{-\frac{t_{785}}{T}}\right).
+	\end{equation*}
+	
+	Số hạt nhân $^{222}\text{Rn}$ trong 786 năm là
+	\begin{equation*}
+	N_{786}'= N_0\left( 1-2^{-\frac{t_{786}}{T}}\right).
+	\end{equation*}
+	
+	Số hạt nhân $^{222}\text{Rn}$ được tạo thành trong năm thứ 786 là
+	\begin{equation*}
+	\Delta N'= N_{786}'-N_{785}' =  N_0\left(2^{-\frac{t_{785}}{T}}-2^{-\frac{t_{786}}{T}}\right)=6,023\cdot10^{23}\cdot\left(2^{-\frac{785}{1570}}-2^{-\frac{786}{1570}}\right)\approx 1,9\cdot10^{20}.
+	\end{equation*}
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+	Một mẫu $^{226}\text{Ra}$ nguyên chất có tổng số nguyên tử là $6,023\cdot10^{23}$. Sau thời gian nó phóng xạ tạo thành hạt nhân $^{222}\text{Rn}$ với chu kì bán rã 1570 năm. Số hạt nhân $^{222}\text{Rn}$ được tạo thành trong năm thứ 2355 là
+	\begin{mcq}(4)
+		\item $2,0\cdot10^{20}$.
+		\item $1,8\cdot10^{20}$.
+		\item $3,9\cdot10^{20}$.
+		\item $1,9\cdot10^{20}$.
+	\end{mcq}
+	
+	\textbf{Đáp án:} C.}
+
+\end{dang}
+
+\begin{dang}{Xác định chu kì và thời gian bán rã.}
+
+\ppgiai{
+\begin{description}
+	\item[Bước 1:] Phân biệt được hạt nhân mẹ là hạt nhân tự phân rã và hạt nhân con là hạt nhân được tạo thành sau phân rã. 
+	
+	\item[Bước 2:] Tìm và phát hiện các dữ kiện có trong đề bài và đổi chúng về cùng một đơn vị (nếu có): số hạt nhân ban đầu, số hạt nhân bị phân rã và số hạt nhân còn lại, khối lượng hạt nhân ban đầu, khối lượng hạt nhân bị phân rã và khối lượng hạt nhân còn lại, chu kì bán rã và thời gian phân rã.
+	
+	\item[Bước 3:] Xác định chu kì bán rã và thời gian phân rã dựa vào các công thức trong phần kiến thức cần nhớ.
+\end{description}
+}
+
+	\viduii{2}{ [THPT QG 2019 - Mã đề 222] Chất phóng xạ pôlôni $^{210}_{\ 84}\text{Po}$ phát ra tia $\alpha$ và biến đổi thành hạt chì $^{206}_{\ 82}\text{Pb}$. Ban đầu có một mẫu pôlôni nguyên chất với $N_0$ hạt nhân $^{210}_{\ 84}\text{Po}$. Biết chu kì bán rã của pôlôni là 138 ngày. Sau bao lâu thì có $0,75N_0$ hạt chì được tạo thành?
+	\begin{mcq}(4)
+		\item 414 ngày.
+		\item 276 ngày.
+		\item 138 ngày.
+		\item 552 ngày.
+	\end{mcq}}
+	{
+	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+	
+	Thời gian để tạo thành $0,75N_0$ hạt nhân chì là
+	\begin{equation*}
+	\Delta N= N_0\left( 1-2^{-\frac{t}{T}}\right)=0,75N_0\Rightarrow 2^{-\frac{t}{T}}=\dfrac{1}{4}\Rightarrow\dfrac{t}{T}=2\Rightarrow t=2T=276\,\text{ngày}.
+	\end{equation*}
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+	Chất phóng xạ pôlôni $^{210}_{\ 84}\text{Po}$ phát ra tia $\alpha$ và biến đổi thành hạt chì $^{206}_{\ 82}\text{Pb}$. Ban đầu có một mẫu pôlôni nguyên chất với $N_0$ hạt nhân $^{210}_{\ 84}\text{Po}$. Biết chu kì bán rã của pôlôni là 138 ngày. Sau bao lâu thì có $0,875N_0$ hạt chì được tạo thành?
+	\begin{mcq}(4)
+		\item 414 ngày.
+		\item 276 ngày.
+		\item 138 ngày.
+		\item 552 ngày.
+	\end{mcq}
+	
+	\textbf{Đáp án:} A.}
+	
+	\viduii{4}{ [THPT QG 2017 - Mã đề 201] Một chất phóng xạ $\alpha$ có chu kì bán rã $T$. Khảo sát một mẫu chất phóng xạ này ta thấy: ở lần đo thứ nhất, trong 1 phút mẫu chất phóng xạ này phát ra $8n$ hạt $\alpha$. Sau 414 ngày kể từ lần đo thứ nhất, trong 1 phút mẫu chất phóng xạ chỉ phát ra $n$ hạt $\alpha$. Giá trị của $T$ là
+	\begin{mcq}(4)
+		\item 3,8 ngày.
+		\item 138 ngày.
+		\item 12,3 năm.
+		\item 2,6 năm.
+	\end{mcq}}	
+	{
+	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+	
+	Sau 1 phút số hạt nhân còn lại là
+	\begin{equation*}
+	N_{1\text{p}}= N_0\cdot 2^{-\frac{1\text{p}}{T}}.
+	\end{equation*}
+	
+	Sau 414 ngày số hạt nhân còn lại là
+	\begin{equation*}
+	N_{414\text{d}}= N_0\cdot 2^{-\frac{414\text{d}}{T}}.
+	\end{equation*}
+	
+	Sau 414 ngày 1 phút, số hạt nhân còn lại là
+	\begin{equation*}
+	N_{414\text{d}+1\text{p}}= N_0\cdot -2^{-\frac{(414\text{d}+1\text{p})}{T}}=N_0\cdot 2^{-\frac{414\text{d}}{T}}\cdot 2^{-\frac{1\text{p}}{T}}.
+	\end{equation*}
+
+	Số hạt $\alpha$ phát ra cũng chính là số hạt nhân đã bị phân rã nên
+	\begin{equation*}
+	N_1'=\Delta N_1=N_0-N_{1\text{p}}=N_0\left(1- 2^{-\frac{1\text{p}}{T}}\right) = 8n.
+	\end{equation*}
+	\begin{equation*}
+	N_2'=\Delta N_2=N_{414\text{d}}-N_{414\text{d}+1\text{p}}=N_0\cdot 2^{-\frac{414\text{d}}{T}}\left(1- 2^{-\frac{1\text{p}}{T}}\right)=n.
+	\end{equation*}
+	Chu kì $T$ có thể được xác định bằng cách lập tỉ số giữa $N_1'$ và $N_2'$
+	\begin{equation*}
+	\dfrac{N_1'}{N_2'}=8\Rightarrow 2^{\frac{414\,\text{ngày}}{T}}=8\Rightarrow \dfrac{414\,\text{ngày}}{T}=3\Rightarrow T= 138\,\text{ngày}.
+	\end{equation*}
+
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}	
+	
+	Một chất phóng xạ $\alpha$ có chu kì bán rã $T$. Khảo sát một mẫu chất phóng xạ này ta thấy: ở lần đo thứ nhất, trong 1 phút mẫu chất phóng xạ này phát ra $16n$ hạt $\alpha$. Sau 414 ngày kể từ lần đo thứ nhất, trong 1 phút mẫu chất phóng xạ chỉ phát ra $n$ hạt $\alpha$. Giá trị của $T$ là
+	\begin{mcq}(4)
+		\item 3,8 ngày.
+		\item 138 ngày.
+		\item 552 ngày.
+		\item 225 ngày.
+	\end{mcq}
+	
+	\textbf{Đáp án:} C.
+}
+
+\end{dang}

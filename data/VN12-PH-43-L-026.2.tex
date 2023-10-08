@@ -1,0 +1,206 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài 34. Sơ lược về laze
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Ứng dụng của LASER (đọc thêm)]{Ứng dụng của LASER (đọc thêm)}
+
+\section{Mục tiêu bài học - Ví dụ minh họa}
+
+\begin{dang}{Công suất chùm LASER.}
+
+\ppgiai{
+Công suất của chùm tia LASER:
+	\begin{equation}
+		\calP = n_p \varepsilon,
+	\end{equation}
+trong đó:
+	\begin{itemize}
+		\item $n_p$ là số phôtôn do LASER phát ra trong $\SI{1}{\second}$;
+		\item $\varepsilon$ là năng lượng của phôtôn trong chùm tia LASER.
+	\end{itemize}
+Vì LASER có tính đơn sắc cao (các phôtôn trong chùm tia LASER có cùng tần số) nên năng lượng của phôtôn trong chùm tia LASER xác định:
+\begin{equation}
+	\varepsilon = hf = \dfrac{hc}{\lambda}.
+\end{equation}
+}
+
+\viduii{2}{ Cho nguồn LASER phát ra chùm bức xạ có bước sóng $\SI{0.45}{\micro \meter}$ với công suất $\SI{1.2}{\watt}$. Trong mỗi giây, số phôtôn do chùm sáng phát ra là
+\begin{mcq}(2)
+	\item $\SI{4.42e12}{}$.
+	\item $\SI{4.42e18}{}$.
+	\item $\SI{2.72e12}{}$.
+	\item $\SI{2.72e18}{}$.
+\end{mcq}}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+Áp dụng công thức
+\begin{equation*}
+	\calP = n_p \varepsilon,
+\end{equation*}
+suy ra
+\begin{equation*}
+	n_p= \dfrac{\calP}{\varepsilon} = \dfrac{\calP \lambda}{hc} \approx \SI{2.72e18}{}.
+\end{equation*}
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Cho nguồn LASER phát ra chùm bức xạ có bước sóng $\SI{0.5}{\micro \meter}$ với công suất $\SI{1.5}{\watt}$. Trong mỗi giây, số phôtôn do chùm sáng phát ra là
+\begin{mcq}(2)
+	\item $\SI{3,78 e12}{}$.
+	\item $\SI{4,43 e18}{}$.
+	\item $\SI{4,43 e12}{}$.
+	\item $\SI{3,78 e18}{}$.
+\end{mcq}
+
+\textbf{Đáp án:} D.
+}
+\viduii{3}{ Nguồn sáng thứ nhất có công suất $\calP_1$ phát ra chùm tia LASER có bước sóng $\lambda_1 = \SI{450}{\nano \meter}$. Nguồn sáng thứ hai có công suất $\calP_2$ phát ra chùm tia LASER có bước sóng $\lambda_2 = \SI{0.6}{\micro \meter}$. Trong cùng một khoảng thời gian, tỉ số giữa số phôtôn mà nguồn thứ nhất phát ra so với số phôtôn mà nguồn thứ hai phát ra là $3:1$. Tỉ số $\calP_1:\calP_2$ là 
+\begin{mcq}(2)
+	\item $4:1$.
+	\item $9:4$.
+	\item $4:3$.
+	\item $3:1$.
+\end{mcq}}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+Ta có hệ phương trình:
+\begin{equation*}\begin{cases}
+	\calP_1 = n_1 \varepsilon_1 \\
+	\calP_2 = n_2 \varepsilon_2
+\end{cases},\end{equation*}
+suy ra
+\begin{equation*}
+	\dfrac{\calP_1}{\calP_2} = \dfrac{n_1 \varepsilon_1}{n_2 \varepsilon_2} = \dfrac{n_1 \lambda_2}{n_2 \lambda_1} = \dfrac{3}{1} \cdot \dfrac{\SI{0.6}{\micro \meter}}{\SI{0.45}{\micro \meter}} = 4.
+\end{equation*}
+
+Vậy $\calP_1:\calP_2 = 4:1$.
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Nguồn sáng thứ nhất có công suất $\calP_1$ phát ra chùm tia LASER có bước sóng $\lambda_1 = \SI{560}{\nano \meter}$. Nguồn sáng thứ hai có công suất $\calP_2$ phát ra chùm tia LASER có bước sóng $\lambda_2 = \SI{0.65}{\micro \meter}$. Trong cùng một khoảng thời gian, tỉ số giữa số phôtôn mà nguồn thứ nhất phát ra so với số phôtôn mà nguồn thứ hai phát ra là $3:2$. Tỉ số $\calP_1:\calP_2$ là 
+\begin{mcq}(2)
+	\item $43:16$.
+	\item $92:41$.
+	\item $65:56$.
+	\item $33:13$.
+\end{mcq}
+
+\textbf{Đáp án:} C.}
+
+\end{dang}
+
+\begin{dang}{Một số ứng dụng của LASER.}
+
+\ppgiai{
+Nhiệt lượng cần thiết để đưa một khối vật chất có khối lượng $ m $ và nhiệt dung riêng $ c $ từ nhiệt độ $ t_{1} $ đến nhiệt độ $ t_{2} $ là
+	\begin{equation}
+		Q = mc\left( t_{2} - t_{1} \right) .
+	\end{equation}
+Nhiệt lượng cần thiết để đưa một khối vật chất $ m $ và có nhiệt nóng chảy $ \lambda $ đang ở nhiệt độ nóng chảy chuyển từ thể rắn sang thể lỏng là
+	\begin{equation}
+		Q = m \lambda .
+	\end{equation}
+Nhiệt lượng cần thiết để một khối chất lỏng có khối lượng $ m $ và nhiệt hóa hơi $ L $ đang ở nhiệt dộ hóa hơi chuyển từ thể lỏng sang thể hơi là
+	\begin{equation}
+	Q = m L .
+	\end{equation}
+}
+
+\viduii{3}{
+Trong y học, người ta dùng một laze phát ra chùm sáng có bước sóng $ \lambda $ để "đốt" các mô mềm. Biết rằng để đốt được một phần mô mềm có thể tích $ \SI{6}{mm^{3}} $ thì phần mô này cần hấp thụ hoàn toàn năng lượng của $ \num{45 e18} $ photon của chùm laze trên. Coi năng lượng trung bình để đốt hoàn toàn $ \SI{1}{mm^{3}} $ mô là $ \SI{2,53}{J} $. Lấy $ h = \SI{6,625 e-34}{J.s} $ và $ c = \SI{3 e8}{m/s} $. Giá trị của $ \lambda $ là
+\begin{mcq}(4)
+	\item $ \SI{589}{nm} $.
+	\item $ \SI{683}{nm} $.
+	\item $ \SI{485}{nm} $.
+	\item $ \SI{489}{nm} $.
+\end{mcq}
+}
+{
+\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+Ta có:
+$$
+	Q = N \dfrac{hc}{\lambda} \rightarrow \lambda = \SI{0,589 e-6}{m}.
+$$
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Dùng laze $ \text{CO}_{2} $ có công suất $ P = \SI{10}{W} $ để làm dao mổ. Khi tia laze được chiếu vào vị trí cần mổ sẽ làm cho nước ở phần mô chỗ đó bốc hơi và mô bị cắt. Biết chùm laze có bán kính $ r = \SI{0,1}{mm} $ và di chuyển với vận tốc $ v = \SI{0,5}{cm/s} $ trên bề mặt của mô mềm. Biết thể tích nước bốc hơi trong $ \SI{1}{s} $ là $ \SI{3,5}{mm^{3}} $. Chiều sâu cực đại của vết cắt là
+\begin{mcq}(4)
+	\item $ \SI{1}{mm} $.
+	\item $ \SI{2}{mm} $.
+	\item $ \SI{3,5}{mm} $.
+	\item $ \SI{4}{mm} $.	
+\end{mcq}
+\textbf{Đáp án:} C.
+}
+
+\viduii{3}
+{
+Dùng chùm tia laze có công suất $ P = \SI{10}{W} $ để nấu chảy khối thép có khối lượng $ \SI{1}{kg} $. Nhiệt độ ban đầu của khối thép $ t_{0} = 30\circ $, nhiệt dung riêng của thép $ c = \SI{488}{J/kg \cdot \text{độ}} $, nhiệt nóng chảy của thép $ L = \SI{270}{kJ/kg} $, điểm nóng chảy của thép $ T_{c} = 1535\circ $. Coi rằng không bị mất nhiệt lượng ra môi trường. Thời gian làm nóng chảy hoàn toàn khối thép là
+\begin{mcq}(4)
+	\item $ \SI{26}{h} $.
+	\item $ \SI{0,94}{h} $.
+	\item $ \SI{100}{h} $.
+	\item $ \SI{94}{h} $.
+\end{mcq}
+}
+{
+\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+Nhiệt lượng cần thiết để đưa khối thép lên điểm nóng chảy:
+$$
+	Q_{1} = mc\left( T_{c} - t_{0} \right) = \SI{67420}{J}.
+$$
+Nhiệt lượng cần thiết để chuyển khối thép từ thể rắn sang thể lỏng ở điểm nóng chảy:
+$$
+	Q_{2} = mL = \SI{270000}{J}.
+$$
+Tổng nhiệt lượng để nấu chảy hoàn toàn khối thép:
+$$
+	Q = Q_{1} + Q_{2} = \SI{944240}{J}.
+$$
+Thời gian cần để nấu chảy khối thép:
+$$
+	t = \dfrac{Q}{P} = \SI{26}{h}.
+$$
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+Người ta dùng một laze hoạt động dưới chế độ liên tục để khoan một tấm thép. Công suất của chùm laze là $ P = \SI{10}{W} $. Đường kính của một chùm sáng là $ d = \SI{1}{mm} $. Bề dày của tấm thép là $ e = \SI{2}{mm} $. Nhiệt độ ban đầu là $ t_{0} = 30\circ $. Khối lượng riêng của thép là $ \rho = \SI{7800}{kg/m^{3}} $. Nhiệt dung riêng của thép $ c = \SI{448}{J/kg \cdot \text{độ}} $. Nhiệt nóng chảy riêng của thép là $ \lambda = \SI{270}{kJ/kg} $. Điểm nóng chảy của thép là $ T_{c} = 1535\circ $. Bỏ qua mọi hao phí thì thời gian khoan thép là
+\begin{mcq}(4)
+	\item $ \SI{2,16}{S} $.
+	\item $ \SI{1,16}{S} $.
+	\item $ \SI{1,18}{S} $.
+	\item $ \SI{1,26}{S} $.
+\end{mcq}
+\textbf{Đáp án:} B.
+}
+
+\end{dang}

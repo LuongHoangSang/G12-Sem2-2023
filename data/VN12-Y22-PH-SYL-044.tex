@@ -1,0 +1,477 @@
+
+\chapter[Bài tập: Xác định hệ số công suất của mạch điện xoay chiều;\\Bài tập: Cực trị công suất tiêu thụ trên toàn mạch;\\Bài tập: Cực trị công suất tiêu thụ trên điện trở]{Bài tập: Xác định hệ số công suất của mạch điện xoay chiều;\\Bài tập: Cực trị công suất tiêu thụ trên toàn mạch;\\Bài tập: Cực trị công suất tiêu thụ trên điện trở}
+\section{Lý thuyết}
+\subsection{Xác định hệ số công suất của mạch điện xoay chiều}
+Trong công thức tính công suất, $\cos \varphi$ gọi là hệ số công suất có giá trị $0\leq \cos \varphi \leq 1.$
+
+$$\cos\varphi =\dfrac{U_R}{U}\qquad\textrm{hay}\quad \cos \varphi =\dfrac{R}{Z}$$
+\subsection{Cực trị công suất tiêu thụ trên toàn mạch}
+\subsubsection {$L$ thay đổi để mạch có công suất cực đại (mạch có cộng hưởng)}
+\begin{itemize}
+	\item Cuộn dây thuần cảm, các giá trị $R, C$ không đổi.
+	\item  Công suất tiêu thụ của mạch:
+	\begin{equation*}
+		P=I^2R=\dfrac{U^2R}{R^2+(Z_L-Z_C)^2}.
+	\end{equation*}
+	\item Để công suất tiêu thụ trong mạch cực đại:
+	\begin{equation*}
+		(Z_L-Z_C)_{\text{min}} \Rightarrow Z_L =Z_C \Rightarrow L =\dfrac{1}{C\omega^2}.
+	\end{equation*}
+	\item Khi $Z_L = Z_C$ thì mạch có cộng hưởng nên:
+	
+	+ Tổng trở trong mạch có giá trị cực tiểu:
+	\begin{equation*}
+		Z=Z_{\text{min}}=\sqrt {R^2 + (Z_L-Z_C)^2} =R.
+	\end{equation*}
+	+ Cường độ dòng điện hiệu dụng trong mạch đạt giá trị cực đại:
+	
+	\begin{equation*}
+		I=I_{\text{max}} =\dfrac{U}{R}.
+	\end{equation*}
+	
+	+ Công suất trong mạch đạt cực đại:
+	
+	\begin{equation*}
+		P_{\text{max}} = I^2R =\dfrac{U^2}{R}.
+	\end{equation*}
+	
+	+ Điện áp giữa hai đầu điện trở cực đại và bằng điện áp toàn mạch:
+	
+	\begin{equation*}
+		U_L=U_C \Rightarrow U =\sqrt {U^2 + (U_L-U_C)^2}= U_R.
+	\end{equation*}
+	
+	+ Điện áp giữa hai đầu đoạn mạch cùng pha với cường độ dòng điện trong mạch:
+	
+	\begin{equation*}
+		\tan \varphi = \dfrac{Z_L-Z_C}{R}=0 \Rightarrow \varphi =0.
+	\end{equation*}
+\end{itemize} 
+
+\subsubsection {$C$ thay đổi để mạch có công suất cực đại (mạch có cộng hưởng)}
+\begin{itemize}
+	\item Cuộn dây thuần cảm, các giá trị $R, L$ không đổi.
+	\item  Công suất tiêu thụ của mạch:
+	\begin{equation*}
+		P=I^2R=\dfrac{U^2R}{R^2+(Z_L-Z_C)^2}.
+	\end{equation*}
+	\item Để công suất tiêu thụ trong mạch cực đại :
+	\begin{equation*}
+		(Z_L-Z_C)_{\text{min}} \Rightarrow Z_L =Z_C \Rightarrow C =\dfrac{1}{L \omega^2}.
+	\end{equation*}
+	\item Khi $Z_L = Z_C$ thì mạch có cộng hưởng nên:
+	
+	+ Tổng trở trong mạch có giá trị cực tiểu:
+	\begin{equation*}
+		Z=Z_{\text{min}}=\sqrt {R^2 + (Z_L-Z_C)^2} =R.
+	\end{equation*}
+	+ Cường độ dòng điện hiệu dụng trong mạch đạt giá trị cực đại:
+	
+	\begin{equation*}
+		I=I_{\text{max}} =\dfrac{U}{R}.
+	\end{equation*}
+	
+	+ Công suất trong mạch đạt cực đại:
+	
+	\begin{equation*}
+		P_{\text{max}} = I^2R =\dfrac{U^2}{R}.
+	\end{equation*}
+	
+	+ Điện áp giữa hai đầu điện trở cực đại và bằng điện áp toàn mạch:
+	
+	\begin{equation*}
+		U_L=U_C \Rightarrow U =\sqrt {U^2 + (U_L-U_C)^2}= U_R.
+	\end{equation*}
+	
+	+ Điện áp giữa hai đầu đoạn mạch cùng pha với cường độ dòng điện trong mạch:
+	
+	\begin{equation*}
+		\tan \varphi = \dfrac{Z_L-Z_C}{R}=0 \Rightarrow \varphi =0.
+	\end{equation*}
+\end{itemize} 
+
+\subsubsection {Bài toán $f$ biến thiên để công suất (dòng điện) cực đại}
+\begin{itemize}
+	
+	\item  Công suất tiêu thụ của mạch:
+	\begin{equation*}
+		P=I^2R=\dfrac{U^2R}{R^2+(Z_L-Z_C)^2}.
+	\end{equation*}
+	\item Để công suất tiêu thụ trong mạch cực đại:
+	\begin{equation*}
+		(Z_L-Z_C)_{\text{min}} \Rightarrow Z_L =Z_C \Rightarrow \omega^2 =\dfrac{1}{LC}\ \text {hay}\ \omega = \dfrac{1}{\sqrt{LC}}.
+	\end{equation*}
+	\item Khi $Z_L = Z_C$ thì mạch có cộng hưởng nên
+	
+	+ Tổng trở trong mạch có giá trị cực tiểu:
+	\begin{equation*}
+		Z=Z_{\text{min}}=\sqrt {R^2 + (Z_L-Z_C)^2} =R.
+	\end{equation*}
+	+ Cường độ dòng điện hiệu dụng trong mạch đạt giá trị cực đại:
+	
+	\begin{equation*}
+		I=I_{\text{max}} =\dfrac{U}{R}.
+	\end{equation*}
+	
+	+ Công suất trong mạch đạt cực đại:
+	
+	\begin{equation*}
+		P_{\text{max}} = I^2R =\dfrac{U^2}{R}.
+	\end{equation*}
+	
+	+ Điện áp giữa hai đầu điện trở cực đại và bằng điện áp toàn mạch:
+	
+	\begin{equation*}
+		U_L=U_C \Rightarrow U =\sqrt {U^2 + (U_L-U_C)^2}= U_R.
+	\end{equation*}
+	
+	+ Điện áp giữa hai đầu đoạn mạch cùng pha với cường độ dòng điện trong mạch:
+	
+	\begin{equation*}
+		\tan \varphi = \dfrac{Z_L-Z_C}{R}=0 \Rightarrow \varphi =0.
+	\end{equation*}
+\end{itemize} 
+\subsection{Cực trị công suất tiêu thụ trên điện trở}
+\begin{itemize}
+	\item  Khi $R$ thay đổi, để công suất tiêu thụ trên mạch đạt cực đại thì
+	\begin{equation*}
+		R + r = |Z_L-Z_C| \Leftrightarrow R=|Z_L-Z_C| - r.
+	\end{equation*}
+	Khi đó:
+	\begin{equation*}
+		P_{\text{max}}=\dfrac{U^2}{2(R+r)}=\dfrac{U^2}{2|Z_L-Z_C|}.
+	\end{equation*}
+	\item Công suất tiêu thụ trên biến trở $R$ cực đại:
+	\begin{equation*}
+		\Leftrightarrow R = \dfrac{r^2 +(Z_L-Z_C)^2}{R} \Rightarrow R=\sqrt {r^2 + (Z_L-Z_C)^2}.
+	\end{equation*}
+	Khi đó:
+	\begin{equation*}
+		P_{R_\text{max}}=\dfrac{U^2}{2(R+r)}=\dfrac{U^2}{2\left(\sqrt {r^2+(Z_L-Z_C)^2}+r\right)}.
+	\end{equation*}
+\end{itemize}
+\section{Mục tiêu bài học - Ví dụ minh họa}
+\begin{dang}{Sử dụng được công thức tính \\ hệ số công suất trong mạch điện \\ xoay chiều}
+	\viduii{2}{Một đoạn mạch điện xoay chiều $RLC$ không phân nhánh, cuộn dây có điện trở thuần. Điện áp hiệu dụng giữa hai đầu đoạn mạch, trên điện trở $R$, trên cuộn dây và trên tụ lần lượt là $\SI{75}{V}$, $\SI{25}{V}$, $\SI{25}{V}$ và $\SI{75}{V}$. Hệ số công suất của toàn mạch là
+		\begin{mcq}(4)
+			\item $\dfrac{1}{7}.$  
+			\item $\text{0,6}.$
+			\item $\dfrac{7}{25}.$
+			\item $\dfrac{1}{25}.$
+		\end{mcq}
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Hiệu điện thế giữa hai đầu cuộn dây:
+		
+		$$U^2_\text{cd} = U^2_r +U^2_L \Leftrightarrow 25^2 =U^2_r+ U^2_L.\ (1)$$
+		
+		Hiệu điện thế giữa hai đầu đoạn mạch:
+		
+		$$U^2 = (U_R+U_r)^2 +(U_L-U_C)^2= (U^2_r +U^2_L) + U^2_R +2U_RU_r-2U_LU_C + U^2_C.$$
+		
+		$$\Leftrightarrow 75^2 =25^2 + 25^2 +2 \cdot 25 U_r -2U_L \cdot 75 +75^2. \ (2)$$
+		
+		Từ (1) và (2) suy ra $U_r =\SI{20}{V}$, $U_L =\SI{15}{V}$.
+		
+		Hệ số công suất của toàn mạch:
+		
+		$$\cos \varphi = \dfrac{U_R +U_r}{U} = \text{0,6}.$$
+		
+		\textbf{Đáp án: B.}
+	}
+	\viduii{2}{Đoạn mạch điện xoay chiều mắc nối tiếp gồm tụ điện, điện trở thuần và cuộn cảm thuần. Điện áp hiệu dụng ở hai đầu đoạn mạch và trên cuộn cảm lần lượt là $\SI{360}{V}$ và $\SI{212}{V}$. Hệ số công suất của toàn mạch $\cos \varphi = \text{0,6}$. Điện áp hiệu dụng trên tụ là
+		\begin{mcq}(4)
+			\item $\SI{500}{V}$. 
+			\item $\SI{200}{V}$.
+			\item $\SI{320}{V}$.
+			\item $\SI{400}{V}$.
+		\end{mcq}
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Điện áp hiệu dụng giữa hai đầu $R$:
+		
+		$$\cos \varphi = \dfrac{U_R}{U} = \text{0,6} \Rightarrow U_R =\text{0,6}U = \SI{216}{V}.$$
+		
+		Điện áp hiệu dụng giữa hai đầu tụ điện:
+		
+		$$U^2 = U^2_R + (U_L - U_C)^2 \Rightarrow U_C =\SI{500}{V}.$$
+		
+		
+		\textbf{Đáp án: A.}
+	}
+	
+	\viduii{2}{Đoạn mạch nối tiếp gồm cuộn cảm thuần và điện trở. Đặt vào hai đầu đoạn mạch một điện áp xoay chiều $u=U_0 \cos \left(\omega t -\dfrac{\pi}{6}\right)\ \text{V}$ thì điện áp giữa hai đầu cuộn cảm là $u_L = U_{0L} \cos \left(\omega t + \dfrac{\pi}{6}\right)\ \text{V}$. Hệ số công suất của mạch bằng
+		\begin{mcq}(4)
+			\item $\dfrac{\sqrt 3}{2}.$
+			\item 0,5.
+			\item 0,25.
+			\item $\dfrac{\sqrt 2}{2}$.
+		\end{mcq}
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		\begin{itemize}
+			\item Điện áp hai đầu cuộn cảm sớm pha hơn cường độ dòng điện một góc $\dfrac{\pi}{2}$.
+			\item Suy ra
+			\begin{equation*}
+				\varphi_i=\varphi_{u_L} - \dfrac{\pi}{2}= -\dfrac{\pi}{3}.
+			\end{equation*}
+			\item Hệ số công suất của mạch 
+			\begin{equation*}
+				\cos \varphi = \cos \left(\varphi_u-\varphi_i\right) = \cos \left[-\dfrac{\pi}{6} - \left(-\dfrac{\pi}{3}\right)\right]= \dfrac{\sqrt 3}{2}.
+			\end{equation*}
+		\end{itemize}	
+		
+		
+		\textbf{Đáp án: A.}
+	}
+	\viduii{3}{Mạch điện xoay chiều gồm cuộn dây mắc nối tiếp với tụ điện. Các điện áp hiệu dụng ở hai đầu đoạn mạch 120 V, ở hai đầu cuộn dây 120 V và ở hai đầu tụ điện 120 V. Hệ số công suất của mạch là
+		
+		\begin{mcq}(4)
+			\item 0,125.
+			\item 0,87.
+			\item 0,5.
+			\item 0,75.
+		\end{mcq}
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		\begin{itemize}
+			\item Điện áp hai đầu tụ điện $U_C=120\ \text{V}$.
+			\item Điện áp hiệu dụng ở hai đầu cuộn dây
+			\begin{equation*}
+				U^2_{\text{d}}=U^2_r+U^2_L =120^2.
+			\end{equation*}
+			\item Điện áp hiệu dụng ở hai đầu đoạn mạch
+			\begin{equation*}
+				U^2=U^2_r+(U_L-U_C)^2=120^2 \Leftrightarrow U^2=U^2_r + U^2_L -2U_LU_C +U^2_C.
+			\end{equation*}
+			\item Thay các đại lượng vào điện áp hiệu dụng của hai đầu đoạn mạch
+			\begin{equation*}
+				120^2=120^2-2\cdot 120 U_L + 120^2 \Rightarrow U_L=60\ \text{V}.
+			\end{equation*}
+			\item Suy ra $U_r=60\sqrt 3\ \text{V}$.
+			\item Hệ số công suất của mạch
+			\begin{equation*}
+				\cos \varphi =\dfrac{U_r}{U}=\dfrac{\sqrt 3}{2} \approx \text{0,87}.
+			\end{equation*}
+		\end{itemize}
+		
+		\textbf{Đáp án: B.}
+	}
+	
+\end{dang}
+\begin{dang}{Chứng minh được công thức tính\\ công suất tiêu thụ toàn mạch trong \\mạch điện xoay chiều trong các\\ trường hợp đặc biệt}
+	\viduii{3}{Cho mạch điện $RLC$ mắc nối tiếp theo thứ tự $R, L, C$ trong đó cuộn dây thuần cảm có độ tự cảm $L$ thay đổi được. Thay đổi $L$ người ta thấy khi $L = L_1 = \dfrac{5}{\pi} H$ và khi $L = L_2 = \dfrac{1}{2\pi}$ thì cường độ dòng điện trên đoạn mạch trong hai trường hợp là như nhau. Để công suất tiêu thụ của mạch đạt cực đại thì $L$ có giá trị:
+		
+		\begin{mcq}(4)
+			\item $\dfrac{11}{\pi}\ \text{H}$.
+			\item $\dfrac{11}{4\pi}\ \text{H}$.
+			\item $\dfrac{11}{2\pi}\ \text{H}$.
+			\item $\dfrac{11}{3\pi}\ \text{H}$.
+		\end{mcq}
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		
+		\begin{itemize}
+			\item Theo đề bài 
+			\begin{equation*}
+				I_1=I_2 \Leftrightarrow \dfrac{U}{\sqrt {R^2+(Z_{L_{1}}-Z_C)^2}} = \dfrac{U}{\sqrt {R^2+(Z_{L_{2}}-Z_C)^2}} \Leftrightarrow  (Z_{L_{1}}-Z_C)^2 = (Z_{L_{2}}-Z_C)^2.
+			\end{equation*}
+			\item Vì $Z_{L_{1}} \neq Z_{L_{2}}$ nên 
+			\begin{equation*}
+				Z_{L_{1}}-Z_C = -(Z_{L_{2}}-Z_C) \Rightarrow Z_C=\dfrac{Z_{L_{1}} +Z_{L_{2}}}{2}\ (*).
+			\end{equation*}
+			\item Khi $P=P_{\text{max}}$ thì mạch xảy ra hiện tượng cộng hưởng điện nên $Z_L =Z_C\ (**)$.
+			\item Từ (*) và (**) ta được:
+			\begin{equation*}
+				Z_L=\dfrac{Z_{L_{1}} +Z_{L_{2}}}{2} \Rightarrow L =\dfrac{L_1+L_2}{2}=\dfrac{ \dfrac{5}{\pi} + \dfrac{1}{2\pi}}{2}=\dfrac{11}{4\pi}\ \text{H}.
+			\end{equation*}
+		\end{itemize}
+		
+		
+		\textbf{Đáp án: B.}
+	}
+	\viduii{3}{Đặt điện áp vào hai đầu đoạn mạch xoay chiều nối tiếp gồm điện trở thuần, cuộn cảm thuần và tụ điện có điện dung điều chỉnh được. Khi dung kháng là $100\ \Omega$ thì công suất tiêu thụ của đoạn mạch đạt cực đại là 100 W. Khi dung kháng là $200\ \Omega$ thì điện áp hiệu dụng giữa hai đầu tụ điện là $100\sqrt 2\ \text{V}$. Giá trị của điện trở thuần là
+		
+		\begin{mcq}(4)
+			\item $100\ \Omega$.
+			\item $150\ \Omega$.
+			\item $160\ \Omega$.
+			\item $120\ \Omega$.
+		\end{mcq}
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		\begin{itemize}
+			\item Công suất tiêu thụ của đoạn mạch
+			\begin{equation*}
+				P=I^2R=\dfrac{U^2R}{R^2+(Z_L-Z_C)^2}.
+			\end{equation*}
+			$P_{\text{max}} $ khi
+			\begin{equation*}
+				[\sqrt {R^2 + (Z_L-Z_C)}]_{\text{min}} \Leftrightarrow Z_L=Z_C=100\ \Omega.
+			\end{equation*}
+			Công suất tiêu thụ của mạch khi đó:
+			\begin{equation*}
+				P=I^2R=\dfrac{U^2}{R} \Rightarrow U =100\ \text{W} \Rightarrow U = \sqrt {PR}= \sqrt {100R}.
+			\end{equation*}
+			\item Khi dung kháng $200\ \Omega$ thì điện áp giữa hai đầu tụ điện 
+			\begin{equation*}
+				U_C=IZ_C=\dfrac{UZ_C}{\sqrt {R^2 + (Z_L-Z_C)^2}}.
+			\end{equation*}
+			Thay số vào ta được 
+			\begin{equation*}
+				100\sqrt 2=\dfrac{\sqrt {100R} \cdot 200}{\sqrt {R^2 + (100-200)^2}}.
+			\end{equation*}
+			Bình phương 2 vế rút gọn được
+			\begin{equation*}
+				R^2 -200R +10^4=0.
+			\end{equation*}
+			Giải phương trình suy ra $R=100\ \Omega$.
+		\end{itemize}
+		
+		\textbf{Đáp án: A.}
+	}
+	
+	\viduii{3}{Đặt điện áp xoay chiều $u=200\sqrt 2 \cos \omega t \ \text{V}$ ($f$ thay đổi được) vào hai đầu đoạn mạch có $R=80\ \Omega$, cuộn dây có $L=\text{0,318}\ \text{H}$ và điện trở trong $r=20\ \Omega$, tụ điện có $C=\text{15,9}\ \mu \text{F}$ mắc nối tiếp. Điều chỉnh $f$ để công suất trên toàn mạch đạt giá trị cực đại, khi đó giá trị của $f$ và $P$ lần lượt là
+		\begin{mcq}(2)
+			\item $f=\text{70,78}\ \text{Hz}$ và $P=400\ \text{W}$.
+			\item $f=\text{70,78}\ \text{Hz}$ và $P=500\ \text{W}$.
+			\item $f=\text{444,7}\ \text{Hz}$ và $P=2000\ \text{W}$.
+			\item $f=\text{31,48}\ \text{Hz}$ và $P=400\ \text{W}$.
+		\end{mcq}
+		
+		
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		
+		\begin{itemize}
+			\item Điện áp hiệu dụng:
+			\begin{equation*}
+				U=\dfrac{U_0}{\sqrt 2}=200\ \text{V}.
+			\end{equation*}
+			\item Điều chỉnh $f$ để công suất trên toàn mạch đạt giá trị cực đại nên trong mạch xảy ra hiện tượng cộng hưởng.
+			\begin{equation*}
+				Z_L=Z_C \Leftrightarrow \omega =\dfrac{1}{\sqrt {LC}} = \text{444,72}\ \text{rad/s}.
+			\end{equation*}
+			\item Tần số của mạch:
+			\begin{equation*}
+				f=\dfrac{\omega}{2\pi}=\text{70,78}\ \text{Hz}.
+			\end{equation*}
+			\item Công suất trên toàn mạch đạt giá trị cực đại:
+			\begin{equation*}
+				P_{\text{max}}=\dfrac{U^2}{R+r} =400\ \text{W}.
+			\end{equation*}
+		\end{itemize}
+		
+		
+		\textbf{Đáp án: A.}
+	}
+	
+\end{dang}
+\begin{dang}{Chứng minh được công thức tính công suất tiêu thụ trên R trong mạch điện xoay chiều trong các trường hợp đặc biệt để tìm giá trị cực đại hoặc cực tiểu của một đại lượng nào đó}
+	
+	\viduii{3}{Một đoạn mạch mắc nối tiếp gồm cuộn dây có điện trở thuần $\SI{40}{\Omega}$, độ tự cảm $L = \dfrac{\SI{0,7}{}}{\pi}\ \text{H}$, tụ diện có điện dung $\dfrac{\SI{0,1}{}}{\pi}\ \text{mF}$ và một biến trở $R$. Điện áp ở hai đầu đoạn mạch ổn định $\SI{120}{V} - \SI{50}{Hz}$. Khi $R = R_0$ thì công suất tỏa nhiệt trên biến trở đạt giá trị cực đại là $P_\text{m}$. Giá trị $R_0$ và $P_\text{m}$ lần lượt là
+		\begin{mcq}(2)
+			\item  $\SI{30}{\Omega}$ và $ \SI{240}{W}$.          
+			\item  $\SI{50}{\Omega}$ và $ \SI{240}{W}$. 
+			\item  $\SI{50}{\Omega}$ và $ \SI{80}{W}$.           
+			\item  $\SI{30}{\Omega}$ và $ \SI{80}{W}$. 
+		\end{mcq}
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		
+		Giá trị của điện trở $R_0$
+		
+		$$R_0 =\sqrt {r^2 + (Z_L-Z_C)^2} =\SI{50}{\Omega}.$$
+		
+		Công suất tỏa nhiệt trên biến trở đạt giá trị cực đại là $P_\text{m}$
+		
+		$$P_\text{m} = \dfrac{U^2}{2(R_0+r)} =\SI{80}{W}.$$
+		
+		\textbf{Đáp án: C.}
+	}
+	\viduii{3}{Cho đoạn mạch điện mắc nối tiếp gồm cuộn dây có điện trở hoạt động $r = \SI{50}{\Omega}$, độ tự cảm $L = \dfrac{2}{5\pi}\ \text{H}$, tụ điện có điện dung $C = \dfrac{1}{10\pi}\ \text{mF}$ và điện trở thuần $R$ thay đổi được. Đặt vào hai đầu đoạn mạch một điện áp xoay chiều $u = 100\sqrt 2\cos100\pi t \text{V}$. Công suất tiêu thụ trên điện trở $R$ đạt giá trị cực đại khi $R$ có giá trị
+		\begin{mcq}(4)
+			\item $\SI{10}{\Omega}$.          
+			\item $\SI{110}{\Omega}$.          
+			\item $\SI{78,1}{\Omega}$.          
+			\item $\SI{148,7}{\Omega}$.
+		\end{mcq}
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Cảm kháng của cuộn cảm:
+		
+		$$Z_L =\omega L = \SI{40}{\Omega}.$$
+		
+		Dung kháng của tụ điện:
+		
+		$$Z_C = \dfrac{1}{\omega C} = \SI{100}{\Omega}.$$
+		
+		Công suất tiêu thụ trên $R$ đạt cực đại nên 
+		
+		$$ R = \sqrt{r^2 + (Z_L-Z_C)^2} =\SI{78,1}{\Omega}.$$
+		
+		\textbf{Đáp án: C.}
+	}
+	
+	
+	
+	\viduii{3}{Cho đoạn mạch AB mắc nối tiếp gồm tụ điện, cuộn cảm và biến trở $R$. Điện áp xoay chiều giữa hai đầu đoạn mạch luôn ổn định. Khi $R_1 = \SI{76}{\Omega}$ thì công suất tiêu thụ trên biến trở có giá trị lớn nhất và bằng $P_0$. Khi $R = R_2$ công suất tiêu thụ của mạch AB có giá trị lớn nhất và bằng $2P_0$. Giá trị của $R_2$ bằng bao nhiêu?
+		\begin{mcq}(2)
+			\item $R_2 = \SI{45,6}{\Omega}$.          
+			\item $R_2 = \SI{60,8}{\Omega}$.          
+			\item $R_2 = \SI{15,2}{\Omega}$.          
+			\item $R_2 = \SI{12,4}{\Omega}$.
+		\end{mcq}
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Công suất trên điện trở đạt cực đại
+		
+		$$r^2 +(Z_L-Z_C)^2 =R_1^2 = 76^2.$$
+		
+		Công suất trên mạch đạt cực đại
+		
+		$$ R_2 + r = |Z_L-Z_C| \Rightarrow r^2 +(R_2+r)^2 =76^2\ (1).$$
+		
+		Lập tỉ số:
+		
+		$$\dfrac{P_{R_\text{max}}}{P_\text{max}} = \dfrac{R_2+r}{R_1+r} = \SI{0,5}{}\ (2).$$
+		
+		Từ (1) và (2) suy ra $R_2 = \SI{15,2}{\Omega}$ và $r = \SI{45,6}{\Omega}.$
+		
+		
+		\textbf{Đáp án: C.}
+		
+	}
+	
+	
+\end{dang}

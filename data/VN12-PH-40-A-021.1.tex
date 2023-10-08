@@ -1,0 +1,110 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài 31. Hiện tượng quang điện trong
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Điều kiện xảy ra hiện tượng \\quang điện trong]{Điều kiện xảy ra hiện tượng quang điện trong}
+\section{Lý thuyết}
+Hiện tượng quang điện trong xảy ra khi bước sóng của ánh sáng kích thích nhỏ hơn hoặc bằng giới hạn quang điện trong (giới hạn quang dẫn):
+\begin{equation}
+	\lambda \leq \lambda_0,
+\end{equation}
+trong đó:
+\begin{itemize}
+	\item $\lambda$ là bước sóng của ánh sáng kích thích;
+	\item $\lambda_0$ là giới hạn quang điện trong (giới hạn quang dẫn).
+\end{itemize}
+\luuy{ Giới hạn quang điện trong của đa số các chất bán dẫn nằm trong vùng hồng ngoại.}
+
+\section{Ví dụ minh họa}
+
+\ppgiai{
+Vận dụng điều kiện xảy ra hiện tượng quang điện trong hoặc nhận biết nhanh vùng của ánh sáng kích thích để đánh giá có hay không xảy ra hiện tượng quang điện trong.
+}
+
+
+\viduii{2}
+{Một chất bán dẫn có giới hạn quang dẫn là $\SI{0.62}{\micro \meter}$. Trong số các chùm bức xạ đơn sắc sau đây (có tần số tương ứng là $f_1=\SI{4.5e14}{\hertz}$, $f_2=\SI{5e13}{\hertz}$, $f_3=\SI{6.5e13}{\hertz}$, $f_4=\SI{6e14}{\hertz}$) thì chùm nào có thể gây ra hiện tượng quang điện trong khi chiếu vào chất bán dẫn kể trên?
+\begin{mcq}(2)
+	\item Bức xạ $f_1$ và $f_4$.
+	\item Bức xạ $f_2$.
+	\item Bức xạ $f_2$ và $f_3$.
+	\item Bức xạ $f_4$.
+\end{mcq}
+}{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+Từ giới hạn quang dẫn, tìm tần số giới hạn quang dẫn theo công thức $f_0=\dfrac{c}{\lambda_0}$. Hiện tượng quang điện trong xảy ra khi $f \geq f_0$.
+
+Đổi $\SI{0.62}{\micro \meter} = \SI{0.62e-6}{\meter}$.
+
+Tần số giới hạn quang dẫn:
+\begin{equation*}
+	f_0=\dfrac{c}{\lambda_0} \approx \SI{4.84e14}{\hertz}.
+\end{equation*}
+
+Do chỉ có $f_4 > f_0$ nên chỉ có bức xạ $f_4$ gây ra hiện tượng quang điện trong.
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Một chất bán dẫn có giới hạn quang dẫn là $\SI{0.7}{\micro \meter}$. Trong số các chùm bức xạ đơn sắc sau đây (có tần số tương ứng là $f_1=\SI{4.5e14}{\hertz}$, $f_2=\SI{5e13}{\hertz}$, $f_3=\SI{6.5e13}{\hertz}$, $f_4=\SI{6e14}{\hertz}$) thì chùm nào có thể gây ra hiện tượng quang điện trong khi chiếu vào chất bán dẫn kể trên?
+\begin{mcq}(2)
+	\item Bức xạ $f_1$ và $f_4$.
+	\item Bức xạ $f_2$.
+	\item Bức xạ $f_2$ và $f_3$.
+	\item Bức xạ $f_4$.
+\end{mcq}
+
+\textbf{Đáp án:} A.
+}
+\viduii{3}
+{Biết công thoát electron của các kim loại bạc, canxi, kali và đồng lần lượt là $\SI{4.78}{\electronvolt}$, $\SI{2.89}{\electronvolt}$, $\SI{2.26}{\electronvolt}$ và $\SI{4.14}{\electronvolt}$. Lấy $h=\SI{6.625e-34}{\joule \second}$, $c=\SI{3e8}{\meter / \second}$ và $\SI{1}{\electronvolt}=\SI{1.6e-19}{\joule}$. Chiếu bức xạ có bước sóng $\SI{0.33}{\micro \meter}$ vào bề mặt các kim loại trên, hiện tượng quang điện xảy ra ở
+\begin{mcq}(2)
+	\item canxi và bạc.
+	\item kali và canxi.
+	\item bạc và đồng.
+	\item kali và đồng.
+\end{mcq}
+}{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+Vận dụng điều kiện để xảy ra hiện tượng quang điện $\lambda \leq \lambda_0$ hay $\varepsilon \geq A$.
+
+Năng lượng của ánh sáng kích thích:
+\begin{equation*}
+	\varepsilon = \dfrac{hc}{\lambda} \approx \SI{6.023e-19}{\joule}.
+\end{equation*}
+
+Đổi $\SI{6.023e-19}{\joule} \rightarrow \SI{3.764}{\electronvolt}$.
+
+Do năng lượng của ánh sáng kích thích lớn hơn công thoát của canxi và kali nên hiện tượng quang điện xảy ra ở canxi và kali.
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Biết công thoát electron của các kim loại bạc, canxi, kali và đồng lần lượt là $\SI{4.78}{\electronvolt}$, $\SI{2.89}{\electronvolt}$, $\SI{2.26}{\electronvolt}$ và $\SI{4.14}{\electronvolt}$. Lấy $h=\SI{6.625e-34}{\joule \second}$, $c=\SI{3e8}{\meter / \second}$ và $\SI{1}{\electronvolt}=\SI{1.6e-19}{\joule}$. Chiếu bức xạ có bước sóng $\SI{0.33}{\micro \meter}$ vào bề mặt các kim loại trên, hiện tượng quang điện không xảy ra ở
+\begin{mcq}(2)
+	\item canxi và bạc.
+	\item kali và canxi.
+	\item bạc và đồng.
+	\item kali và đồng.
+\end{mcq}
+
+\textbf{Đáp án:} C.}

@@ -1,0 +1,179 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  30. Hiện tượng quang điện. Thuyết lượng tử ánh sáng
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Hệ thức Einstein trong hiện tượng\\ quang điện]{Hệ thức Einstein trong hiện tượng quang điện}
+
+\section{Lý thuyết}
+
+\subsection{Hệ thức Einstein trong hiện tượng quang điện}
+
+Hiện tượng quang điện xảy ra là do electron hấp thụ phôtôn của ánh sáng kích thích. Phôtôn bị hấp thụ thì truyền toàn bộ năng lượng của nó cho electron. Đối với các electron nằm ngay trên bề mặt kim loại thì năng lượng này được dùng để:
+\begin{itemize}
+	\item cung cấp cho electron một công $A$ gọi là công thoát, để electron thắng được lực liên kết với mạng tinh thể và thoát ra khỏi bề mặt kim loại;
+	\item cung cấp cho electron động năng ban đầu cực đại $\dfrac{1}{2}mv_{\text{0 max}}^2$.
+\end{itemize}
+
+Hệ thức Einstein trong hiện tượng quang điện:
+\begin{equation}
+	\varepsilon = A + \dfrac{1}{2}mv_{\text{0 max}}^2,
+\end{equation}
+trong đó:
+\begin{itemize}
+	\item $\varepsilon=\dfrac{hc}{\lambda}$ là năng lượng của phôtôn bị hấp thụ (lượng tử năng lượng);
+	\item $A=\dfrac{hc}{\lambda_0}$ là công thoát của kim loại;
+	\item $\dfrac{1}{2}mv_\text{0 max}^2$ là động năng ban đầu cực đại của các electron quang điện.
+\end{itemize}
+
+\subsection{Công thức trong trường hợp dòng quang điện triệt tiêu}
+
+Để triệt tiêu dòng quang điện thì người ta đặt vào hai đầu tế bào quang điện một hiệu điện thế hãm, kí hiệu là $U_\text h$, sao cho:
+\begin{equation}
+	e |U_\text h|=	\dfrac{1}{2}mv_\text{0 max}^2 ,
+\end{equation}
+trong đó:
+\begin{itemize}
+	\item $e=\SI{1.6e-19}{\coulomb}$ là điện tích của electron;
+	\item $U_\text h$ là hiệu điện thế hãm.
+\end{itemize}
+\luuy{Đối với mỗi kim loại, hiệu điện thế hãm chỉ phụ thuộc vào bước sóng mà không phụ thuộc vào cường độ của chùm sáng kích thích.}
+
+
+\section{Mục tiêu bài học - Ví dụ minh họa}
+
+\begin{dang}{Hệ thức Einstein trong hiện tượng\\ quang điện.}
+
+\ppgiai{
+Phân biệt năng lượng của ánh sáng kích thích và công thoát của kim loại để thay vào công thức cho phù hợp.
+}
+
+\viduii{2}
+{Công thoát của kim loại Na là $\SI{2.48}{\electronvolt}$. Chiếu một chùm bức xạ có bước sóng $\SI{0.36}{\micro \meter}$ vào tế bào quang điện có catốt làm bằng Na. Vận tốc ban đầu cực đại của electron quang điện là
+\begin{mcq}(2)
+	\item $\SI{5.84e5}{\meter / \second}$.
+	\item $\SI{6.24e5}{\meter / \second}$.
+	\item $\SI{5.84e6}{\meter / \second}$.
+	\item $\SI{6.24e6}{\meter / \second}$.
+\end{mcq}
+}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+Công thoát đang có đơn vị $\SI{}{\electronvolt}$, ta cần đổi sang đơn vị $\SI{}{\joule}$ theo quy tắc $\SI{1}{\electronvolt} = \SI{1.6e-19}{\joule}$. Sau đó thay $A$ và $\varepsilon = \dfrac{hc}{\lambda}$ vào hệ thức Einstein trong hiện tượng quang điện để tìm vận tốc ban đầu cực đại của quang electron.
+
+Đổi $\SI{2.48}{\electronvolt}\rightarrow \SI{3.968e-19}{\joule}$ và $\SI{0.36}{\micro \meter} = \SI{0.36e-6}{\meter}$.
+
+Áp dụng hệ thức Einstein trong hiện tượng quang điện:
+\begin{align*}
+	\varepsilon &= A + \dfrac{1}{2}mv_{\text{0 max}}^2 \\
+	\Leftrightarrow \dfrac{hc}{\lambda} &= A+\dfrac{1}{2}mv_{\text{0 max}}^2 \\
+	\Rightarrow v_{\text{0 max}} &= \sqrt {\dfrac{2\left(\dfrac{hc}{\lambda}-A\right)}{m}} \approx \SI{5.84e5}{\meter / \second}.
+\end{align*}
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Công thoát của kim loại Na là $\SI{2.48}{\electronvolt}$. Chiếu một chùm bức xạ có bước sóng $\SI{0.2}{\micro \meter}$ vào tế bào quang điện có catốt làm bằng Na. Vận tốc ban đầu cực đại của electron quang điện là
+\begin{mcq}(2)
+	\item $\SI{1,145 e6}{\meter / \second}$.
+	\item $\SI{2,145 e6}{\meter / \second}$.
+	\item $\SI{1,154 e6}{\meter / \second}$.
+	\item $\SI{2,154 e6}{\meter / \second}$.
+\end{mcq}
+
+\textbf{Đáp án:} C.
+}
+
+\viduii{2}
+{Chiếu một chùm ánh sáng đơn sắc có bước sóng $ \SI{400}{nm} $ vào catốt của một tế bào quang điện được làm bằng Na. Giới hạn quang điện của Na là $ \SI{0,50}{\mu m} $. Vận tốc ban đầu cực đại của electron quang điện là
+\begin{mcq}(2)
+	\item $ \SI{3,28 e5}{m/s} $.
+	\item $ \SI{4,67 e5}{m/s} $.
+	\item $ \SI{5,45 e5}{m/s} $.
+	\item $ \SI{6,33 e5}{m/s} $.
+\end{mcq}
+}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+Áp dụng công thức Anh-xtanh:
+\begin{equation*}
+	\dfrac{hc}{\lambda} = \dfrac{hc}{\lambda_{0}} + \dfrac{1}{2}m{v_{max}}^{2} \rightarrow v_{max} = \SI{4,67 e5}{m/s}.
+\end{equation*}
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Chiếu ánh sáng đơn sắc có bước sóng $ \SI{500}{nm} $ vào bề mặt catốt của một tế bào quang điện làm bằng Cs có giới hạn quang điện $ \lambda_{0} = \SI{660}{nm} $.  Vận tốc ban đầu cực đại của quang electron là
+
+\begin{mcq}(2)
+	\item $ \SI{4,6 e7}{m/s} $.
+	\item $ \SI{4,2 e5}{m/s} $.
+	\item $ \SI{4,6 e5}{m/s} $.
+	\item $ \SI{5 e5}{m/s} $.
+\end{mcq}
+
+\textbf{Đáp án:} C.
+}
+
+\end{dang}
+
+\begin{dang}{Công thức trong trường hợp\\ dòng quang điện triệt tiêu.}
+
+\ppgiai{
+Nhận biết được các trường hợp dòng quang điện triệt tiêu (electron không đến được anốt).}
+
+\vidu{3}
+{Khi chiếu một chùm ánh sáng có tần số $f$ vào catốt một tế bào quang điện thì có hiện tượng quang điện xảy ra. Nếu dùng một hiệu điện thế hãm bằng $\SI{-2.5}{\volt}$ thì tất cả các quang electron bắn ra khỏi kim loại đều không bay sang anốt được. Cho biết tần số giới hạn quang điện của kim loại đó là $\SI{5e14}{\second ^ {-1}}$. Cho $h=\SI{6.625e-34}{\joule \second}$, $e=\SI{1.6e-19}{\coulomb}$. Tính $f$.
+\begin{mcq}(2)
+	\item $\SI{13.2e14}{\hertz}$.
+	\item $\SI{12.6e14}{\hertz}$.
+	\item $\SI{12.3e14}{\hertz}$.
+	\item $\SI{11.04e14}{\hertz}$.
+\end{mcq}
+}{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+Tất cả các quang electron bắn ra khỏi kim loại đều không bay sang anốt được thì dòng quang điện triệt tiêu, ta áp dụng công thức trong trường hợp dòng quang điện triệt tiêu.
+
+Áp dụng công thức trong trường hợp dòng quang điện triệt tiêu:
+\begin{equation*}
+	e |U_\text h|=\dfrac{1}{2}mv_\text{max}^2.
+\end{equation*}
+
+Kết hợp với hệ thức Einstein trong hiện tượng quang điện, ta được:
+\begin{align*}
+	e |U_\text h|&=\dfrac{1}{2}mv_\text{max}^2 \\
+	\Rightarrow e |U_\text h|&= \varepsilon - A \\
+	\Rightarrow e |U_\text h|&=hf-hf_0 \\
+	\Rightarrow f &= \dfrac{e |U_\text h| + hf_0}{h}\approx \SI{11.04e14}{\hertz}.
+\end{align*}
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Chiếu một bức xạ có bước sóng $ \SI{0,38}{\mu m} $ vào catốt của tế bào quang điện. Để tất cả các electron quang điện đều bị giữ lại ở catốt thì cần đặt hiệu điện thế hãm $ U_{h} = \SI{1,2}{V} $. Cho $ h = \SI{6,625 e-34}{J \cdot s} $; $ c = \SI{3 e8}{m/s} $; $ e = \SI{1,6 e-19}{C} $. \\
+
+\textbf{Đáp án:} $ \lambda_{0} = \SI{0,6}{\mu m} $.
+}
+
+\end{dang}

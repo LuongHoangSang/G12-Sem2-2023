@@ -1,0 +1,203 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài 35. Tính chất và cấu tạo hạt nhân
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Khối lượng và năng lượng của hạt nhân]{Khối lượng và năng lượng của hạt nhân}
+\section{Lý thuyết}
+
+	\subsection{Khối lượng và năng lượng}
+		Hệ thức Einstein:
+		\begin{equation}
+		E=mc^2
+		\end{equation}
+		trong đó:
+		\begin{itemize}
+			\item $E$ là năng lượng;
+			\item $m$ là khối lượng;
+			\item $c=\SI{3e8}{\meter/\second}$ là tốc độ ánh sáng trong chân không.
+		\end{itemize}
+		Năng lượng (tính ra eV) tương ứng với khối lượng $\SI{1}{u}$ được xác định:
+		\begin{equation}
+		E=uc^2\approx\SI{931,5}{\MeV}
+		\Rightarrow 1\text{u}=\SI{931,5}{\MeV/c^2}.
+		\end{equation}
+	\subsection{Khối lượng tương đối}
+		Một vật có khối lượng $m_0$ khi ở trạng thái nghỉ thì khi chuyển động với vận tốc $v$, khối lượng sẽ tăng lên thành $m$ với
+		\begin{equation}
+		m=\dfrac{m_0}{\sqrt{1-\dfrac{v^2}{c^2}}},
+		\end{equation}
+		trong đó:
+		\begin{itemize}
+			\item $m_0$ là khối lượng nghỉ;
+			\item $m$ là khối lượng động;
+			\item $v$ là vận tốc chuyển động của vật;
+			\item $c=\SI{3e8}{\meter/\second^2}$ là tốc độ ánh sáng trong chân không.
+		\end{itemize}
+	\subsection{Năng lượng toàn phần}
+		Khi một vật có khối lượng nghỉ $m_0$ chuyển động với tốc độ $v$ thì khối lượng tăng lên thành $m={m_0}/{\sqrt{1-{v^2}/{c^2}}}$; khi đó năng lượng của vật (gọi là năng lượng toàn phần) cho bởi công thức
+		\begin{equation}
+		E=mc^2=\dfrac{m_0c^2}{\sqrt{1-\dfrac{v^2}{c^2}}},
+		\end{equation}
+		trong đó:
+		\begin{itemize}
+			\item $E$ là năng lượng toàn phần;
+			\item $E_0=m_0c^2$ là năng lượng nghỉ.
+		\end{itemize}
+		
+		Hiệu $E-E_0$ chính là động năng của vật, kí hiệu là $W_\text{đ}$ và có công thức là
+		\begin{equation}
+		W_\text{đ}=E-E_0=(m-m_0)c^2.
+		\end{equation}
+		
+\section{Mục tiêu bài học - Ví dụ minh họa}
+				
+\begin{dang}{Khối lượng và năng lượng}
+		
+		\viduii{2}
+		{[Đề thi đại học khối A, A1 2013] Một hạt có khối lượng nghỉ $m_0$. Theo thuyết tương đối, khối lượng động (khối lượng tương đối tính) của hạt này khi chuyển động với tốc độ $0,6c$ ($c$là tốc độ ánh sáng trong chân không) là
+		\begin{mcq}(4)
+			\item $1,75 m_0$.
+			\item $1,25 m_0$.
+			\item $0,36 m_0$.
+			\item $0,25 m_0$.
+		\end{mcq}}
+		{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		Khối lượng động của hạt này khi chuyển động với tốc độ $0,6c$ là
+		\begin{equation*}
+		m=\dfrac{m_0}{\sqrt{1-\dfrac{v^2}{c^2}}}=\dfrac{m_0}{\sqrt{1-\dfrac{(0,6c)^2}{c^2}}}=1,25 m_0.
+		\end{equation*}
+		
+		\begin{center}
+			\textbf{Câu hỏi tương tự}
+		\end{center}
+		
+Một hạt có khối lượng nghỉ $m_0$. Theo thuyết tương đối, khối lượng động (khối lượng tương đối tính) của hạt này khi chuyển động với tốc độ $0,8c$ ($c$là tốc độ ánh sáng trong chân không) là
+		\begin{mcq}(4)
+			\item $\dfrac{2}{3} m_0$.
+			\item $\dfrac{3}{2} m_0$.
+			\item $\dfrac{3}{5} m_0$.
+			\item $\dfrac{5}{3} m_0$.
+		\end{mcq}
+\textbf{Đáp án:} D.
+		}
+		
+\viduii{2}
+{
+Khối lượng của vật tăng thêm bao nhiêu lần nếu vận tốc của nó tăng từ $ 0 $ đến $ \num{0,9} $ lần tốc độ ánh sáng.
+\begin{mcq}(4)
+	\item $ \num{2,3} $.
+	\item $ \num{3} $.
+	\item $ \num{3,2} $.
+	\item $ \num{2,4} $.
+\end{mcq}
+}
+{
+\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+Ta có:
+$$
+	\dfrac{m}{m_{0}} = \dfrac{1}{\sqrt{1-\dfrac{v^{2}}{c^{2}}}} \approx \num{2,3}.
+$$
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+Coi tốc độ ánh sáng trong chân không là $ \SI{3 e8}{m/s} $. Năng lượng của vật biến thiên bao nhiêu nếu khối lượng của vật biến thiên một lượng bằng khối lượng của electron $ \SI{9,1 e-31}{kg} $.
+\begin{mcq}(2)
+	\item $ \SI{8,2 e-14}{J} $.
+	\item $ \SI{8,7 e-14}{J} $.
+	\item $ \SI{8,2 e-16}{J} $.
+	\item $ \SI{8,7 e-16}{J} $.
+\end{mcq}
+\textbf{Đáp án;} A.
+}
+		
+\end{dang}
+
+\begin{dang}{Động năng}
+		
+		\viduii{3}
+		{[Đề thi đại học khối A 2011] Theo thuyết tương đối, một electron có động năng bằng một nửa năng lượng nghỉ của nó thì electron này chuyển động với tốc độ bằng 
+		\begin{mcq}(2)
+			\item $\SI{2,41e8}{\meter/\second}$.
+			\item $\SI{2,75e8}{\meter/\second}$. 
+			\item $\SI{1,67e8}{\meter/\second}$. 
+			\item $\SI{2,24e8}{\meter/\second}$. 
+		\end{mcq}}
+		{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		Tốc độ của electron này là
+		\begin{equation*}
+		E=E_0+W_\text{đ}=E_0+\dfrac{E_0}{2}=\dfrac{3E_0}{2}\Rightarrow \dfrac{m_0c^2}{\sqrt{1-\dfrac{v^2}{c^2}}} = \dfrac{3}{2}m_0c^2\Rightarrow v=\dfrac{\sqrt{5}}{3}c\approx\SI{2,24e8}{\meter/\second}.
+		\end{equation*}
+		
+		\begin{center}
+			\textbf{Câu hỏi tương tự}
+		\end{center}
+		
+		Một hạt có khối lượng $ m_{0} $. Theo thuyết tương đối, động năng của hạt này khi chuyển động với tốc độ $ \num{0,6}c $ ($ c $ là tốc độ ánh sáng trong chân không) là
+\begin{mcq}(2)
+	\item $ \num{0,36} m_{0}c^{2} $.
+	\item $ \num{1,25} m_{0}c^{2} $.
+	\item $ \num{0,225} m_{0}c^{2} $.
+	\item $ \num{0,25} m_{0}c^{2} $.
+\end{mcq}
+		
+		\textbf{Đáp án:} D.
+		}
+	
+\viduii{3}
+{
+Khối lượng của electron chuyển động bằng hai lần khối lượng nghỉ của nó. Tìm tốc độ chuyển động của electron. Coi tốc độ ánh sáng trong chân không là $ \SI{3 e8}{m/s} $.
+\begin{mcq}(2)
+	\item $ \SI{0,4 e8}{m/s} $.
+	\item $ \SI{2,59 e8}{m/s} $.
+	\item $ \SI{1,2 e8}{m/s} $.
+	\item $ \SI{2,985 e8}{m/s} $.
+\end{mcq}
+}
+{
+\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+Ta có:
+$$
+	m = \dfrac{m_{0}}{\sqrt{1-\dfrac{v^{2}}{c^{2}}}} = 2m_{0} \rightarrow v = \dfrac{c\sqrt{3}}{2} = \SI{2,59 e8}{m/s}.
+$$
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Biết khối lượng của electron $ \SI{9,1 e-31}{kg} $ và tốc độ ánh sáng trong chân không $ c = \SI{3 e8}{m/s} $. Động năng của electron chuyển động với tốc độ $ \SI{e8}{m/s} $ là
+\begin{mcq}(2)
+	\item $ \SI{4,968 e-15}{J} $.
+	\item $ \SI{4,550 e-15}{J} $.
+	\item $ \SI{4,267 e-15}{J} $.
+	\item $ \SI{4,765 e-15}{J} $.
+\end{mcq}
+\textbf{Đáp án:} A.
+}
+		
+\end{dang}
+
+
+
+
+

@@ -1,0 +1,137 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  25. Giao thoa ánh sáng
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Giao thoa ánh sáng trắng]{Giao thoa ánh sáng trắng}
+
+\section{Lý thuyết}
+
+\begin{itemize}
+
+\item Ánh sáng trắng là tập hợp  nhiều ánh sáng đơn sắc khác nhau có bước sóng biến thiên liên tục từ  $\lambda_{\text{đ}} =\text{0,38}\ \mu \text{m}$  đến $\lambda_{\text{t}} =\text{0,76}\ \mu \text{m}$.
+
+\item Mỗi ánh sáng đơn sắc cho một hệ thống vân giao thoa riêng không chồng khít lên nhau. Tại trung tâm tất cả các ánh sáng đơn sắc đều cho vân sáng bậc 0 nên vân trung tâm là vân màu trắng.
+
+\item Các vân sáng bậc 1, 2, 3,...n của các ánh sáng đơn sắc không còn chồng khít lên nhau nữa nên chúng tạo thành các vạch sáng viền màu sắc tím bên trong và đỏ bên ngoài.
+\item Độ rộng quang phổ bậc $k$ là khoảng cách từ vân sáng đỏ bậc $k$ đến vân sáng tím bậc $k$ (cùng một phía đối với vân trung tâm)
+\begin{equation}
+	\Delta x_{k} = x_{\text{đ}(k)}-x_{\text{t}(k)}=k\dfrac{D}{a}(\lambda_\text{đ}-\lambda_\text{t})
+\end{equation}
+\end{itemize}
+
+\section{Ví dụ minh họa}
+
+\ppgiai{
+Để tìm số bức xạ cho vân sáng (hoặc vân tối) tại một điểm nhất định trên màn ta làm như sau:
+\begin{description}
+	\item[Bước 1] Xác định dữ kiện đề bài cung cấp: 
+		\begin{itemize}
+			\item Vân sáng: 
+			\begin{equation*}
+			x_{\text{M}}= k\dfrac{\lambda D}{a} \Rightarrow \lambda = \dfrac{a x_{\text{M}}}{kD}.
+			\end{equation*}
+			\item Vân tối: 
+			\begin{equation*}
+			x_{\text{M}}= (m+\text{0,5})\dfrac{\lambda D}{a} \Rightarrow \lambda = \dfrac{a x_{\text{M}}}{(m+\text{0,5})D}.
+			\end{equation*}
+		\end{itemize}
+	\item [Bước 2]Dựa vào điều kiện  $\text{0,38}\ \mu \text{m} \leq  \lambda \leq  \text{0,76}\ \mu \text{m}$  để tìm $k$. Mỗi giá trị $k$
+	ứng với một bước sóng cho vân sáng (hoặc vân tối) tại vị trí đó. 
+\end{description}
+}
+
+\viduii{1}
+{
+Trong thí nghiệm lâng về giao thoa ánh sáng, khoảng cách giữa hai khe 0,3mm, khoảng cách từ mặt phẳng chứa hai khe đến màn quan sát 2 m. Hai khe được chiếu bằng ánh sáng trắng. Khoảng cách từ vân sáng bậc 1 màu đỏ (bước sóng 0,76 $\mu$m) đến vân sáng bậc 1 màu tím (bước sóng 0,4 $\mu$ m) cùng phía so với vân trung tâm là
+\begin{mcq}(4)
+\item 1,8 mm.			
+\item 2,7 mm.			
+\item 1,5 mm.			
+\item 2,4 mm.
+\end{mcq}}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+
+Độ rộng quang phổ ánh sáng trắng
+\begin{equation*}
+	\Delta x_{k} = x_{\text{đ}_(k)}-x_{\text{t}_(k)}=k\dfrac{D}{a}(\lambda_\text{đ}-\lambda_\text{t})=\text{2,4} \cdot 10^{-8}\ \text{m}.
+\end{equation*}
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Trong thí nghiệm lâng về giao thoa ánh sáng, khoảng cách giữa hai khe 0,3mm, khoảng cách từ mặt phẳng chứa hai khe đến màn quan sát 2 m. Hai khe được chiếu bằng ánh sáng trắng. Khoảng cách từ vân sáng bậc 1 màu đỏ (bước sóng 0,76 $\mu$m) đến vân sáng bậc 3 màu tím (bước sóng 0,4 $\mu$ m) cùng phía so với vân trung tâm là
+\begin{mcq}(4)
+\item 1,8 mm.			
+\item 2,9 mm.			
+\item 1,5 mm.			
+\item 2,4 mm.
+\end{mcq}
+
+\textbf{Đáp án:} B.
+}
+
+\viduii{2}
+{Thực hiện giao thoa ánh sáng với thiết bị của Y-âng, khoảng cách giữa hai khe $a =$ 2 mm, từ hai khe đến màn $D =$ 2 m. Người ta chiếu sáng hai khe bằng ánh sáng trắng ($\text{0,4}\ \mu \text{m} \leq  \lambda \leq  \text{0,75}\ \mu \text{m}$). Quan sát điểm A trên màn ảnh, cách vân sáng trung tâm 3,3 mm. Hỏi tại A bức xạ cho vân tối có bước sóng ngắn nhất bằng bao nhiêu?
+\begin{mcq}(4)
+\item 0,440 $\mu$m.		
+\item 0,508 $\mu$m.			
+\item 0,400 $\mu$m.			
+\item 0,490 $\mu$m.
+\end{mcq}
+}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+\begin{itemize}
+	\item Tại A bức xạ có vân tối nên 
+	\begin{equation*}
+		x_{\text{A}} =(m+\text{0,5})\dfrac{Ơ\lambda D}{a}.
+	\end{equation*}
+	\item Bước sóng 
+	\begin{equation*}
+		\lambda=\dfrac{a x_{\text{A}}}{(m+\text{0,5})D} = dfrac{\text{3,3}}{m+\text{0,5}}
+	\end{equation*}
+	\item Thay $\lambda$ vào điều kiện $\text{0,4}\ \mu \text{m} \leq  \lambda \leq  \text{0,75}\ \mu \text{m}$.
+	\begin{equation*}
+		\text{0,4} \leq  \dfrac{\text{3,3}}{m+\text{0,5}} \leq  \text{0,75} \Rightarrow \text{0,9}\leq  m \leq  \text{7,75}.
+	\end{equation*}
+
+	\item Suy ra $m=4; 5; 6; 7$.
+	\item Bước sóng ngắn nhất
+	\begin{equation*}
+		\lambda_{\text{min}}=\dfrac{\text{3,3}}{7+\text{0,5}}=\text{0,44}\ \mu \text{m}.
+	\end{equation*}
+\end{itemize}
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Thực hiện giao thoa ánh sáng với thiết bị của Y-âng, khoảng cách giữa hai khe $a =$ 2 mm, từ hai khe đến màn $D =$ 2 m. Người ta chiếu sáng hai khe bằng ánh sáng trắng ($\text{0,4}\ \mu \text{m} \leq  \lambda \leq  \text{0,75}\ \mu \text{m}$). Quan sát điểm A trên màn ảnh, cách vân sáng trung tâm 3,3 mm. Hỏi tại A bức xạ cho vân sáng có bước sóng ngắn nhất bằng bao nhiêu?
+\begin{mcq}(4)
+\item 0,440 $\mu$m.		
+\item 0,508 $\mu$m.			
+\item 0,413 $\mu$m.			
+\item 0,490 $\mu$m.
+\end{mcq}
+
+\textbf{Đáp án:} C.
+}

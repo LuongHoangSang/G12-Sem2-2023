@@ -1,0 +1,233 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  20. Mạch dao động
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Bài toán ghép tụ - tụ xoay]{Bài toán ghép tụ - tụ xoay}
+\section{Lý thuyết}
+
+\subsection{Công thức ghép tụ}
+
+Ghép thêm tụ điện
+
+Mạch dao động $LC_1$ có chu kỳ $T_1$, tần số . Mạch dao động $LC_2$ có chu kỳ $T_2$, tần số $f_2$
+
++ Trường hợp 1: $C_1$ mắc nối tiếp với $C_2$. Khi đó:
+
+$$\dfrac{1}{C}= \dfrac{1}{C_1}+ \dfrac{1}{C_2}.$$
+
+$$f_\text{nt}^2=f_1^2+f_2^2.$$
+
+$$\dfrac{1}{T_\text{nt}}= \dfrac{1}{T^2_1}+ \dfrac{1}{T^2_2}.$$
+
++ Trường hợp 2: $C_1$ mắc song song với $C_2$. Khi đó:
+
+
+$$C= C_1 + C_2.$$
+
+$$T_\text{ss}^2=T_1^2+T_2^2.$$
+
+$$\dfrac{1}{f_\text{ss}^2}= \dfrac{1}{f^2_1}+ \dfrac{1}{f^2_2}.$$
+
+
+
+
+
+\subsection{Công thức tụ xoay}
+
+Thường trong mạch có tụ xoay:
+
+- Nếu có $n$ lá thì có $n - 1$ tụ điện phẳng mắc song song.
+
+- Điện dung của tụ phẳng
+
+$$C = \dfrac{S_\text{max}}{k4\pi d}.$$
+
+- Điện dung của tụ điện sau khi quay các lá 1 góc $\alpha$:
+
+ Từ giá trị cực đại:
+ 
+ $$C_{\text V{\alpha}}= C_\text{V\text{max}} - \dfrac{C_\text{V\text{max}}- C_\text{V\text{min}}}{180^\circ}\alpha.$$
+ 
+ Từ giá trị cực tiểu:
+
+$$C_{\text V{\alpha}}= C_\text{V\text{min}} - \dfrac{C_\text{V\text{max}}- C_\text{V\text{min}}}{180^\circ}\beta.$$
+
+
+\section{Mục tiêu bài học - Ví dụ minh họa}
+\begin{dang}{Bài toán ghép tụ điện.}
+	\viduii{3}
+		{Cho một mạch dao động điện từ gồm một cuộn dây thuần cảm và hai tụ điện có điện dung $C_1 = \SI{2}{nF}$ và $C_2 = \SI{6}{nF}$ mắc song song với nhau. Mạch có tần số là $\SI{4000}{Hz}$. Nếu  tháo dời khỏi mạch tụ điện thứ hai thì mạch còn lại dao động với tần số
+		\begin{mcq}(4)
+			\item $\SI{2000}{Hz}$. 
+			\item $\SI{4000}{Hz}$. 
+			\item $\SI{8000}{Hz}$. 
+			\item $\SI{16000}{Hz}$. 
+		\end{mcq}
+	}
+	{	\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Điện dung của tụ điện mắc song song cho bởi
+		
+		$$C=C_{1}+C_{2}= \SI{8}{nF}.$$
+		
+		Chu kì của mạch khi mắc song song hai tụ là
+		
+		$$T=\dfrac{1}{f}= \SI{2,5 e-4}{s}.$$
+		
+		Khi tháo dời khỏi mạch tụ điện $C_{2}$ mạch chỉ còn tụ điện $C_{1}$. Chu kì của mạch chỉ chứa tụ $C_{1}$ và mạch chứa tụ $C$ cho bởi
+		
+		$$T_{1} =2 \pi \sqrt{L C_{1}}, T =2 \pi \sqrt{L C}.$$
+		
+		Lập tỉ lệ hai biểu thức trên, ta được:
+		
+		$$\dfrac{T_{1}}{T}=\sqrt{\dfrac{C_{1}}{C}}\Rightarrow T_{1}= \SI{1,25 e4}{s}.$$
+		
+		Tần số dao động của mạch chỉ chứa $C_{1}$ là
+		
+		$$f_{1}=\dfrac{1}{T_{1}}= \SI{8000}{Hz}.$$	
+		
+		\textbf{Đáp án: C.}
+		
+		\begin{center}
+			\textbf{Câu hỏi tương tự}
+		\end{center}
+		
+	Trong mạch dao động, khi mắc tụ điện có điện dung $C_1$ với cuộn cảm $L$ thì tần số dao động của mạch là $f_1 = \SI{60}{kHz}$. Khi mắc tụ có điện dụng $C_2$ với cuộn cảm $L$ thì tần số dao động của mạch là $f_2 = \SI{80}{kHz}$. Khi mắc $C_1$ song song với $C_2$ rồi mắc vào cuộn cảm $L$ thì tần số dao động của mạch là bao nhiêu?
+
+	\textbf{Đáp án:} $f= \SI{48}{kHz}.$ 
+	}
+		\viduii{3}{
+		
+		Một mạch dao động $LC$ lí tưởng gồm cuộn cảm thuần có độ tự cảm không đổi, tụ điện có điện dung $C$ thay đổi. Khi $C = C_1$ thì tần số dao động riêng của mạch là $\SI{7,5}{MHz}$ và khi $C = C_2$ thì tần số dao động riêng của mạch là $\SI{10}{MHz}$. Nếu $C = C_1 + C_2$ thì tần số dao động riêng của mạch là
+		\begin{mcq}(4)
+			\item $\SI{6,0}{MHz}$. 
+			\item $\SI{17,5}{MHz}$. 
+			\item $\SI{12,5}{MHz}$. 
+			\item $\SI{2,5}{MHz}$. 
+		\end{mcq}
+		
+	}
+	{	\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Tần số dao động riêng của mạch cho bởi
+		
+		$$f=\dfrac{1}{2 \pi \sqrt{L C}} \Rightarrow C \sim \dfrac{1}{f^{2}}.$$
+		
+		Khi đó biểu thức $C=C_{1}+C_{2}$ trở thành
+		
+		$$\dfrac{1}{f^{2}}=\dfrac{1}{f_{1}^{2}}+\dfrac{1}{f_{2}^{2}} \Rightarrow  f = \SI{6}{MHz}.$$
+		
+		\textbf{Đáp án: A.}
+		
+		\begin{center}
+			\textbf{Câu hỏi tương tự}
+		\end{center}
+		
+		Một mạch dao động điện từ có cuộn cảm không đổi $L$. Nếu thay tụ điện $C$ bởi các tụ điện $C_1$, $C_2$. Nếu $C_1$ nối tiếp $C_2$, $C_1$ song song $C_2$ thì chu kì dao động riêng của mạch lần lượt là $T_1$, $T_2$, $T_\text{nt} = \SI{4,8}{\mu s}$, $T_\text{ss} = \SI{10}{\mu s}$. Hãy xác định $T_1$, biết $T_1 >T_2$.
+		
+		\textbf{Đáp án:} $T_1 = \SI{8}{\mu s}$.
+	}
+
+\end{dang}
+\begin{dang}{Bài toán tụ xoay.}
+	\viduii{3}{
+		
+		Một mạch dao động gồm một cuộn dây có độ tự cảm $L = \SI{1,5}{mH}$ và một tụ xoay có điện dung biến thiên từ $C_1 = \SI{50}{pF}$ đến $C_2 = \SI{450}{pF}$ khi một trong hai bản tụ xoay từ $0^\circ$ đến $180^\circ$. Biết điện dung của tụ phụ thuộc vào góc xoay theo hàm bậc nhất. Để mạch thu được sóng điện từ có bước sóng $\SI{1200}{m}$ cần xoay bản động của tụ điện một góc bằng bao nhiêu kể từ vị trí mà tụ điện có điện dung cực đại? Cho $\pi^2 = 10$.
+		\begin{mcq}(4)
+			\item $99^\circ$. 
+			\item $81^\circ$. 
+			\item $121^\circ$. 
+			\item $108^\circ$. 
+		\end{mcq}
+		
+	}
+	{	\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Bước sóng của một mạch thu sóng:
+		
+		$$\lambda=2 \pi c \sqrt{L C}.$$
+		
+		Khi mạch thu được bước sóng $1200 \mathrm{m}$, ta có:
+		
+		$$\lambda=2 \pi c \sqrt{L C}  \Rightarrow C = \SI{270}{pF}.
+		$$
+		Công thức tụ xoay
+		 
+		$$\dfrac{C-C_{1}}{C_{2}-C_{1}}=\dfrac{\alpha-\alpha_{1}}{\alpha_{2}-\alpha_{1}}  \Rightarrow \alpha=99^{\circ}.$$
+		
+		\textbf{Đáp án: A.}
+		
+		\begin{center}
+			\textbf{Câu hỏi tương tự}
+		\end{center}
+		
+		Mạch chọn sóng của một máy thu thanh gồm cuộn dây thuần cảm có độ tự cảm $L = \SI{2,9}{\mu H}$ và tụ điện có điện dung $C = \SI{490}{pF}$. Để máy thu được dải sóng từ $\lambda_\text{m} = \SI{10}{m}$ đến $\lambda_\text M = \SI{50}{m}$, người ta ghép thêm một tụ xoay $C_\text V$ biến thiên từ $C_\text m = \SI{10}{pF}$ đến $C_\text M = \SI{490}{pF}$. Muốn mạch thu được sóng có bước sóng $\lambda = \SI{20}{m}$, thì phải xoay các bản di động của tụ $C_\text V$ từ vị trí ứng với điện dung cực đại $C_\text M$ một góc $\alpha$ là bao nhiêu?
+		
+		\textbf{Đáp án:} $\alpha = 168^\circ.$
+	}
+	\viduii{3}{
+		
+		Tụ xoay có điện dung biến thiên liên tục và tỉ lệ thuận với góc quay từ giá trị $C_1 = \SI{10}{pF}$ đến $C_2 = \SI{370}{pF}$ tương ứng khi góc quay của các bản tụ tăng dần từ $0^\circ$ đến $180^\circ$. Tụ điện được mắc với một cuộn dây có hệ số tự cảm $L = \SI{2}{\mu H}$ để tạo thành mạch chọn sóng của máy thu. Để thu được sóng có bước sóng $\lambda = \SI{18,84}{m}$ phải xoay tụ một góc bằng bao nhiêu kể từ khi tụ có điện dung nhỏ nhất.
+		\begin{mcq}(2)
+		\item $\alpha = 90^\circ$.             
+		\item $\alpha = 20^\circ$.
+		\item $\alpha = 120^\circ$.              
+		\item $\alpha = 30^\circ$.
+		\end{mcq}
+		
+	}
+	{	\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Khi tụ xoay từ $0^\circ$ đến $180^\circ$ thì $C$ tăng từ $C_1 = \SI{10}{pF}$ đến $C_2 = \SI{370}{pF}$
+		
+		Tụ xoay thêm $1^\circ$ thì $C$ tăng thêm một lượng 
+		
+		$$\dfrac{(370-10)}{180} = \SI{2}{pF}.$$
+		
+		Lại có 
+		
+		$$\lambda = cT = c2 \pi \sqrt{LC}.$$
+		
+		$$\Rightarrow C = \dfrac{\lambda^2}{4\pi^2 c^2 L} = \SI{50}{pF}.$$
+		
+		Điện dung của tụ cần tăng 
+		
+		$$\Delta C = 50 - 10 = \SI{40}{pF}.$$
+		
+		Tụ cần xoay một góc 
+		
+		$$\alpha = \dfrac{40}{2} = 20^\circ.$$
+		
+		\textbf{Đáp án: B.}
+		
+		\begin{center}
+			\textbf{Câu hỏi tương tự}
+		\end{center}
+		
+		Một tụ điện xoay có điện dung tỉ lệ thuận với góc quay các bản tụ. Tụ có giá trị điện dung $C$ biến đổi giá trị $C_1 = \SI{10}{pF}$ đến $C_2 = \SI{490}{pF}$ ứng với góc quay của các bản tụ là $\alpha$ các bản tăng dần từ $0^\circ$ đến $180^\circ$. Tụ điện được mắc với một cuộn dây có hệ số tự cảm $L = \SI{2}{\mu H}$ để làm thành mạch dao động ở lối vào của 1 một máy thu vô tuyến điện. Để bắt được sóng $\SI{19,2}{m}$ phải quay các bản tụ một góc $\alpha$ là bao nhiêu tính từ vị trí điện dung $C$ bé nhất.
+		
+		\textbf{Đáp án:} $\alpha = \text{15,7}^\circ.$
+	}
+	
+\end{dang}

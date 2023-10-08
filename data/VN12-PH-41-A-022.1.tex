@@ -1,0 +1,277 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  32. Hiện tượng quang - phát quang
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Hiệu suất quang điện - Hiệu suất phát quang]{Hiệu suất quang điện - Hiệu suất phát quang}
+\section{Lý thuyết}
+
+\subsection{Hiệu suất quang điện}
+
+\subsubsection{Công suất của chùm sáng}
+	Công thức:
+	\begin{equation}
+		\calP=n_p\varepsilon,
+	\end{equation}
+trong đó:
+	\begin{itemize}
+		\item $\calP$ là công suất của chùm sáng;
+		\item $n_p$ là số phôtôn đập vào catốt trong $\SI{1}{\second}$;
+		\item $\varepsilon=\dfrac{hc}{\lambda}$ là năng lượng của phôtôn trong chùm sáng.
+	\end{itemize}
+\subsubsection{Cường độ dòng quang điện bão hòa}
+	Công thức:
+	\begin{equation}
+		I_\text{bh}=n_e e,
+	\end{equation}
+trong đó:
+	\begin{itemize}
+		\item $I_\text{bh}$ là cường độ dòng quang điện bão hòa;
+		\item $n_e$ là số electron bắn ra từ catốt đến được anốt trong $\SI{1}{\second}$;
+		\item $e=\SI{1.6e-19}{\coulomb}$ là điện tích electron.
+\end{itemize}	
+\luuy{Theo định nghĩa, cường độ dòng điện được tính bởi công thức $I=\dfrac{\Delta q}{\Delta t}$, trong đó $\Delta q$ là điện lượng chuyển qua bề mặt được xét trong khoảng thời gian $\Delta t$.}
+\subsubsection{Hiệu suất quang điện}
+	Hiệu suất quang điện là tỉ số giữa electron bắn ra từ catốt đến được anốt với số phôtôn đập vào catốt trong cùng một đơn vị thời gian.
+	\begin{equation}
+		H = \dfrac{n_e}{n_p} \cdot 100 \%
+	\end{equation}
+
+\subsection{Hiệu suất phát quang}
+Hiệu suất phát quang là tỉ số giữa công suất của chùm sáng phát quang với chùm sáng kích thích.
+\begin{equation}
+	H = \dfrac{\calP_\text{pq}}{\calP_\text{kt}} \cdot 100 \%
+\end{equation}
+
+\section{Mục tiêu bài học - Ví dụ minh họa}
+
+\begin{dang}{Hiệu suất quang điện.}
+
+\ppgiai{
+\begin{description}
+	\item[Bước 1:] Xác định số phôtôn đập vào catốt trong 1 giây bằng công thức:
+	\begin{equation}
+		n_p = \dfrac{\calP}{\varepsilon} = \dfrac{\calP \lambda}{hc};
+	\end{equation}
+	\item[Bước 2:] Xác định số electron bứt ra từ catốt trong 1 giây bằng công thức: 
+	\begin{equation}
+		n_e=\dfrac{I_\text{bh}}{e};
+	\end{equation}
+	\item[Bước 3:] Tính hiệu suất lượng tử bằng công thức: \begin{equation}
+		H=\dfrac{n_e}{n_p} \cdot 100 \% = \dfrac{I_\text{bh} hc}{e \calP \lambda} \cdot 100\%.
+	\end{equation}
+\end{description}
+}
+
+\viduii{2}
+	{
+	Một đèn laze phát ánh sáng đơn sắc có bước sóng $ \SI{0,7}{\mu m} $, có công suất phát sáng là $ \SI{1}{W} $. Số photon đèn phát ra trong 1 giây bằng
+		\begin{mcq}(2)
+			\item $ \num{3,52e18} $. 
+			\item $ \num{2,84e19} $.
+			\item $ \num{2,84e-19} $. 
+			\item $ \num{3,52e19} $. 
+		\end{mcq}
+	}
+	{
+	\begin{center}
+	\textbf{Hướng dẫn giải}
+	\end{center}
+	Số photon đèn phát ra trong một giây bằng
+$$
+	N = \dfrac{P}{\varepsilon} = \dfrac{P \lambda}{hc} = \num{3,52e18}.
+$$	
+	\begin{center}
+	\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+	Một đèn laze phát ánh sáng đơn sắc có bước sóng $ \SI{0,35}{\mu m} $, có công suất phát sáng là $ \SI{3}{W} $. Số photon đèn phát ra trong 1 giây bằng
+		\begin{mcq}(2)
+			\item $ \num{5,29 e18} $. 
+			\item $ \num{2,95 e19} $.
+			\item $ \num{5,29 e19} $. 
+			\item $ \num{2,95 e18} $. 
+		\end{mcq}
+	\textbf{Đáp án:} A.
+	}
+
+
+\viduii{3}
+	{
+	Chiếu chùm ánh sáng có công suất $\SI{3}{\watt}$, bước sóng $\SI{0.35}{\micro \meter}$ vào catốt của tế bào quang điện có công thoát electron $\SI{2.48}{\electronvolt}$ thì đo được cường độ dòng quang điện bão hòa là $\SI{0.02}{\ampere}$. Hiệu suất lượng tử bằng
+	\begin{mcq}(4)
+		\item $\SI{0.237}{\percent}$.
+		\item $\SI{2.37}{\percent}$.
+		\item $\SI{3.26}{\percent}$.
+		\item $\SI{2.54}{\percent}$.
+	\end{mcq}}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+	Ngoài 3 bước trên, trong trường hợp bài này ta cần xác định xem ánh sáng kích thích có gây ra được hiện tượng quang điện không bằng cách so sánh $\lambda$ và $\lambda_0=\dfrac{hc}{A}$.
+
+	Đổi $A=\SI{2.48}{\electronvolt} \rightarrow \SI{3.968e-19}{\joule}$.
+	
+	Giới hạn quang điện:
+	\begin{equation*}
+		\lambda_0 = \dfrac{hc}{A} \approx \SI{0.5}{\micro \meter}.
+	\end{equation*}
+	
+	Do $\lambda < \lambda_0$ nên ánh sáng kích thích gây ra được hiện tượng quang điện.
+	
+	Số phôtôn đập vào catốt trong $\SI{1}{\second}$:
+	\begin{equation*}
+		n_p=\dfrac{\calP \lambda}{hc}=\SI{5.283e18}{}.
+	\end{equation*}
+	
+	Số electron bứt ra từ catốt trong $\SI{1}{\second}$:
+	\begin{equation*}
+		n_e=\dfrac{I_\text{bh}}{e}=\SI{1.25e17}{}.
+	\end{equation*}
+	
+	Hiệu suất lượng tử:
+	\begin{equation*}
+		H=\dfrac{n_e}{n_p} \cdot 100 \% \approx \SI{2.37}{\percent}.
+	\end{equation*}
+	
+	\begin{center}
+	\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+Chiếu chùm ánh sáng có công suất $\SI{1}{\watt}$, bước sóng $\SI{0.4}{\micro \meter}$ vào catốt của tế bào quang điện có công thoát electron $\SI{2.48}{\electronvolt}$ thì đo được cường độ dòng quang điện bão hòa là $\SI{0.02}{\ampere}$. Hiệu suất lượng tử bằng
+	\begin{mcq}(4)
+		\item $\SI{6.207}{\percent}$.
+		\item $\SI{2.376}{\percent}$.
+		\item $\SI{3.263}{\percent}$.
+		\item $\SI{2.544}{\percent}$.	
+	\end{mcq}
+	
+	\textbf{Đáp án:} A.
+	}
+
+\end{dang}
+
+\begin{dang}{Hiệu suất phát quang.}
+
+\ppgiai{
+\begin{description}
+	\item[Bước 1:] Xác định công suất của chùm sáng kích thích bằng công thức:
+	\begin{equation}
+		\calP_\text{kt} = n_{p_\text{kt}}\varepsilon_\text{kt},
+	\end{equation}
+trong đó:
+\begin{itemize}
+	\item $\calP_\text{kt}$ là công suất của chùm sáng kích thích;
+	\item $n_{p_\text{kt}}$ là số phôtôn của chùm sáng kích thích bị hấp thụ trong mỗi giây;
+	\item $\varepsilon_\text{kt}$ là năng lượng của phôtôn trong chùm sáng kích thích.
+\end{itemize}
+	\item[Bước 2:] Xác định công suất của chùm sáng phát quang bằng công thức:
+	\begin{equation}
+		\calP_\text{pq} = n_{p_\text{pq}}\varepsilon_\text{pq},
+	\end{equation}
+trong đó:
+\begin{itemize}
+	\item $\calP_\text{pq}$ là công suất của chùm sáng phát quang;
+	\item $n_{p_\text{pq}}$ là số phôtôn của chùm sáng phát quang được phát ra trong mỗi giây;
+	\item $\varepsilon_\text{pq}$ là năng lượng của phôtôn trong chùm sáng phát quang.
+	\end{itemize}
+	\item[Bước 3] Tính hiệu suất phát quang bằng công thức: \begin{equation}
+		H=\dfrac{\calP_\text{pq}}{\calP_\text{kt}} \cdot 100 \% = \dfrac{n_{p_\text{pq}} \lambda_\text{kt}}{n_{p_\text{kt}} \lambda_\text{pq}} \cdot 100\%.
+	\end{equation}
+\end{description}
+}
+
+\viduii{3}{
+Một chất phát quang được kích thích bằng ánh sáng có bước sóng $\SI{0.26}{\micro \meter}$ thì phát ra ánh sáng có bước sóng $\SI{0.52}{\micro \meter}$. Giả sử công suất của chùm phát quang bằng $\SI{20}{\percent}$ công suất của chùm sáng kích thích. Tỉ số giữa số phôtôn ánh sáng phát quang và số phôtôn ánh sáng kích thích trong cùng một khoảng thời gian là
+\begin{mcq}(4)
+	\item $\dfrac{4}{5}$.
+	\item $\dfrac{1}{10}$.
+	\item $\dfrac{1}{5}$.
+	\item $\dfrac{2}{5}$.
+\end{mcq}}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+Từ công thức tính hiệu suất phát quang, ta tính được tỉ số giữa số phôtôn ánh sáng phát quang và số phôtôn ánh sáng kích thích trong cùng một khoảng thời gian:
+\begin{equation*}
+	\dfrac{n_{p_\text{pq}}} {n_{p_\text{kt}}} = \dfrac {\calP_\text{pq}\lambda_\text{pq}}{\calP_\text{kt}\lambda_\text{kt}}.
+\end{equation*}
+
+Tỉ số giữa công suất của chùm sáng phát quang với công suất của chùm sáng kích thích:
+\begin{equation*}
+	\dfrac{\calP_\text{pq}}{\calP_\text{kt}}=\dfrac{20}{100}=\dfrac{1}{5}.
+\end{equation*}
+
+Tỉ số giữa bước sóng ánh sáng phát quang với bước sóng ánh sáng kích thích:
+\begin{equation*}
+	\dfrac{\lambda_\text{pq}}{\lambda_\text{kt}}=2.
+\end{equation*}
+
+Tỉ số giữa số phôtôn ánh sáng phát quang và số phôtôn ánh sáng kích thích trong cùng một khoảng thời gian: \begin{equation*}
+	\dfrac{n_{p_\text{pq}}} {n_{p_\text{kt}}} = \dfrac {\calP_\text{pq}\lambda_\text{pq}}{\calP_\text{kt}\lambda_\text{kt}}=\dfrac{2}{5}.
+\end{equation*}
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+	Một chất phát quang được kích thích bằng ánh sáng có bước sóng $\SI{0.36}{\micro \meter}$ thì phát ra ánh sáng có bước sóng $\SI{0.55}{\micro \meter}$. Giả sử công suất của chùm phát quang bằng $\SI{20}{\percent}$ công suất của chùm sáng kích thích. Tỉ số giữa số phôtôn ánh sáng phát quang và số phôtôn ánh sáng kích thích trong cùng một khoảng thời gian là
+\begin{mcq}(4)
+	\item $\dfrac{14}{15}$.
+	\item $\dfrac{11}{63}$.
+	\item $\dfrac{11}{36}$.
+	\item $\dfrac{12}{15}$.
+\end{mcq}
+\textbf{Đáp án:} C.
+}
+
+\viduii{3}
+	{
+	Một chất phát quang được kích thích bằng ánh sáng có bước sóng $ \SI{0,32}{\mu m} $ thì phát ra ánh sáng có bước sóng $\lambda $. Giả sử công suất chùm sáng phát quang bằng 20\% công suất chùm sáng kích thích. Biết tỉ số giữa photon ánh sáng phát quang và photon ánh sáng kích thích trong cùng một khoảng thời gian là $ \num{0,4} $. Bước sóng của ánh sáng phát quang $ \lambda $ là
+		\begin{mcq}(4)
+			\item $ \SI{0,32}{\mu m} $. 
+			\item $ \SI{1,28}{\mu m} $.
+			\item $ \SI{0,64}{\mu m} $. 
+			\item $ \SI{0,16}{\mu m} $. 
+		\end{mcq}
+	}
+	{
+	\begin{center}
+	\textbf{Hướng dẫn giải}
+	\end{center}
+	
+	Ta có hiệu suất phát quang cho bởi
+$$
+	H = \dfrac{n' \varepsilon'}{n \varepsilon} = \dfrac{n'}{n} \cdot \dfrac{\lambda}{\lambda'}.
+$$	
+Trong đó $ H = 0,2 $; $ \dfrac{n'}{n} = \num{0,4}$ và $ \lambda = \SI{0,32}{\mu m}$.
+Từ đó, suy ra $ \lambda' = \SI{0,64}{\mu m}$.
+	
+	\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Một chất phát quang được kích thích bằng ánh sáng có bước sóng $ \SI{0,25}{\mu m} $ thì phát ra ánh sáng có bước sóng $\lambda $. Giả sử công suất chùm sáng phát quang bằng 25\% công suất chùm sáng kích thích. Biết tỉ số giữa photon ánh sáng phát quang và photon ánh sáng kích thích trong cùng một khoảng thời gian là $ \num{0,3} $. Bước sóng của ánh sáng phát quang $ \lambda $ là
+		\begin{mcq}(4)
+			\item $ \SI{0,32}{\mu m} $. 
+			\item $ \SI{0,28}{\mu m} $.
+			\item $ \SI{0,64}{\mu m} $. 
+			\item $ \SI{0,30}{\mu m} $. 
+		\end{mcq}
+\textbf{Đáp án:} D.		
+	}
+
+\end{dang}

@@ -1,0 +1,220 @@
+
+\chapter[Bài tập: Mạch điện xoay chiều có điện trở biến thiên]{Bài tập: Mạch điện xoay chiều có điện trở biến thiên}
+\section{Lý thuyết}
+\subsection{Tìm giá trị $R$ để công suất toàn mạch là lớn nhất ($\calP_\text{max}$)}
+Từ công thức tính công suất:
+\begin{equation*}
+	\calP = I^2 R = \dfrac{U^2}{R^2 + (Z_L - Z_C)^2}R,
+\end{equation*}
+chia cả tử và mẫu cho $R$, ta được:
+\begin{equation*}
+	\calP = \dfrac{U^2}{R+\dfrac{(Z_L-Z_C)^2}{R}}.
+\end{equation*}
+
+Giá trị của $\calP$ là lớn nhất khi $\left(R+\dfrac{(Z_L - Z_C)^2}{R}\right)$ là nhỏ nhất. Áp dụng bất đẳng thức Cô-si:
+\begin{equation*}
+	R+\dfrac{(Z_L - Z_C)^2}{R} \geq 2\sqrt{R\dfrac{(Z_L - Z_C)^2}{R}},
+\end{equation*}
+dấu "=" xảy ra khi $R=\dfrac{(Z_L - Z_C)^2}{R}$ hay $R=|Z_L - Z_C|$.
+Khi đó
+\begin{equation*}
+	\calP_\text{max} = \dfrac{U^2}{R+\dfrac{R^2}{R}}=\dfrac{U^2}{2R}
+\end{equation*}
+và
+\begin{equation*}
+	\cos \varphi = \dfrac{R}{Z}=\dfrac{R}{\sqrt{R^2 + R^2}} = \dfrac{\sqrt 2}{2}.
+\end{equation*}
+\luuy{Trong trường hợp này, mạch \textbf{không} xảy ra hiện tượng cộng hưởng.}
+\subsection{Tìm giá trị $R$ để công suất trên điện trở là lớn nhất ($\calP_{R\ \text{max}}$)}
+
+Gọi điện trở trong của cuộn dây là $r$, từ công thức tính công suất trên điện trở:
+\begin{equation*}
+	\calP = I^2 R = \dfrac{U^2}{(R+r)^2 + (Z_L - Z_C)^2}R,
+\end{equation*}
+chia cả tử và mẫu cho $R$, ta được:
+\begin{equation*}
+	\calP = \dfrac{U^2}{R+2r+\dfrac{r^2+(Z_L-Z_C)^2}{R}}.
+\end{equation*}
+
+Giá trị của $\calP$ là lớn nhất khi $\left(R+\dfrac{r^2+(Z_L-Z_C)^2}{R}\right)$ là nhỏ nhất. Áp dụng bất đẳng thức Cô-si:
+\begin{equation*}
+	R+\dfrac{r^2+(Z_L-Z_C)^2}{R} \geq 2\sqrt{R\dfrac{r^2+(Z_L-Z_C)^2}{R}},
+\end{equation*}
+dấu $\text{"="}$ xảy ra khi $R^2=r^2+(Z_L-Z_C)^2$.
+Khi đó
+\begin{equation*}
+	\calP_{R\ \text{max}} = \dfrac{U^2}{2(R+r)}.
+\end{equation*}
+
+\subsection{Có hai giá trị $R_1$, $R_2$ cho cùng một giá trị $I$, $\calP$ (với $\calP < \calP_\text{max}$)}
+Từ công thức tính công suất:
+\begin{align*}
+	\calP=I^2R&=\dfrac{U^2R}{R^2+(Z_L-Z_C)^2} \\
+	\Leftrightarrow \calP[R^2+(Z_L-Z_C)^2] &= U^2 R \\
+	\Leftrightarrow \calP R^2 - U^2R+(Z_L-Z_C)^2\calP&=0 \\
+	\Leftrightarrow R^2 - \dfrac{U^2R}{\calP}+(Z_L-Z_C)^2&=0.
+\end{align*}
+Áp dụng hệ thức Vi-ét cho phương trình trên, ta được:
+\begin{equation*}\begin{cases}
+		R_1 + R_2 &= \dfrac{U^2}{\calP}\\
+		R_1R_2&=(Z_L-Z_C)^2
+	\end{cases}\end{equation*}
+
+\section{Mục tiêu bài học - Ví dụ minh họa}
+\begin{dang}{Xác định các đại lượng khi $R$ thay đổi\\ để công suất toàn mạch là lớn nhất ($\calP_\text{max}$)}
+	\viduii{3}{Một đoạn mạch xoay chiều mắc nối tiếp gồm tụ $C =\dfrac{50}{\pi}\ \mu \text{F}$; cuộn cảm thuần có độ tự cảm $\dfrac{\text{0,8}}{\pi}\ \text{H}$ và biến trở $R$. Đặt vào hai đầu đoạn mạch điện áp $u = 200 \cos 100\pi t\ \text{V}$ ($t$ đo bằng giây). Để công suất tiêu thụ của mạch cực đại thì giá trị của biến trở và công suất cực đại là
+		\begin{mcq}(2)
+			\item $120\ \Omega$ và 250 W.
+			\item $120\ \Omega$ và $\dfrac{250}{3}\ \text{W}$.
+			\item $280\ \Omega$ và $\dfrac{250}{3}\ \text{W}$.
+			\item $280\ \Omega$ và 250 W.
+		\end{mcq}	
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Giá trị của biến trở
+		$$R = |Z_L - Z_C| = 120\ \Omega$$
+		
+		Công suất cực đại
+		$$\calP_\text{max} = \dfrac{U^2}{2R} = \dfrac{250}{3}\ \text{W}.$$
+		
+		\textbf{Đáp án: B.}
+	}
+	\viduii{3}{Cho mạch điện nối tiếp gồm cuộn cảm thuần độ tự cảm $\dfrac{\text{0,2}}{\pi}\ \text{H}$, tụ điện có điện dung $\dfrac{\text{0,1}}{\pi}\ \text{mF}$ và biến trở $R$. Điện áp đặt vào hai đầu đoạn mạch điện áp xoay chiều ổn định có tần số $f$ ($f<100\ \text{Hz}$). Thay đổi $R$ đến giá trị $190\ \Omega$ thì công suất tiêu thụ trên toàn mạch đạt giá trị cực đại. Giá trị $f$ là
+		\begin{mcq}(4)
+			\item 25 Hz.
+			\item 40 Hz.
+			\item 50 Hz.
+			\item 80 Hz.
+		\end{mcq}	
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Khi công suất tiêu thụ trên toàn mặt đạt giá trị cực đại
+		$$R = |Z_L-Z_C| \Leftrightarrow |2\pi f L -\dfrac{1}{2\pi f C}| =190.$$
+		
+		Theo đề bài ta có $f<100\ \text{Hz} \Rightarrow \omega < 200\pi\ \text{rad/s}$.
+		
+		Suy ra $Z_L < 40\ \Omega$ và $Z_C >50\ \Omega$.
+		
+		Vậy $Z_C >Z_L$
+		
+		Giá trị $f$ là
+		$$  Z_C - Z_L =190 \Rightarrow \dfrac{1}{2\pi f C} - 2\pi f L =190 \Rightarrow f = 25\ \text{Hz}.$$
+		
+		\textbf{Đáp án: A.}
+		
+	}
+\end{dang}
+
+\begin{dang}{Xác định các đại lượng khi $R$ thay đổi\\ để công suất trên điện trở là lớn nhất ($\calP_{R\ \text{max}}$)}
+	\viduii{3}{Cho đoạn mạch mắc nối tiếp gồm cuộn dây có điện trở hoạt động $r = 50\ \Omega$, độ tự cảm $L = \dfrac{2}{5\pi}\ \text{H}$, tụ điện có điện dung $C =\dfrac{1}{10\pi}\ \text{mF}$ vào điện trở thuần $R$ thay đổi được. Đặt vào hai đầu đoạn một điện áp xoay chiều $u = 100\sqrt 2 \cos 100\pi t\ \text{V}$. Công suất tiêu thụ trên điện trở $R$ đạt giá trị cực đại khi $R$ có giá trị
+		\begin{mcq}(4)
+			\item $10\ \Omega$.
+			\item $110\ \Omega$.
+			\item $\text{78,1}\ \Omega$.
+			\item $\text{138,7}\ \Omega$.
+		\end{mcq}	
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Giá trị dung kháng và cảm kháng
+		$$Z_L = L\omega = 40\ \Omega; Z_C =\dfrac{1}{C\omega} = 100\ \Omega.$$
+		
+		Công suất tiêu thụ trên điện trở $R$ đạt giá trị cực đại khi $R$ có giá trị
+		
+		$$R =\sqrt {r^2 + (Z_L-Z_C)^2} =\text{78,1}\ \Omega.$$
+		
+		
+		\textbf{Đáp án: C.}
+	}
+	\viduii{3}{Một đoạn mạch mắc nối tiếp gồm cuộn dây có điện trở thuần $40\ \Omega$, độ tự cảm $L= \dfrac{\text{0,7}}{\pi} \ \text{H}$, tụ điện có điện dung $\dfrac{\text{0,1}}{\pi}\ \text{mF}$ và một biến trở $R$. Điện áp ở hai đầu đoạn mạch ổn định $120\ \text{V} - 50\ \text{Hz}$. Khi $R=R_0$ thì công suất tỏa nhiệt trên biến trở đạt giá trị cực đại là $P_{R_\text{max}}$. Tìm giá trị $R_0$ và $P_{R_\text{max}}$.
+		\begin{mcq}(2)
+			\item $30\ \Omega$ và 240 W.
+			\item $50\ \Omega$ và 240 W.
+			\item $50\ \Omega$ và 80 W.
+			\item $30\ \Omega$ và 80 W.
+		\end{mcq}	
+	}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Tần số góc của dòng điện là
+		$$\Omega =2\pi f =100\ \text{rad/s}.$$
+		
+		Giá trị dung kháng và cảm kháng
+		$$Z_C =\dfrac{1}{C\omega} = 100\ \Omega; Z_L = L\omega =70\ \Omega. $$
+		
+		Giá trị biến trở:
+		$$R_0 =\sqrt {r^2 + (Z_L-Z_C)^2} = 50\ \Omega.$$
+		
+		Công suất tỏa nhiệt trên biến trở
+		$$P_{R_\text{max}} =\dfrac{U^2}{2(R +r)} = 80\ \text{W}.$$ 
+		
+		\textbf{Đáp án: C.}
+		
+	}
+\end{dang}
+
+
+
+
+
+\begin{dang}{Xác định các đại lượng khi $R$ thay đổi\\ có hai giá trị $R_1$, $R_2$ cho cùng giá trị $I, \calP$}
+	\viduii{3}{Một mạch điện gồm tụ điện $C$, một cuộn cảm thuần $L$ và một biến trở $R$ được mắc nối tiếp. Đặt vào hai đầu mạch điện một điện áp $u = 100\sqrt 2 \cos 100\pi t\ \text{V}$. Khi để biến trở ở giá trị $R_1$ hoặc $R_2$ thì công suất điện tiêu thụ trên đoạn mạch là như nhau. Nếu $R_1+R_2 = 100\ \Omega$ thì giá trị công suất đó bằng
+		\begin{mcq}(4)
+			\item 50 W.
+			\item 200 W.
+			\item 400 W.
+			\item 100 W.
+	\end{mcq}}
+	{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Áp dụng công thức:
+		$$R_1+R_2 =\dfrac{U^2}{\calP} \Rightarrow \calP = \dfrac{U^2}{R_1+R_2} = 100\ \text{W}.$$
+		
+		\textbf{Đáp án: D.}
+	}
+	\viduii{3}{Đặt điện áp xoay chiều có giá trị hiệu dụng không đổi vào hai đầu đoạn mạch gồm biến trở $R$ mắc nối tiếp với tụ điện. Dung kháng của tụ điện là $\SI{100}{\Omega}$. Khi điều chỉnh $R$ thì tại hai giá trị $R_1$ và $R_2$ công suất tiêu thụ của mạch như nhau. Biết điện áp hiệu dụng giữa hai đầu tụ điện khi $R=R_1$ gấp hai lần điện áp hiệu dụng giữa hai đầu tụ điện khi $R=R_2$. Các giá trị $R_1$ và $R_2$ là
+		\begin{mcq}(2)
+			\item $R_1 = \SI{50}{\Omega}$, $R_2=\SI{100}{\Omega}$.
+			\item $R_1=\SI{40}{\Omega}$, $R_2=\SI{250}{\Omega}$.
+			\item $R_1=\SI{50}{\Omega}$, $R_2=\SI{200}{\Omega}$.
+			\item $R_1=\SI{25}{\Omega}$, $R_2=\SI{100}{\Omega}$.
+	\end{mcq}}
+	{
+		\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		Có hai giá trị $R_1$, $R_2$ cho cùng một giá trị công suất $\calP$, qua các bước chứng minh (như trên), ta được:
+		\begin{equation*}\begin{cases}
+				R_1 + R_2 &= \dfrac{U^2}{\calP}\\
+				R_1R_2&=(Z_L-Z_C)^2=Z_C^2
+			\end{cases}.\end{equation*}
+		
+		Từ công thức tính điện áp giữa hai đầu tụ điện, ta có:
+		\begin{align*}
+			U_{C1}&=2U_{C2} \\
+			\Rightarrow I_1 &= 2 I_2 \\
+			\Leftrightarrow \dfrac{U}{\sqrt{R_1^2 + Z_C^2}}&=2\dfrac{U}{\sqrt{R_2^2+Z_C^2}}\\
+			\Rightarrow R_2^2+Z_C^2&=4(R_1^2+Z_C^2).
+		\end{align*}
+		
+		Thay $R_2=\dfrac{Z_C^2}{R_1}$ vào phương trình trên, ta được:
+		\begin{equation*}\begin{cases}
+				R_1&= \SI{50}{\Omega}\\
+				R_2&= \SI{200}{\Omega}
+			\end{cases}.\end{equation*}	
+		
+		\textbf{Đáp án: C.}
+	}
+\end{dang}

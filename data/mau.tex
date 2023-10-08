@@ -1,0 +1,140 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  23. Động lượng. Định luật bảo toàn động lượng
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Động lượng của một vật]{Động lượng của một vật}
+\section{Lý thuyết}
+Động lượng $\vec{p}$ của một vật khối lượng $m$ đang chuyển động với vận tốc $\vec{v}$ là đại lượng được xác định bởi công thức:
+\begin{equation}
+	\vec{p}=m\vec{v}.
+\end{equation}
+Động lượng là một đại lượng vector cùng hướng với vận tốc của vật.
+\ppgiai{
+\begin{description}
+	\item[Bước 1] Ta tìm vector vận tốc của vật dựa vào kiến thức đã học về chuyển động 
+	
+	+ Độ lớn của vận tốc.
+	
+	+ Phương chiều của vận tốc.
+	\item[Bước 2]Biết được vector vận tốc của vật ta tính được động lượng của vật
+	
+	+ Độ lớn của động lượng (kg $\cdot$ m/s).
+	
+	+ Phương chiều động lượng cùng phương cùng chiều với vận tốc của vật.
+\end{description}
+}
+\section{Mục tiêu bài học - Ví dụ minh họa}
+\begin{dang}{Thực hiện xác định động lượng của một vật theo công thức.}
+	\viduii{2}{Một ô tô có khối lượng $\SI{1000}{kg}$, chạy với vận tốc $\SI{54}{km/h}$. Tính động lượng của ô tô.
+	}
+	{	\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Đổi $v=\SI{54}{km/h} = \SI{15}{m/s}$.
+		
+		Động lượng của ô tô:
+		$p = mv =\SI{1000}{kg} \cdot \SI{15}{m/s}= \SI{15000}{kg.m/s}$.
+		
+	\begin{center}
+	\textbf{Câu hỏi tương tự}
+	\end{center}
+
+	Một ô tô có khối lượng $\SI{1000}{kg}$, chạy với vận tốc $\SI{36}{km/h}$. Tính động lượng của ô tô.
+	
+	\textbf{Đáp án:} $p=\SI{10000}{kg.m/s}$.
+	}
+	\viduii{3}{Tại thời điểm $t_0=0$, một vật $m = 500\ \text{g}$ rơi tự do không vận tốc đầu từ độ cao 80 m xuống đất với $g=10 \text{m/s}^2$. Động lượng của vật tại thời điểm $t = 2\ \text{s}$ có
+		
+	\begin{mcq}
+		\item độ lớn 10 kg $\cdot$ m/s; phương thẳng đứng chiều từ dưới lên trên.
+		\item độ lớn 10000 kg $\cdot$ m/s; phương thẳng đứng chiều từ trên xuống dưới.
+		\item độ lớn 10 kg $\cdot$ m/s; phương thẳng đứng chiều từ trên xuống dưới.
+		\item độ lớn 10000 kg $\cdot$ m/s; phương thẳng đứng chiều từ dưới lên trên.
+	\end{mcq}
+	}
+	{	\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		\begin{itemize}
+			\item Vecto vận tốc của vật trong chuyển động rơi tự do sau 2 giây có
+			
+			+ Độ lớn 
+			
+			\begin{equation*}
+				v=g \cdot t = 20 \ \text{m/s}.
+			\end{equation*}
+			
+			+ Phương và chiều: thẳng đứng chiều từ trên xuống dưới.
+			
+			\item Động lượng của vật sau 2 giây
+			
+			+ Độ lớn 
+			
+			\begin{equation*}
+				p=mv= 10\ \text{kg} \cdot \text{m/s}.
+			\end{equation*}
+			
+			+ Phương và chiều: thẳng đứng chiều từ trên xuống dưới.
+		\end{itemize}
+		
+		\textbf{Đáp án: C}.
+		
+		\begin{center}
+			\textbf{Câu hỏi tương tự}
+		\end{center}
+	
+	Tại thời điểm $t_0=0$, một vật $m = 1\ \text{kg}$ rơi tự do không vận tốc đầu từ độ cao 80 m xuống đất với $g=10 \text{m/s}^2$. Xác định động lượng của vật tại thời điểm $t = 1\ \text{s}$.
+	
+	\textbf{Đáp án:} $p=10\ \text{kg} \cdot \text{m/s}$.
+	}
+\end{dang}
+
+\begin{dang}{Thực hiện xác định vận tốc hoặc khối lượng của vật chuyển động.}
+	\viduii{2}{Một vật có khối lượng $\SI{2}{\kilogram}$ và có động lượng $\SI{6}{kg.m/s}$. Vật đang chuyển động với vận tốc bao nhiêu?
+	}
+	{	\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Vận tốc của vật: $v=\dfrac{p}{m}=\dfrac{\SI{6}{kg.m/s}}{\SI{2}{\kilogram}}=\SI{3}{m/s}$.
+		
+		\begin{center}
+			\textbf{Câu hỏi tương tự}
+		\end{center}
+	
+	Một vật có khối lượng $\SI{3}{\kilogram}$ và có động lượng $\SI{6}{kg.m/s}$. Vật đang chuyển động với vận tốc bao nhiêu?
+	
+	\textbf{Đáp án:} $v=\SI{2}{m/s}$.
+	}
+	\viduii{2}{Một vật có động lượng $\SI{6}{kg.m/s}$ thì khối lượng của vật là bao nhiêu? Biết vật đang chuyển động với vận tốc $\SI{1}{m/s}$.
+	}
+	{	\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Khối lượng của vật: $m=\dfrac{p}{v}=\dfrac{\SI{6}{kg.m/s}}{\SI{1}{m/s}}=\SI{6}{kg}$.
+		
+		\begin{center}
+			\textbf{Câu hỏi tương tự}
+		\end{center}
+		
+		Một vật có động lượng $\SI{60}{kg.m/s}$ thì khối lượng của vật là bao nhiêu? Biết vật đang chuyển động với vận tốc $\SI{36}{km/h}$.
+		
+		\textbf{Đáp án:} $m=\SI{6}{kg}$.
+	}
+\end{dang}

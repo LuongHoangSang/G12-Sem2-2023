@@ -1,0 +1,208 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  33. Mẫu nguyên tử Bo
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Mẫu nguyên tử Bohr: 2 tiên đề Bohr]{Mẫu nguyên tử Bohr: 2 tiên đề Bohr}
+
+\section{Lý thuyết}
+
+\subsection{Các tiên đề của Bohr về cấu tạo nguyên tử}
+\subsubsection{Tiên đề về các trạng thái dừng}
+	\begin{itemize}
+		\item Nguyên tử chỉ tồn tại trong một số trạng thái có năng lượng xác định, gọi là các trạng thái dừng, khi ở trạng thái dừng thì nguyên tử không bức xạ.
+		\item Trong các trạng thái dừng của nguyên tử, electron chỉ chuyển động quanh hạt nhân trên những quỹ đạo có bán kính hoàn toàn xác định gọi là các quỹ đạo dừng.
+	\end{itemize}
+
+\subsubsection{Tiên đề về sự bức xạ và hấp thụ năng lượng của nguyên tử}
+\begin{itemize}
+	\item Khi nguyên tử chuyển từ trạng thái dừng có năng lượng ($E_ n$) sang trạng thái dừng có năng lượng thấp hơn ($E_m$) thì nó phát ra một phôtôn có năng lượng đúng bằng hiệu $E_n-E_m$:
+	\begin{equation}
+		\varepsilon = h f_{nm}=E_n-E_m.
+	\end{equation}
+	\item Ngược lại, nếu nguyên tử đang ở trong trạng thái dừng có năng lượng $E_m$ mà hấp thụ được một phôtôn có năng lượng đúng bằng hiệu $E_n-E_m$ thì nó chuyển lên trạng thái dừng có năng lượng cao $E_n$.
+\end{itemize}
+\luuy{\begin{itemize}
+	\item Bình thường, nguyên tử ở trong trạng thái dừng có năng lượng thấp nhất và electron chuyển động trên quỹ đạo gần hạt nhân nhất. Đó là trạng thái cơ bản. \item Khi hấp thụ năng lượng thì nguyên tử chuyển lên các trạng thái dừng có năng lượng cao hơn và electron chuyển động trên những quỹ đạo xa hạt nhân hơn. Đó là các trạng thái kích thích.
+\end{itemize}}
+\subsection{Ứng dụng mẫu nguyên tử Bohr cho nguyên tử hiđrô}
+\subsubsection{Bán kính quỹ đạo dừng}
+Đối với nguyên tử hiđrô, bán kính các quỹ đạo dừng tăng tỉ lệ với bình phương của các số nguyên liên tiếp:
+\begin{equation}
+	r_n = n^2 r_0,
+\end{equation}
+trong đó:
+\begin{itemize}
+	\item $r_0 = \SI{5.3e-11}{\meter}$ là bán kính Bohr (nguyên tử ở trạng thái cơ bản);
+	\item $n$ là các số nguyên được xác định qua bảng sau:
+\begin{center}
+\begin{tabular}{|m{8em}|m{5em}|m{5em}|m{5em}|m{5em}|m{5em}|m{5em}|}
+	\hline
+	\textbf{Bán kính} 
+	&\multicolumn{1}{c|}{$r_0$}
+	&\multicolumn{1}{c|}{$4r_0$}
+	&\multicolumn{1}{c|}{$9r_0$}
+	&\multicolumn{1}{c|}{$16r_0$}
+	&\multicolumn{1}{c|}{$25r_0$}
+	&\multicolumn{1}{c|}{$36r_0$}
+	\\ \hline
+	\textbf{Tên quỹ đạo}
+	& \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}} $\text K$\\ $(n=1)$\end{tabular}} 
+	& \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}} $\text L$\\ $(n=2)$\end{tabular}} 
+	& \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}} $\text M$\\ $(n=3)$\end{tabular}} 
+	& \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}} $\text N$\\ $(n=4)$\end{tabular}} 
+	& \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}} $\text O$\\ $(n=5)$\end{tabular}} 
+	& \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}} $\text P$\\ $(n=6)$\end{tabular}} 
+	\\ \hline
+\end{tabular}
+\end{center}
+\end{itemize}
+\subsubsection{Năng lượng của nguyên tử ở các trạng thái dừng}
+Năng lượng của nguyên tử hiđrô ở các trạng thái dừng được xác định bởi công thức:
+\begin{equation}
+	E_n= \dfrac {-13.6}{n ^2} \SI{}{\electronvolt},
+\end{equation}
+trong đó $\SI{13.6}{\electronvolt}$ là năng lượng ion hóa của nguyên tử hiđrô.
+
+\section{Mục tiêu bài học - Ví dụ minh họa}
+\begin{dang}{Vận dụng kết hợp công thức tính lực hướng tâm và công thức tính lực điện.}
+	\viduii{3}{Cho bán kính Bohr là $r_0=\SI{5.3e-11}{\meter}$, hằng số điện $k=\SI{9e9}{N \meter ^2 / \coulomb ^2}$, điện tích nguyên tố $e=\SI{1.6e-19}{\coulomb}$, khối lượng electron $m_e=\SI{9.1e-31}{\kilogram}$. Trong nguyên tử hiđrô, nếu electron chuyển động tròn đều quanh hạt nhân thì ở quỹ đạo L, tốc độ góc của electron là
+	\begin{mcq}(2)
+		\item $\SI{0.5e16}{\radian / \second}$.
+		\item $\SI{2.4e16}{\radian / \second}$.
+		\item $\SI{1.5e16}{\radian / \second}$.
+		\item $\SI{4.6e16}{\radian / \second}$.
+	\end{mcq}}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+	Nếu coi electron chuyển động tròn đều quanh hạt nhân thì lực điện giữa electron và hạt nhân đóng vai trò lực hướng tâm:
+	\begin{equation*}
+		k \dfrac {|q_1 q_2|}{r^2} = m_e \omega ^2 r = m_e \dfrac{v^2}{r},
+	\end{equation*}
+	trong đó $r$ được xác định bởi công thức $r_n = n^2 r_0$.
+
+	Bán kính nguyên tử ở quỹ đạo L ($n = 2$):
+	\begin{equation*}
+		r_n =n^2 r_0 = \SI{2.12e-10}{\meter}.
+	\end{equation*}
+	
+	Tốc độ góc của electron:
+	\begin{equation*}
+		k \dfrac {|q_1q_2|}{r^2} = m_e \omega ^2 r \Rightarrow \omega = \sqrt {k\dfrac{|q_1q_2|}{m_er^3}} \approx \SI{0.5e16}{\radian / \second}.
+	\end{equation*}
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+Cho bán kính Bohr là $r_0=\SI{5.3e-11}{\meter}$, hằng số điện $k=\SI{9e9}{N \meter ^2 / \coulomb ^2}$, điện tích nguyên tố $e=\SI{1.6e-19}{\coulomb}$, khối lượng electron $m_e=\SI{9.1e-31}{\kilogram}$. Trong nguyên tử hiđrô, nếu electron chuyển động tròn đều quanh hạt nhân thì ở quỹ đạo L, tốc độ dài của electron là
+	\begin{mcq}(2)
+		\item $ \SI{1,06 e6}{m/s} $.
+		\item $ \SI{5,09 e6}{m/s} $.
+		\item $ \SI{3,18 e6}{m/s} $.
+		\item $ \SI{9,75 e6}{m/s} $.
+	\end{mcq}	
+	
+	\textbf{Đáp án:} A.}
+	
+	\viduii{3}{ Theo các tiên đề Bohr, giả sử chuyển động của electron quanh hạt nhân là chuyển động tròn đều. Tỉ số giữa tốc độ của electron trên quỹ đạo K với tốc độ của electron trên quỹ đạo N bằng
+	\begin{mcq}(4)
+		\item 4.
+		\item 3.
+		\item 6.
+		\item 9.
+	\end{mcq}}
+{	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+
+	Từ phương trình:
+	\begin{equation*}
+		k \dfrac {|q_1q_2|}{r^2} = m_e \dfrac{v^2}{r},
+	\end{equation*}
+	ta thấy
+	\begin{equation*}
+		v^2 = k\dfrac{m|q_1q_2|}{r}
+	\end{equation*}
+	hay
+	\begin{equation*}
+		v^2 \sim \dfrac{1}{r}.
+	\end{equation*}
+	
+	Mà $r_n =n ^2 r_0$, suy ra
+	\begin{equation*}
+		v \sim \dfrac{1}{n}.
+	\end{equation*}
+	
+	Tỉ số giữa tốc độ của electron trên quỹ đạo K ($n_\text K = 1$) với tốc độ của electron trên quỹ đạo N ($n_\text N= 4$):
+	\begin{equation*}
+		\dfrac{v_\text K}{v_\text N} = \dfrac{n_\text N}{n_\text K}=\dfrac{4}{1}=4.
+	\end{equation*}
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+	Theo các tiên đề Bohr, giả sử chuyển động của electron quanh hạt nhân là chuyển động tròn đều. Tỉ số giữa tốc độ của electron trên quỹ đạo K với tốc độ của electron trên quỹ đạo L bằng
+	\begin{mcq}(4)
+		\item 4.
+		\item 3.
+		\item 2.
+		\item 9.
+	\end{mcq}
+	
+	\textbf{Đáp án:} C.}
+\end{dang}
+\begin{dang}{Vận dụng công thức tính năng lượng bức xạ hoặc hấp thụ của nguyên tử.}
+	\vidu{3}{ Electron trong nguyên tử hiđrô chuyển từ quỹ đạo có năng lượng $E_\text M = \SI{-1.5}{\electronvolt}$ xuống quỹ đạo có năng lượng $E_\text L = \SI{-3.4}{\electronvolt}$. Tìm bước sóng của vạch quang phổ phát ra.
+	\begin{mcq}(2)
+		\item $\lambda = \SI{0.654}{\micro \meter}$.
+		\item $\lambda= \SI{0.643}{\micro \meter}$.
+		\item $\lambda = \SI{0.564}{\micro \meter}$.
+		\item $\lambda = \SI{0.458}{\micro \meter}$.
+	\end{mcq}}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+	Áp dụng công thức tính năng lượng của phôtôn phát ra khi nguyên tử chuyển từ trạng thái dừng có mức năng lượng $E_\text M$ (cao) sang trạng thái dừng có mức năng lượng $E_\text L$ (thấp): \begin{equation*}
+		\varepsilon = \dfrac {hc}{\lambda} = E_\text M - E_ \text L. 
+	\end{equation*}
+
+	Đổi $E_\text M = \SI{-1.5}{\electronvolt} \rightarrow \SI{-2.4e-19}{\joule}$ và $E_\text L = \SI{-3.4}{\electronvolt} \rightarrow \SI{-5.44e-19}{\joule}$.
+	
+	Áp dụng công thức:
+	\begin{align*}
+		\dfrac{hc}{\lambda}&=E_\text M - E_ \text L \\
+		\Rightarrow \lambda &= \dfrac {hc}{E_\text M - E_ \text L} \approx \SI{0.654}{\micro \meter}.
+	\end{align*}
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+	Electron trong nguyên tử hiđrô chuyển từ quỹ đạo có năng lượng $E_\text M = \SI{-1.5}{\electronvolt}$ xuống quỹ đạo có năng lượng $E_\text L = \SI{-3.4}{\electronvolt}$. Vạch quang phổ phát ra bước sóng $ \SI{0,654}{\mu m} $. Giá trị của $ E_\text L $ là
+	\begin{mcq}(4)
+		\item $ \SI{-3,4}{eV} $.
+		\item $ \SI{-2,4}{eV} $.
+		\item $ \SI{-4,2}{eV} $.
+		\item $ \SI{-3,0}{eV} $.
+	\end{mcq}
+	
+	\textbf{Đáp án:} A.
+	}
+\end{dang}

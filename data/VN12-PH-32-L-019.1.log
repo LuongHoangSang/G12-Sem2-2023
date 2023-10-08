@@ -1,0 +1,5264 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.23)  16 NOV 2021 15:16
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**VN12-PH-32-L-019.1.tex
+(./VN12-PH-32-L-019.1.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...n sắc ánh sáng]{Tán sắc ánh sáng}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 18--18
+[] 
+ []
+
+! Undefined control sequence.
+\\chapter ...ge}[t]{\linewidth } \includegraphics 
+                                                  [height=1cm]{hdht-logo.png...
+l.18 ...n sắc ánh sáng]{Tán sắc ánh sáng}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+! Undefined control sequence.
+\\chapter ...ace {0pt} \sffamily \bfseries \large 
+                                                  Bài 24. Tán sắc ánh s...
+l.18 ...n sắc ánh sáng]{Tán sắc ánh sáng}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character ắ (U+1EAF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...n sắc ánh sáng]{Tán sắc ánh sáng}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (15.13896pt too wide) in paragraph at lines 18--18
+\OT1/cmss/bx/n/10 B^^Rai
+ []
+
+
+Overfull \hbox (14.05563pt too wide) in paragraph at lines 18--18
+\OT1/cmss/bx/n/10 24.
+ []
+
+
+Overfull \hbox (18.19453pt too wide) in paragraph at lines 18--18
+\OT1/cmss/bx/n/10 T^^San
+ []
+
+
+Overfull \hbox (9.1056pt too wide) in paragraph at lines 18--18
+\OT1/cmss/bx/n/10 sc
+ []
+
+
+Overfull \hbox (16.47229pt too wide) in paragraph at lines 18--18
+\OT1/cmss/bx/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (20.57788pt too wide) in paragraph at lines 18--18
+\OT1/cmss/bx/n/10 s^^Sang 
+ []
+
+! Undefined control sequence.
+\\chapter ... ánh sáng \begin {flushleft} \huge 
+                                                  \bfseries #1 \end {flushle...
+l.18 ...n sắc ánh sáng]{Tán sắc ánh sáng}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character ắ (U+1EAF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...n sắc ánh sáng]{Tán sắc ánh sáng}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (18.19453pt too wide) in paragraph at lines 18--18
+\OT1/cmss/bx/n/10 T^^San 
+ []
+
+
+Overfull \hbox (9.1056pt too wide) in paragraph at lines 18--18
+\OT1/cmss/bx/n/10 sc 
+ []
+
+
+Overfull \hbox (16.47229pt too wide) in paragraph at lines 18--18
+\OT1/cmss/bx/n/10 ^^Sanh 
+ []
+
+
+Overfull \hbox (20.57788pt too wide) in paragraph at lines 18--18
+\OT1/cmss/bx/n/10 s^^Sang  
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...n sắc ánh sáng]{Tán sắc ánh sáng}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.19 \section
+             {Lý thuyết trọng tâm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character ế (U+1EBF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \section{Lý thuyế
+                         t trọng tâm}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ọ (U+1ECD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \section{Lý thuyết trọ
+                                ng tâm}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (11.52782pt too wide) in paragraph at lines 19--20
+\OT1/cmr/m/n/10 L^^Sy
+ []
+
+
+Overfull \hbox (23.88896pt too wide) in paragraph at lines 19--20
+\OT1/cmr/m/n/10 thuyt
+ []
+
+
+Overfull \hbox (18.36116pt too wide) in paragraph at lines 19--20
+\OT1/cmr/m/n/10 trng
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 19--20
+\OT1/cmr/m/n/10 t^am 
+ []
+
+! Undefined control sequence.
+l.21 \subsection
+                {Nhắc lại lăng kính}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character ắ (U+1EAF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \subsection{Nhắ
+                      c lại lăng kính}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ạ (U+1EA1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \subsection{Nhắc lạ
+                            i lăng kính}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Undefined control sequence.
+l.22 \subsubsection
+                   {Đường truyền của tia sáng qua lăng kính}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \DJ unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \subsubsection{Đ
+                      ường truyền của tia sáng qua lăng kính}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ư (U+01B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \subsubsection{Đư
+                        ờng truyền của tia sáng qua lăng kính}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ờ (U+1EDD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \subsubsection{Đườ
+                           ng truyền của tia sáng qua lăng kính}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ề (U+1EC1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \subsubsection{Đường truyề
+                                     n của tia sáng qua lăng kính}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \subsubsection{Đường truyền củ
+                                           a tia sáng qua lăng kính}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 Khi tia sáng đ
+                     ược chiếu đến lăng kính, tia sáng sẽ bị ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ư (U+01B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 Khi tia sáng đư
+                       ợc chiếu đến lăng kính, tia sáng sẽ bị ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ợ (U+1EE3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 Khi tia sáng đượ
+                          c chiếu đến lăng kính, tia sáng sẽ bị ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ế (U+1EBF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 Khi tia sáng được chiế
+                                  u đến lăng kính, tia sáng sẽ bị ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 Khi tia sáng được chiếu đ
+                                      ến lăng kính, tia sáng sẽ bị ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ế (U+1EBF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 Khi tia sáng được chiếu đế
+                                         n lăng kính, tia sáng sẽ bị ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ẽ (U+1EBD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...chiếu đến lăng kính, tia sáng sẽ
+                                                   bị khúc xạ ở các ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ị (U+1ECB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...�u đến lăng kính, tia sáng sẽ bị
+                                                   khúc xạ ở các mặt...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ạ (U+1EA1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...ăng kính, tia sáng sẽ bị khúc xạ
+                                                   ở các mặt bên như ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ở (U+1EDF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ... kính, tia sáng sẽ bị khúc xạ ở
+                                                   các mặt bên như hìn...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ặ (U+1EB7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...a sáng sẽ bị khúc xạ ở các mặ
+                                                  t bên như hình vẽ.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ư (U+01B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...� bị khúc xạ ở các mặt bên như
+                                                   hình vẽ.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ẽ (U+1EBD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...c xạ ở các mặt bên như hình vẽ
+                                                  .
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (37.50003pt too wide) in paragraph at lines 21--24
+[]\OT1/cmr/m/n/10 Nhc
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 li
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 l^^Uang
+ []
+
+
+Overfull \hbox (19.16673pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 k^^S^^Pnh
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 ng
+ []
+
+
+Overfull \hbox (24.19452pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 truyn
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 tia
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (15.83337pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 qua
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 l^^Uang
+ []
+
+
+Overfull \hbox (19.16673pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 k^^S^^Pnh
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 Khi
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 tia
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 c
+ []
+
+
+Overfull \hbox (18.05559pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 chiu
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 n
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 l^^Uang
+ []
+
+
+Overfull \hbox (21.94452pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 k^^S^^Pnh,
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 tia
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (3.94444pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 s
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 b
+ []
+
+
+Overfull \hbox (20.83339pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 kh^^Suc
+ []
+
+
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 x
+ []
+
+
+Overfull \hbox (13.8889pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 c^^Sac
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 mt
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 b^en
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 nh
+ []
+
+
+Overfull \hbox (19.4445pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 h^^R^^Pnh
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 21--24
+\OT1/cmr/m/n/10 v. 
+ []
+
+! Undefined control sequence.
+l.25 	\includegraphics
+                      [scale=0.4]{../figs/VN12-PH-32-L-019-1-1.jpg}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (105.11134pt too wide) in paragraph at lines 25--26
+ \OT1/cmr/m/n/10 [scale=0.4]../figs/VN12- 
+ []
+
+
+Overfull \hbox (17.63892pt too wide) in paragraph at lines 25--26
+ \OT1/cmr/m/n/10 PH- 
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 25--26
+ \OT1/cmr/m/n/10 32- 
+ []
+
+
+Overfull \hbox (9.58334pt too wide) in paragraph at lines 25--26
+ \OT1/cmr/m/n/10 L- 
+ []
+
+
+Overfull \hbox (18.33337pt too wide) in paragraph at lines 25--26
+ \OT1/cmr/m/n/10 019- 
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 25--26
+ \OT1/cmr/m/n/10 1- 
+ []
+
+
+Overfull \hbox (21.38896pt too wide) in paragraph at lines 25--26
+ \OT1/cmr/m/n/10 1.jpg 
+ []
+
+
+! Package inputenc Error: Unicode character ạ (U+1EA1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 Góc tạ
+              o bởi tia ló và tia tới gọi là \textit{góc lệch $D...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ở (U+1EDF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 Góc tạo bở
+                    i tia ló và tia tới gọi là \textit{góc lệch $D...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 Góc tạo bởi tia ló và tia tớ
+                                          i gọi là \textit{góc lệch $D...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ọ (U+1ECD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 Góc tạo bởi tia ló và tia tới gọ
+                                                i là \textit{góc lệch $D...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ệ (U+1EC7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...a tới gọi là \textit{góc lệch $D$}
+                                                   của ánh sáng khi truy...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 28.
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...�i gọi là \textit{góc lệch $D$} củ
+                                                  a ánh sáng khi truyền ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ề (U+1EC1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...c lệch $D$} của ánh sáng khi truyề
+                                                  n qua lăng kính.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Undefined control sequence.
+l.29 \manatip
+             {Khi không xảy ra phản xạ toàn phần, tia ló bao gi�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character ả (U+1EA3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \manatip{Khi không xả
+                             y ra phản xạ toàn phần, tia ló bao gi�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ả (U+1EA3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \manatip{Khi không xảy ra phả
+                                       n xạ toàn phần, tia ló bao gi�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ạ (U+1EA1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \manatip{Khi không xảy ra phản xạ
+                                              toàn phần, tia ló bao gi�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ầ (U+1EA7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...hi không xảy ra phản xạ toàn phầ
+                                                  n, tia ló bao giờ cũng...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ờ (U+1EDD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...hản xạ toàn phần, tia ló bao giờ
+                                                   cũng lệch về phía �...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ệ (U+1EC7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...toàn phần, tia ló bao giờ cũng lệ
+                                                  ch về phía đáy lăng ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ề (U+1EC1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...hần, tia ló bao giờ cũng lệch về
+                                                   phía đáy lăng kính.}	
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...a ló bao giờ cũng lệch về phía đ
+                                                  áy lăng kính.}	
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.30 \subsubsection
+                   {Công thức của lăng kính}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character ứ (U+1EE9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \subsubsection{Công thứ
+                               c của lăng kính}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \subsubsection{Công thức củ
+                                     a lăng kính}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (37.29169pt too wide) in paragraph at lines 28--31
+[]\OT1/cmr/m/n/10 G^^Soc
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 bi
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 tia
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 l^^So
+ []
+
+
+Overfull \hbox (10.27782pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 v^^Ra
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 tia
+ []
+
+
+Overfull \hbox (6.66669pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 ti
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 gi
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 l^^Ra
+ []
+
+
+Overfull \hbox (14.311pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/it/10 g^^Soc
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/it/10 lch
+ []
+
+
+Overfull \hbox (8.55695pt too wide) in paragraph at lines 28--31
+\OML/cmm/m/it/10 D$
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (13.61116pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 khi
+ []
+
+
+Overfull \hbox (24.19452pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 truyn
+ []
+
+
+Overfull \hbox (15.83337pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 qua
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 l^^Uang
+ []
+
+
+Overfull \hbox (21.94452pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 k^^S^^Pnh.
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 Khi
+ []
+
+
+Overfull \hbox (26.38898pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 kh^ong
+ []
+
+
+Overfull \hbox (10.5556pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 xy
+ []
+
+
+Overfull \hbox (8.91669pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 ra
+ []
+
+
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 phn
+ []
+
+
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 x
+ []
+
+
+Overfull \hbox (19.4445pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 to^^Ran
+ []
+
+
+Overfull \hbox (19.4445pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 phn,
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 tia
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 l^^So
+ []
+
+
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 bao
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 gi
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 c~ung
+ []
+
+
+Overfull \hbox (12.50002pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 lch
+ []
+
+
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 v
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 ph^^S^^Pa
+ []
+
+
+Overfull \hbox (10.27782pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 ^^Say
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 l^^Uang
+ []
+
+
+Overfull \hbox (21.94452pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 k^^S^^Pnh.
+ []
+
+
+Overfull \hbox (22.77783pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 C^ong
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 thc
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 l^^Uang
+ []
+
+
+Overfull \hbox (19.16673pt too wide) in paragraph at lines 28--31
+\OT1/cmr/m/n/10 k^^S^^Pnh 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \begin{center}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+! Undefined control sequence.
+l.32 	\includegraphics
+                      [scale=0.45]{../figs/VN12-PH-32-L-019-1-2.jpg}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (110.11136pt too wide) in paragraph at lines 32--33
+ \OT1/cmr/m/n/10 [scale=0.45]../figs/VN12- 
+ []
+
+
+Overfull \hbox (17.63892pt too wide) in paragraph at lines 32--33
+ \OT1/cmr/m/n/10 PH- 
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 32--33
+ \OT1/cmr/m/n/10 32- 
+ []
+
+
+Overfull \hbox (9.58334pt too wide) in paragraph at lines 32--33
+ \OT1/cmr/m/n/10 L- 
+ []
+
+
+Overfull \hbox (18.33337pt too wide) in paragraph at lines 32--33
+ \OT1/cmr/m/n/10 019- 
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 32--33
+ \OT1/cmr/m/n/10 1- 
+ []
+
+
+Overfull \hbox (21.38896pt too wide) in paragraph at lines 32--33
+ \OT1/cmr/m/n/10 2.jpg 
+ []
+
+
+! Package inputenc Error: Unicode character ạ (U+1EA1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 	\item Tạ
+                i I: $\sin i_1=n\sin r_1$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 35--36
+\OT1/cmr/m/n/10 Ti
+ []
+
+
+Overfull \hbox (6.3889pt too wide) in paragraph at lines 35--36
+\OT1/cmr/m/n/10 I:
+ []
+
+
+Overfull \hbox (32.4312pt too wide) in paragraph at lines 35--36
+[] \OML/cmm/m/it/10 i[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (33.3889pt too wide) in paragraph at lines 35--36
+\OML/cmm/m/it/10 n [] r[]$\OT1/cmr/m/n/10 . 
+ []
+
+
+! Package inputenc Error: Unicode character ạ (U+1EA1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 	\item Tạ
+                i J: $\sin i_2=n\sin r_2$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 36--37
+\OT1/cmr/m/n/10 Ti
+ []
+
+
+Overfull \hbox (7.91669pt too wide) in paragraph at lines 36--37
+\OT1/cmr/m/n/10 J:
+ []
+
+
+Overfull \hbox (32.4312pt too wide) in paragraph at lines 36--37
+[] \OML/cmm/m/it/10 i[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (33.3889pt too wide) in paragraph at lines 36--37
+\OML/cmm/m/it/10 n [] r[]$\OT1/cmr/m/n/10 . 
+ []
+
+
+! Package inputenc Error: Unicode character ế (U+1EBF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 	\item Góc chiế
+                       t quang: $A=r_1+r_2$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (17.29169pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/10 G^^Soc
+ []
+
+
+Overfull \hbox (16.38892pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/10 chit
+ []
+
+
+Overfull \hbox (29.16675pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/10 quang:
+ []
+
+
+Overfull \hbox (18.05553pt too wide) in paragraph at lines 37--38
+\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (16.77551pt too wide) in paragraph at lines 37--38
+\OML/cmm/m/it/10 r[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (11.7755pt too wide) in paragraph at lines 37--38
+\OML/cmm/m/it/10 r[]$\OT1/cmr/m/n/10 . 
+ []
+
+
+! Package inputenc Error: Unicode character ệ (U+1EC7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 	\item Góc lệ
+                     ch của tia sáng qua lăng kính: $D=i_1+i_2-A$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 	\item Góc lệch củ
+                            a tia sáng qua lăng kính: $D=i_1+i_2-A$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (17.29169pt too wide) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 G^^Soc
+ []
+
+
+Overfull \hbox (12.50002pt too wide) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 lch
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 tia
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (15.83337pt too wide) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 qua
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 l^^Uang
+ []
+
+
+Overfull \hbox (21.94452pt too wide) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 k^^S^^Pnh:
+ []
+
+
+Overfull \hbox (19.11246pt too wide) in paragraph at lines 38--39
+\OML/cmm/m/it/10 D \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (15.70906pt too wide) in paragraph at lines 38--39
+\OML/cmm/m/it/10 i[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (15.70906pt too wide) in paragraph at lines 38--39
+\OML/cmm/m/it/10 i[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (10.2778pt too wide) in paragraph at lines 38--39
+\OML/cmm/m/it/10 A$\OT1/cmr/m/n/10 . 
+ []
+
+! Undefined control sequence.
+l.41 \luuy
+          {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character ế (U+1EBF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 	Nế
+          u các góc nhỏ hơn $10^\circ$ thì công thức gần đúng c...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ỏ (U+1ECF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 	Nếu các góc nhỏ
+                            hơn $10^\circ$ thì công thức gần đúng c...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ơ (U+01A1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 	Nếu các góc nhỏ hơ
+                               n $10^\circ$ thì công thức gần đúng c...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ứ (U+1EE9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...óc nhỏ hơn $10^\circ$ thì công thứ
+                                                  c gần đúng của lăng...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ầ (U+1EA7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...ỏ hơn $10^\circ$ thì công thức gầ
+                                                  n đúng của lăng kính...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...hơn $10^\circ$ thì công thức gần đ
+                                                  úng của lăng kính là:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...\circ$ thì công thức gần đúng củ
+                                                  a lăng kính là:
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (33.05559pt too wide) in paragraph at lines 42--43
+[]\OT1/cmr/m/n/10 Nu
+ []
+
+
+Overfull \hbox (13.8889pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 c^^Sac
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 g^^Soc
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 nh
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 hn
+ []
+
+
+Overfull \hbox (14.59726pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 10[]$
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 th^^R^^P
+ []
+
+
+Overfull \hbox (20.00005pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 c^ong
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 thc
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 gn
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 ^^Sung
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 l^^Uang
+ []
+
+
+Overfull \hbox (19.16673pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 k^^S^^Pnh
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 l^^Ra: 
+ []
+
+
+Overfull \hbox (18.48677pt too wide) in paragraph at lines 44--45
+\OML/cmm/m/it/10 i[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (17.77785pt too wide) in paragraph at lines 44--45
+\OML/cmm/m/it/10 nr[]$\OT1/cmr/m/n/10 , 
+ []
+
+
+Overfull \hbox (18.48677pt too wide) in paragraph at lines 45--46
+\OML/cmm/m/it/10 i[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (17.77785pt too wide) in paragraph at lines 45--46
+\OML/cmm/m/it/10 nr[]$\OT1/cmr/m/n/10 , 
+ []
+
+
+Overfull \hbox (18.05553pt too wide) in paragraph at lines 46--47
+\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (19.55322pt too wide) in paragraph at lines 46--47
+\OML/cmm/m/it/10 r[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (11.7755pt too wide) in paragraph at lines 46--47
+\OML/cmm/m/it/10 r[]$\OT1/cmr/m/n/10 , 
+ []
+
+
+Overfull \hbox (19.11246pt too wide) in paragraph at lines 47--48
+\OML/cmm/m/it/10 D \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (17.66905pt too wide) in paragraph at lines 47--48
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (19.16672pt too wide) in paragraph at lines 47--48
+\OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 A$\OT1/cmr/m/n/10 . 
+ []
+
+! Undefined control sequence.
+l.51 \subsection
+                {Sự tán sắc ánh sáng}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character ự (U+1EF1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \subsection{Sự
+                      tán sắc ánh sáng}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ắ (U+1EAF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \subsection{Sự tán sắ
+                               c ánh sáng}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (25.55557pt too wide) in paragraph at lines 51--52
+[]\OT1/cmr/m/n/10 S
+ []
+
+
+Overfull \hbox (14.44449pt too wide) in paragraph at lines 51--52
+\OT1/cmr/m/n/10 t^^San
+ []
+
+
+Overfull \hbox (8.38889pt too wide) in paragraph at lines 51--52
+\OT1/cmr/m/n/10 sc
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 51--52
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 51--52
+\OT1/cmr/m/n/10 s^^Sang 
+ []
+
+! Undefined control sequence.
+l.53 	\includegraphics
+                      [width=\linewidth]{../figs/VN12-PH-32-L-019-1-3.jpg}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.53 	\includegraphics[width=\linewidth]
+                                        {../figs/VN12-PH-32-L-019-1-3.jpg}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.53 	\includegraphics[width=\linewidth]
+                                        {../figs/VN12-PH-32-L-019-1-3.jpg}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (96.72246pt too wide) in paragraph at lines 53--54
+ \OT1/cmr/m/n/10 [width=]../figs/VN12- 
+ []
+
+
+Overfull \hbox (17.63892pt too wide) in paragraph at lines 53--54
+ \OT1/cmr/m/n/10 PH- 
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 53--54
+ \OT1/cmr/m/n/10 32- 
+ []
+
+
+Overfull \hbox (9.58334pt too wide) in paragraph at lines 53--54
+ \OT1/cmr/m/n/10 L- 
+ []
+
+
+Overfull \hbox (18.33337pt too wide) in paragraph at lines 53--54
+ \OT1/cmr/m/n/10 019- 
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 53--54
+ \OT1/cmr/m/n/10 1- 
+ []
+
+
+Overfull \hbox (21.38896pt too wide) in paragraph at lines 53--54
+ \OT1/cmr/m/n/10 3.jpg 
+ []
+
+
+! LaTeX Error: Environment description undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \begin{description}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 	\item[Sự tán sắc ánh sáng]
+                                        là sự phân tách một chùm sá...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package inputenc Error: Unicode character ự (U+1EF1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 	\item[Sự tán sắc ánh sáng] là sự
+                                                 phân tách một chùm sá...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ộ (U+1ED9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ...ắc ánh sáng] là sự phân tách mộ
+                                                  t chùm sáng phức tạp...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ứ (U+1EE9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ...� sự phân tách một chùm sáng phứ
+                                                  c tạp thành các chùm ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ạ (U+1EA1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ... phân tách một chùm sáng phức tạ
+                                                  p thành các chùm sáng ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ...ng phức tạp thành các chùm sáng đ
+                                                  ơn sắc.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ơ (U+01A1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ... phức tạp thành các chùm sáng đơ
+                                                  n sắc.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ắ (U+1EAF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ...c tạp thành các chùm sáng đơn sắ
+                                                  c.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 l^^Ra
+ []
+
+
+Overfull \hbox (3.94444pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 s
+ []
+
+
+Overfull \hbox (21.66673pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 ph^an
+ []
+
+
+Overfull \hbox (18.61115pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 t^^Sach
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 mt
+ []
+
+
+Overfull \hbox (23.61116pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 ch^^Rum
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 phc
+ []
+
+
+Overfull \hbox (9.44447pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 tp
+ []
+
+
+Overfull \hbox (25.55563pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 th^^Ranh
+ []
+
+
+Overfull \hbox (13.8889pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 c^^Sac
+ []
+
+
+Overfull \hbox (23.61116pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 ch^^Rum
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 n
+ []
+
+
+Overfull \hbox (11.16667pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 sc. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 	\item[Ánh sáng đơn sắc]
+                                    là ánh sáng có một màu nhất đ�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package inputenc Error: Unicode character ộ (U+1ED9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...sáng đơn sắc] là ánh sáng có mộ
+                                                  t màu nhất định và ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...sắc] là ánh sáng có một màu nhấ
+                                                  t định và không bị ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...c] là ánh sáng có một màu nhất đ
+                                                  ịnh và không bị tán...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ị (U+1ECB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...là ánh sáng có một màu nhất đị
+                                                  nh và không bị tán s�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ị (U+1ECB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ... một màu nhất định và không bị
+                                                   tán sắc khi qua lăng ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ắ (U+1EAF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...u nhất định và không bị tán sắ
+                                                  c khi qua lăng kính.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 l^^Ra
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 c^^So
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 mt
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 m^^Rau
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 nht
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 nh
+ []
+
+
+Overfull \hbox (10.27782pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 v^^Ra
+ []
+
+
+Overfull \hbox (26.38898pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 kh^ong
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 b
+ []
+
+
+Overfull \hbox (14.44449pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 t^^San
+ []
+
+
+Overfull \hbox (8.38889pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 sc
+ []
+
+
+Overfull \hbox (13.61116pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 khi
+ []
+
+
+Overfull \hbox (15.83337pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 qua
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 l^^Uang
+ []
+
+
+Overfull \hbox (21.94452pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 k^^S^^Pnh. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 	\item[Ánh sáng trắng]
+                                là hỗn hợp của nhiều ánh sáng đ�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package inputenc Error: Unicode character ỗ (U+1ED7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 	\item[Ánh sáng trắng] là hỗ
+                                        n hợp của nhiều ánh sáng đ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ợ (U+1EE3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 	\item[Ánh sáng trắng] là hỗn hợ
+                                              p của nhiều ánh sáng đ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...m[Ánh sáng trắng] là hỗn hợp củ
+                                                  a nhiều ánh sáng đơn...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ề (U+1EC1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...áng trắng] là hỗn hợp của nhiề
+                                                  u ánh sáng đơn sắc c...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...à hỗn hợp của nhiều ánh sáng đ
+                                                  ơn sắc có màu biến ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ơ (U+01A1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ... hỗn hợp của nhiều ánh sáng đơ
+                                                  n sắc có màu biến th...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ắ (U+1EAF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ... hợp của nhiều ánh sáng đơn sắ
+                                                  c có màu biến thiên l...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ế (U+1EBF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...ều ánh sáng đơn sắc có màu biế
+                                                  n thiên liên tục từ ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ụ (U+1EE5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�n sắc có màu biến thiên liên tụ
+                                                  c từ màu đỏ đến m...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ừ (U+1EEB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...�c có màu biến thiên liên tục từ
+                                                   màu đỏ đến màu tím.
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...àu biến thiên liên tục từ màu đ
+                                                  ỏ đến màu tím.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ỏ (U+1ECF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ... biến thiên liên tục từ màu đỏ
+                                                   đến màu tím.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...ến thiên liên tục từ màu đỏ đ
+                                                  ến màu tím.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ế (U+1EBF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...n thiên liên tục từ màu đỏ đế
+                                                  n màu tím.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 l^^Ra
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 hn
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 hp
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (19.4445pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 nhiu
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 n
+ []
+
+
+Overfull \hbox (8.38889pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 sc
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 c^^So
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 m^^Rau
+ []
+
+
+Overfull \hbox (13.88893pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 bin
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 thi^en
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 li^en
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 tc
+ []
+
+
+Overfull \hbox (3.8889pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 t
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 m^^Rau
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 n
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 m^^Rau
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10 t^^S^^Pm. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 	\item[Chiết suất của thủy tinh]
+                                              đối với các ánh sáng �...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 	\item[Chiết suất của thủy tinh] đ
+                                                ối với các ánh sáng �...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ố (U+1ED1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...em[Chiết suất của thủy tinh] đố
+                                                  i với các ánh sáng đ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...ết suất của thủy tinh] đối vớ
+                                                  i các ánh sáng đơn s�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...ủy tinh] đối với các ánh sáng đ
+                                                  ơn sắc khác nhau thì ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ơ (U+01A1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�y tinh] đối với các ánh sáng đơ
+                                                  n sắc khác nhau thì kh...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ắ (U+1EAF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...h] đối với các ánh sáng đơn sắ
+                                                  c khác nhau thì khác nh...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ế (U+1EBF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...n sắc khác nhau thì khác nhau. Chiế
+                                                  t suất có giá trị nh...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ... khác nhau thì khác nhau. Chiết suấ
+                                                  t có giá trị nhỏ nh�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ị (U+1ECB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ... khác nhau. Chiết suất có giá trị
+                                                   nhỏ nhất đối với...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ỏ (U+1ECF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ... nhau. Chiết suất có giá trị nhỏ
+                                                   nhất đối với ánh ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ... Chiết suất có giá trị nhỏ nhấ
+                                                  t đối với ánh sáng ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...ết suất có giá trị nhỏ nhất đ
+                                                  ối với ánh sáng đ�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ố (U+1ED1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...t suất có giá trị nhỏ nhất đố
+                                                  i với ánh sáng đỏ v...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�t có giá trị nhỏ nhất đối vớ
+                                                  i ánh sáng đỏ và tă...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�� nhỏ nhất đối với ánh sáng đ
+                                                  ỏ và tăng dần khi ch...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ỏ (U+1ECF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...nhỏ nhất đối với ánh sáng đỏ
+                                                   và tăng dần khi chuy�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ầ (U+1EA7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...ối với ánh sáng đỏ và tăng dầ
+                                                  n khi chuyển sang màu d...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ể (U+1EC3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...nh sáng đỏ và tăng dần khi chuyể
+                                                  n sang màu da cam, màu v...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ị (U+1ECB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...da cam, màu vàng, ... và có giá trị
+                                                   lớn nhất đối với...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...m, màu vàng, ... và có giá trị lớ
+                                                  n nhất đối với ánh...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ... vàng, ... và có giá trị lớn nhấ
+                                                  t đối với ánh sáng ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...ng, ... và có giá trị lớn nhất đ
+                                                  ối với ánh sáng tím...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ố (U+1ED1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ... ... và có giá trị lớn nhất đố
+                                                  i với ánh sáng tím. �...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...à có giá trị lớn nhất đối vớ
+                                                  i ánh sáng tím. Đặc ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \DJ unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�n nhất đối với ánh sáng tím. Đ
+                                                  ặc điểm này là chun...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ặ (U+1EB7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...nhất đối với ánh sáng tím. Đặ
+                                                  c điểm này là chung c...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�t đối với ánh sáng tím. Đặc đ
+                                                  iểm này là chung cho m...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ể (U+1EC3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�ối với ánh sáng tím. Đặc điể
+                                                  m này là chung cho mọi...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ọ (U+1ECD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...�m. Đặc điểm này là chung cho mọ
+                                                  i chất trong suốt ($n_...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...��c điểm này là chung cho mọi chấ
+                                                  t trong suốt ($n_{\text{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ố (U+1ED1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...ày là chung cho mọi chất trong suố
+                                                  t ($n_{\text{đ}}\leq n \l...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Undefined control sequence.
+l.61 ...g cho mọi chất trong suốt ($n_{\text
+                                                  {đ}}\leq n \leq  n_{\text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \dj invalid in math mode on input line 61.
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...ho mọi chất trong suốt ($n_{\text{đ
+                                                  }}\leq n \leq  n_{\text{t}...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.61 ...uốt ($n_{\text{đ}}\leq n \leq  n_{\text
+                                                  {t}} $).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{description}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \end{description}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 i
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 vi
+ []
+
+
+Overfull \hbox (13.8889pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 c^^Sac
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 n
+ []
+
+
+Overfull \hbox (8.38889pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 sc
+ []
+
+
+Overfull \hbox (20.27783pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 kh^^Sac
+ []
+
+
+Overfull \hbox (21.66673pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 nhau
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 th^^R^^P
+ []
+
+
+Overfull \hbox (20.27783pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 kh^^Sac
+ []
+
+
+Overfull \hbox (24.44452pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 nhau.
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 Chit
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 sut
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 c^^So
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 gi^^Sa
+ []
+
+
+Overfull \hbox (7.80557pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 tr
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 nh
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 nht
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 i
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 vi
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (10.27782pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 v^^Ra
+ []
+
+
+Overfull \hbox (19.4445pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 t^^Uang
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 dn
+ []
+
+
+Overfull \hbox (13.61116pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 khi
+ []
+
+
+Overfull \hbox (25.83339pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 chuyn
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 sang
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 m^^Rau
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 da
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 cam,
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 m^^Rau
+ []
+
+
+Overfull \hbox (23.61119pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 v^^Rang,
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 ...
+ []
+
+
+Overfull \hbox (10.27782pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 v^^Ra
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 c^^So
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 gi^^Sa
+ []
+
+
+Overfull \hbox (7.80557pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 tr
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 ln
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 nht
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 i
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 vi
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 t^^S^^Pm.
+ []
+
+
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 c
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 im
+ []
+
+
+Overfull \hbox (15.83339pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 n^^Ray
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 l^^Ra
+ []
+
+
+Overfull \hbox (25.5556pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 chung
+ []
+
+
+Overfull \hbox (14.72224pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 cho
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 mi
+ []
+
+
+Overfull \hbox (13.61113pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 cht
+ []
+
+
+Overfull \hbox (23.36118pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 trong
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 sut
+ []
+
+
+Overfull \hbox (20.94676pt too wide) in paragraph at lines 61--63
+\OT1/cmr/m/n/10 ($\OML/cmm/m/it/10 n[] \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (16.55786pt too wide) in paragraph at lines 61--63
+\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (16.18988pt too wide) in paragraph at lines 61--63
+\OML/cmm/m/it/10 n[]$\OT1/cmr/m/n/10 ).
+ []
+
+! Undefined control sequence.
+l.68 \section
+             {Bài tập }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character ậ (U+1EAD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \section{Bài tậ
+                       p }
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Undefined control sequence.
+l.69 \vidu
+          {1}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character ế (U+1EBF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 	Chiế
+            t suất của một môi trường trong suốt nhất định ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 	Chiết suấ
+                   t của một môi trường trong suốt nhất định ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 	Chiết suất củ
+                         a một môi trường trong suốt nhất định ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ộ (U+1ED9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 	Chiết suất của mộ
+                               t môi trường trong suốt nhất định ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ư (U+01B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 	Chiết suất của một môi trư
+                                          ờng trong suốt nhất định ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ờ (U+1EDD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 	Chiết suất của một môi trườ
+                                             ng trong suốt nhất định ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ố (U+1ED1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...��t của một môi trường trong suố
+                                                  t nhất định thông th...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...�a một môi trường trong suốt nhấ
+                                                  t định thông thường...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...ột môi trường trong suốt nhất đ
+                                                  ịnh thông thường (nh...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ị (U+1ECB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...t môi trường trong suốt nhất đị
+                                                  nh thông thường (như ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ư (U+01B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...ng trong suốt nhất định thông thư
+                                                  ờng (như thủy tinh, k...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ờ (U+1EDD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...trong suốt nhất định thông thườ
+                                                  ng (như thủy tinh, khô...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ư (U+01B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...ốt nhất định thông thường (như
+                                                   thủy tinh, không khí....
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...hất định thông thường (như thủ
+                                                  y tinh, không khí..) đ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...ờng (như thủy tinh, không khí..) đ
+                                                  ối với các ánh sáng...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ố (U+1ED1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...ng (như thủy tinh, không khí..) đố
+                                                  i với các ánh sáng đ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...ư thủy tinh, không khí..) đối vớ
+                                                  i các ánh sáng đơn s�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...ng khí..) đối với các ánh sáng đ
+                                                  ơn sắc khác nhau thì
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ơ (U+01A1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ... khí..) đối với các ánh sáng đơ
+                                                  n sắc khác nhau thì
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ắ (U+1EAF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ....) đối với các ánh sáng đơn sắ
+                                                  c khác nhau thì
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Environment mcq undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 	\begin{mcq}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (34.86116pt too wide) in paragraph at lines 68--72
+[]\OT1/cmr/m/n/10 B^^Rai
+ []
+
+
+Overfull \hbox (9.44447pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 tp
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 1
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 Chit
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 sut
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 mt
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 m^oi
+ []
+
+
+Overfull \hbox (18.36116pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 trng
+ []
+
+
+Overfull \hbox (23.36118pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 trong
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 sut
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 nht
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 nh
+ []
+
+
+Overfull \hbox (25.00008pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 th^ong
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 thng
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 (nh
+ []
+
+
+Overfull \hbox (14.72227pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 thy
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 tinh,
+ []
+
+
+Overfull \hbox (26.38898pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 kh^ong
+ []
+
+
+Overfull \hbox (23.05563pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 kh^^S^^P..)
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 i
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 vi
+ []
+
+
+Overfull \hbox (13.8889pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 c^^Sac
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 n
+ []
+
+
+Overfull \hbox (8.38889pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 sc
+ []
+
+
+Overfull \hbox (20.27783pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 kh^^Sac
+ []
+
+
+Overfull \hbox (21.66673pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 nhau
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 68--72
+\OT1/cmr/m/n/10 th^^R^^P 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 		\item p
+              hụ thuộc vào bước sóng của ánh sáng đó.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package inputenc Error: Unicode character ụ (U+1EE5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 		\item phụ
+                   thuộc vào bước sóng của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ộ (U+1ED9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 		\item phụ thuộ
+                         c vào bước sóng của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ư (U+01B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 		\item phụ thuộc vào bư
+                                   ớc sóng của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 		\item phụ thuộc vào bướ
+                                      c sóng của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 		\item phụ thuộc vào bước sóng củ
+                                                  a ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...��c vào bước sóng của ánh sáng đ
+                                                  ó.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 72--73
+\OT1/cmr/m/n/10 ph
+ []
+
+
+Overfull \hbox (19.1667pt too wide) in paragraph at lines 72--73
+\OT1/cmr/m/n/10 thuc
+ []
+
+
+Overfull \hbox (15.27783pt too wide) in paragraph at lines 72--73
+\OT1/cmr/m/n/10 v^^Rao
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 72--73
+\OT1/cmr/m/n/10 bc
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 72--73
+\OT1/cmr/m/n/10 s^^Song
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 72--73
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 72--73
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 72--73
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 72--73
+\OT1/cmr/m/n/10 ^^So. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 		\item p
+              hụ thuộc vào cường độ của ánh sáng đó.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package inputenc Error: Unicode character ụ (U+1EE5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 		\item phụ
+                   thuộc vào cường độ của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ộ (U+1ED9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 		\item phụ thuộ
+                         c vào cường độ của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ư (U+01B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 		\item phụ thuộc vào cư
+                                   ờng độ của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ờ (U+1EDD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 		\item phụ thuộc vào cườ
+                                      ng độ của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 		\item phụ thuộc vào cường đ
+                                           ộ của ánh sáng đó.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ộ (U+1ED9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 		\item phụ thuộc vào cường độ
+                                               của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ...tem phụ thuộc vào cường độ củ
+                                                  a ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ...�c vào cường độ của ánh sáng đ
+                                                  ó.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 ph
+ []
+
+
+Overfull \hbox (19.1667pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 thuc
+ []
+
+
+Overfull \hbox (15.27783pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 v^^Rao
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 cng
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 ^^So. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 		\item p
+              hụ thuộc vào phương truyền của ánh sáng đó.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package inputenc Error: Unicode character ụ (U+1EE5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 		\item phụ
+                   thuộc vào phương truyền của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ộ (U+1ED9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 		\item phụ thuộ
+                         c vào phương truyền của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ư (U+01B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 		\item phụ thuộc vào phư
+                                    ơng truyền của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ơ (U+01A1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 		\item phụ thuộc vào phươ
+                                      ng truyền của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ề (U+1EC1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 		\item phụ thuộc vào phương truyề
+                                                n của ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ... phụ thuộc vào phương truyền củ
+                                                  a ánh sáng đó.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...vào phương truyền của ánh sáng đ
+                                                  ó.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 ph
+ []
+
+
+Overfull \hbox (19.1667pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 thuc
+ []
+
+
+Overfull \hbox (15.27783pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 v^^Rao
+ []
+
+
+Overfull \hbox (21.66673pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 phng
+ []
+
+
+Overfull \hbox (24.19452pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 truyn
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 ^^So. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 		\item p
+              hụ thuộc vào công suất của chùm sáng.	
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package inputenc Error: Unicode character ụ (U+1EE5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 		\item phụ
+                   thuộc vào công suất của chùm sáng.	
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ộ (U+1ED9)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 		\item phụ thuộ
+                         c vào công suất của chùm sáng.	
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 		\item phụ thuộc vào công suấ
+                                           t của chùm sáng.	
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 		\item phụ thuộc vào công suất củ
+                                                 a chùm sáng.	
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: \begin{document} ended by \end{mcq}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 	\end{mcq}
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ư (U+01B0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 		\textbf{Hướng dẫn giải:}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 		\textbf{Hướng dẫn giải:}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ẫ (U+1EAB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 		\textbf{Hướng dẫn giải:}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ả (U+1EA3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 		\textbf{Hướng dẫn giải:}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 75--80
+\OT1/cmr/m/n/10 ph
+ []
+
+
+Overfull \hbox (19.1667pt too wide) in paragraph at lines 75--80
+\OT1/cmr/m/n/10 thuc
+ []
+
+
+Overfull \hbox (15.27783pt too wide) in paragraph at lines 75--80
+\OT1/cmr/m/n/10 v^^Rao
+ []
+
+
+Overfull \hbox (20.00005pt too wide) in paragraph at lines 75--80
+\OT1/cmr/m/n/10 c^ong
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 75--80
+\OT1/cmr/m/n/10 sut
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 75--80
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (23.61116pt too wide) in paragraph at lines 75--80
+\OT1/cmr/m/n/10 ch^^Rum
+ []
+
+
+Overfull \hbox (22.27783pt too wide) in paragraph at lines 75--80
+\OT1/cmr/m/n/10 s^^Sang.
+ []
+
+
+Overfull \hbox (21.13878pt too wide) in paragraph at lines 75--80
+\OT1/cmr/bx/n/10 Hng
+ []
+
+
+Overfull \hbox (12.77771pt too wide) in paragraph at lines 75--80
+\OT1/cmr/bx/n/10 dn
+ []
+
+
+Overfull \hbox (15.33325pt too wide) in paragraph at lines 75--80
+\OT1/cmr/bx/n/10 gii: 
+ []
+
+
+! Package inputenc Error: Unicode character ế (U+1EBF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 		Chiế
+             t suất của thủy tinh đối với các ánh sáng đơn s...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 		Chiết suấ
+                    t của thủy tinh đối với các ánh sáng đơn s...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 		Chiết suất củ
+                          a thủy tinh đối với các ánh sáng đơn s...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ủ (U+1EE7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 		Chiết suất của thủ
+                                 y tinh đối với các ánh sáng đơn s...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 		Chiết suất của thủy tinh đ
+                                          ối với các ánh sáng đơn s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ố (U+1ED1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 		Chiết suất của thủy tinh đố
+                                             i với các ánh sáng đơn s...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...iết suất của thủy tinh đối vớ
+                                                  i các ánh sáng đơn s�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...hủy tinh đối với các ánh sáng đ
+                                                  ơn sắc khác nhau thì ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ơ (U+01A1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...��y tinh đối với các ánh sáng đơ
+                                                  n sắc khác nhau thì kh...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ắ (U+1EAF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...nh đối với các ánh sáng đơn sắ
+                                                  c khác nhau thì khác nh...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ế (U+1EBF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...n sắc khác nhau thì khác nhau. Chiế
+                                                  t suất có giá trị nh...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ... khác nhau thì khác nhau. Chiết suấ
+                                                  t có giá trị nhỏ nh�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ị (U+1ECB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ... khác nhau. Chiết suất có giá trị
+                                                   nhỏ nhất đối với...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ỏ (U+1ECF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ... nhau. Chiết suất có giá trị nhỏ
+                                                   nhất đối với ánh ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ... Chiết suất có giá trị nhỏ nhấ
+                                                  t đối với ánh sáng ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...ết suất có giá trị nhỏ nhất đ
+                                                  ối với ánh sáng đ�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ố (U+1ED1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...t suất có giá trị nhỏ nhất đố
+                                                  i với ánh sáng đỏ v...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...�t có giá trị nhỏ nhất đối vớ
+                                                  i ánh sáng đỏ và tă...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...�� nhỏ nhất đối với ánh sáng đ
+                                                  ỏ và tăng dần khi ch...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ỏ (U+1ECF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...nhỏ nhất đối với ánh sáng đỏ
+                                                   và tăng dần khi chuy�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ầ (U+1EA7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...ối với ánh sáng đỏ và tăng dầ
+                                                  n khi chuyển sang màu d...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ể (U+1EC3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...nh sáng đỏ và tăng dần khi chuyể
+                                                  n sang màu da cam, màu v...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ị (U+1ECB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...da cam, màu vàng, ... và có giá trị
+                                                   lớn nhất đối với...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...m, màu vàng, ... và có giá trị lớ
+                                                  n nhất đối với ánh...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ... vàng, ... và có giá trị lớn nhấ
+                                                  t đối với ánh sáng ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...ng, ... và có giá trị lớn nhất đ
+                                                  ối với ánh sáng tím...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ố (U+1ED1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ... ... và có giá trị lớn nhất đố
+                                                  i với ánh sáng tím. �...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ớ (U+1EDB)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...à có giá trị lớn nhất đối vớ
+                                                  i ánh sáng tím. Đặc ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \DJ unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...�n nhất đối với ánh sáng tím. Đ
+                                                  ặc điểm này là chun...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ặ (U+1EB7)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...nhất đối với ánh sáng tím. Đặ
+                                                  c điểm này là chung c...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...�t đối với ánh sáng tím. Đặc đ
+                                                  iểm này là chung cho m...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode character ể (U+1EC3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...�ối với ánh sáng tím. Đặc điể
+                                                  m này là chung cho mọi...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ọ (U+1ECD)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...�m. Đặc điểm này là chung cho mọ
+                                                  i chất trong suốt ($n_...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ấ (U+1EA5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...��c điểm này là chung cho mọi chấ
+                                                  t trong suốt ($n_{\text{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ố (U+1ED1)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...ày là chung cho mọi chất trong suố
+                                                  t ($n_{\text{đ}}\leq n \l...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Undefined control sequence.
+l.82 ...g cho mọi chất trong suốt ($n_{\text
+                                                  {đ}}\leq n \leq  n_{\text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \dj invalid in math mode on input line 82.
+
+
+! LaTeX Error: Command \dj unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...ho mọi chất trong suốt ($n_{\text{đ
+                                                  }}\leq n \leq  n_{\text{t}...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.82 ...uốt ($n_{\text{đ}}\leq n \leq  n_{\text
+                                                  {t}} $).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (39.44449pt too wide) in paragraph at lines 82--83
+[]\OT1/cmr/m/n/10 Chit
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 sut
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 ca
+ []
+
+
+Overfull \hbox (14.72227pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 thy
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 tinh
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 i
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 vi
+ []
+
+
+Overfull \hbox (13.8889pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 c^^Sac
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 n
+ []
+
+
+Overfull \hbox (8.38889pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 sc
+ []
+
+
+Overfull \hbox (20.27783pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 kh^^Sac
+ []
+
+
+Overfull \hbox (21.66673pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 nhau
+ []
+
+
+Overfull \hbox (12.22226pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 th^^R^^P
+ []
+
+
+Overfull \hbox (20.27783pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 kh^^Sac
+ []
+
+
+Overfull \hbox (24.44452pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 nhau.
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 Chit
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 sut
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 c^^So
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 gi^^Sa
+ []
+
+
+Overfull \hbox (7.80557pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 tr
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 nh
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 nht
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 i
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 vi
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (10.27782pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 v^^Ra
+ []
+
+
+Overfull \hbox (19.4445pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 t^^Uang
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 dn
+ []
+
+
+Overfull \hbox (13.61116pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 khi
+ []
+
+
+Overfull \hbox (25.83339pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 chuyn
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 sang
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 m^^Rau
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 da
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 cam,
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 m^^Rau
+ []
+
+
+Overfull \hbox (23.61119pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 v^^Rang,
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 ...
+ []
+
+
+Overfull \hbox (10.27782pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 v^^Ra
+ []
+
+
+Overfull \hbox (9.44446pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 c^^So
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 gi^^Sa
+ []
+
+
+Overfull \hbox (7.80557pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 tr
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 ln
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 nht
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 i
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 vi
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 ^^Sanh
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 s^^Sang
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 t^^S^^Pm.
+ []
+
+
+Overfull \hbox (4.44444pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 c
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 im
+ []
+
+
+Overfull \hbox (15.83339pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 n^^Ray
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 l^^Ra
+ []
+
+
+Overfull \hbox (25.5556pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 chung
+ []
+
+
+Overfull \hbox (14.72224pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 cho
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 mi
+ []
+
+
+Overfull \hbox (13.61113pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 cht
+ []
+
+
+Overfull \hbox (23.36118pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 trong
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 sut
+ []
+
+
+Overfull \hbox (20.94676pt too wide) in paragraph at lines 82--83
+\OT1/cmr/m/n/10 ($\OML/cmm/m/it/10 n[] \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (16.55786pt too wide) in paragraph at lines 82--83
+\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (16.18988pt too wide) in paragraph at lines 82--83
+\OML/cmm/m/it/10 n[]$\OT1/cmr/m/n/10 ). 
+ []
+
+
+! LaTeX Error: Command \DJ unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 		\textbf{Đáp án: A.}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (31.97908pt too wide) in paragraph at lines 84--85
+[]\OT1/cmr/bx/n/10 ^^Sap
+ []
+
+
+Overfull \hbox (15.17351pt too wide) in paragraph at lines 84--85
+\OT1/cmr/bx/n/10 ^^San:
+ []
+
+
+Overfull \hbox (11.88882pt too wide) in paragraph at lines 84--85
+\OT1/cmr/bx/n/10 A. 
+ []
+
+)
+! Emergency stop.
+<*> VN12-PH-32-L-019.1.tex
+                          
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 84 strings out of 478994
+ 968 string characters out of 5862206
+ 294541 words of memory out of 5000000
+ 17664 multiletter control sequences out of 15000+600000
+ 404683 words of font info for 31 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,4n,18p,447b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

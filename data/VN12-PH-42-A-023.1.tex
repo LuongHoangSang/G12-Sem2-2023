@@ -1,0 +1,249 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  33. Mẫu nguyên tử Bo
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Quang phổ vạch của nguyên tử hiđrô]{Quang phổ vạch của nguyên tử hiđrô}
+
+\section{Lý thuyết}
+
+\subsection{Vận dụng công thức tính số vạch quang phổ tối đa mà khối khí hiđrô phát ra được}
+
+	Khi khối khí hiđrô có các nguyên tử đang ở trạng thái dừng có mức năng lượng $E_n$ thì số vạch quang phổ tối đa mà khối khí đó phát ra được khi chuyển sang các trạng thái dừng khác có mức năng lượng thấp hơn là
+	\begin{equation}
+		\dfrac{n(n-1)}{2}.
+	\end{equation}
+
+\begin{center}
+	\begin{tabular}{|m{15em}|c|c|c|c|c|c|}
+		\hline
+		\textbf{Mức năng lượng} 
+		&$E_1$
+		&$E_2$
+		&$E_3$
+		&$E_4$
+		&$E_5$
+		&$E_6$
+		\\ \hline
+		\textbf{Số vạch quang phổ tối đa}
+		& $0$ 
+		& $1$ 
+		& $3$ 
+		& $6$ 
+		& $10$ 
+		& $15$ 
+		\\ \hline
+	\end{tabular}
+\end{center}
+
+\subsection{Liên hệ bước sóng hoặc tần số của các vạch quang phổ}
+
+	Công thức:
+	\begin{equation}
+		\dfrac{1}{\lambda_{31}} = \dfrac{1}{\lambda_{32}}+ \dfrac{1}{\lambda_{21}},
+	\end{equation}
+trong đó:
+\begin{itemize}
+	\item $\lambda_{31}$ là bước sóng phát ra khi nguyên tử chuyển từ trạng thái $n_3$ (cao) sang trạng thái $n _1$ (thấp);
+	\item $\lambda_{32}$ là bước sóng phát ra khi nguyên tử chuyển từ trạng thái $n_3$ (cao) sang trạng thái $n _2$ (trung gian);
+	\item $\lambda_{21}$ là bước sóng phát ra khi nguyên tử chuyển từ trạng thái $n_2$ (trung gian) sang trạng thái $n _1$ (thấp).
+\end{itemize}
+\subsubsection{Mối liên hệ tần số của các vạch quang phổ}
+	Công thức:
+	\begin{equation}
+	f_{31} = f_{32}+ f_{21}.
+	\end{equation}
+\begin{itemize}
+	\item $f_{31}$ là tần số phát ra khi nguyên tử chuyển từ trạng thái $n_3$ (cao) sang trạng thái $n _1$ (thấp);
+	\item $f_{32}$ là tần số phát ra khi nguyên tử chuyển từ trạng thái $n_3$ (cao) sang trạng thái $n _2$ (trung gian);
+	\item $f_{21}$ là tần số phát ra khi nguyên tử chuyển từ trạng thái $n_2$ (trung gian) sang trạng thái $n _1$ (thấp).
+\end{itemize}
+
+\section{Mục tiêu bài học - Ví dụ minh họa}
+
+\begin{dang}{Vận dụng công thức tính số vạch quang phổ tối đa mà khối khí hiđrô phát ra được.}
+
+\ppgiai{
+\begin{description}
+	\item[Bước 1:] Xác định trạng thái dừng của nguyên tử hiđrô dựa vào bán kính quỹ đạo ($r_n = n ^2 r_0$) hoặc mức năng lượng tương ứng ($E_n = -\dfrac{13.6}{n^2}\ \text{eV}$);
+	\item[Bước 2:] Thay $n$ vào công thức $\dfrac{n(n-1)}{2}$ để tìm số vạch quang phổ tối đa mà khối khí phát ra được.
+\end{description}
+}
+
+\viduii{2}{
+	Nguyên tử hiđrô được kích thích để chuyển lên quỹ đạo dừng M. Khi nó chuyển về các trạng thái dừng có mức năng lượng thấp hơn thì sẽ phát ra
+	\begin{mcq}(2)
+		\item một bức xạ.
+		\item hai bức xạ.
+		\item ba bức xạ.
+		\item bốn bức xạ.
+	\end{mcq}}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+	Nguyên tử hiđrô được kích thích để chuyển lên quỹ đạo dừng M, nên $n=3$. Áp dụng công thức $\dfrac{n(n-1)}{2}$ để tìm số vạch quang phổ tối đa mà nguyên tử hiđrô phát ra được.
+
+	Áp dụng công thức $\dfrac{n(n-1)}{2}$, tính được số vạch quang phổ tối đa mà nguyên tử hiđrô phát ra được là 3 vạch.
+	
+	\begin{center}
+	\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+	Nguyên tử hiđrô được kích thích để chuyển lên quỹ đạo dừng N. Khi nó chuyển về các trạng thái dừng có mức năng lượng thấp hơn thì sẽ phát ra
+	\begin{mcq}(2)
+		\item sáu bức xạ.
+		\item hai bức xạ.
+		\item tám bức xạ.
+		\item bốn bức xạ.
+	\end{mcq}
+	\textbf{Đáp án:} A.
+	}
+	
+\viduii{3}{Khối khí hiđrô có các nguyên tử đang ở trạng thái kích thích thứ nhất thì khối khí nhận thêm năng lượng và chuyển lên trạng thái kích thích mới. Biết rằng ở trạng thái kích thích mới, electron chuyển động trên quỹ đạo có bán kính gấp 9 lần trạng thái kích thích cũ. Số các bức xạ có tần số khác nhau mà khối khí hiđrô có thể phát ra tối đa là
+\begin{mcq}(4)
+	\item 15.
+	\item 18.
+	\item 21.
+	\item 24.
+\end{mcq}}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+Ở trạng thái kích thích cũ (trạng thái kích thích thứ nhất), nguyên tử hiđrô có $n_1= 2$, suy ra
+\begin{equation*}
+	r_{n_1} = n_1 ^2 r_0 = 4 r_0.
+\end{equation*}
+
+Ở trạng thái kích thích mới, nguyên tử hiđrô có $r_{n_2} = 9 r_{n_1}$, suy ra
+\begin{equation*}
+	r_{n _2} = 36 r_0.
+\end{equation*}
+
+Áp dụng công thức $r_{n_2} = n _2 ^2 r_0$, ta có
+\begin{equation*}
+	n _2 ^2 r_0 = 36 r_0 \Rightarrow n _2 = 6 .
+\end{equation*}
+
+Số vạch quang phổ tối đa mà nguyên tử hiđrô phát ra được:
+\begin{equation*}
+	\dfrac{n_2(n_2-1)}{2}=15.
+\end{equation*}
+
+	\begin{center}
+	\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+Khối khí hiđrô có các nguyên tử đang ở trạng thái kích thích thứ nhất thì khối khí nhận thêm năng lượng và chuyển lên trạng thái kích thích mới. Biết rằng ở trạng thái kích thích mới, electron chuyển động trên quỹ đạo có bán kính gấp 4 lần trạng thái kích thích cũ. Số các bức xạ có tần số khác nhau mà khối khí hiđrô có thể phát ra tối đa là
+\begin{mcq}(4)
+	\item 6.
+	\item 9.
+	\item 3.
+	\item 8.
+\end{mcq}	
+	
+	\textbf{Đáp án:} A.
+}
+
+\end{dang}
+
+
+
+
+\begin{dang}{Liên hệ bước sóng hoặc tần số của các vạch quang phổ.}
+
+\ppgiai{
+\begin{description}
+	\item[Bước 1:] Xác định trạng thái có mức năng lượng cao nhất ($n_3$) và mức năng lượng thấp nhất ($n_1$) trong sự chuyển mức;
+	\item[Bước 2:] Xác định trạng thái có mức năng lượng trung gian ($n_2$);
+	\item[Bước 3:] Áp dụng công thức $\dfrac{1}{\lambda_{31}} = \dfrac{1}{\lambda_{32}}+ \dfrac{1}{\lambda_{21}}$ hoặc $f_{31} = f_{32}+ f_{21}$ để tính bước sóng hoặc tần số của vạch quang phổ cần tìm.
+\end{description}
+}
+
+\viduii{3}{
+Khi chuyển từ quỹ đạo M về quỹ đạo L, nguyên tử hiđrô phát ra phôtôn có bước sóng $\SI{0.6563}{\micro \meter}$. Khi chuyển từ quỹ đạo N về quỹ đạo L, nguyên tử hiđrô phát ra phôtôn có bước sóng $\SI{0.4861}{\micro \meter}$. Khi chuyển từ quỹ đạo N về quỹ đạo M, nguyên tử hiđrô phát ra phôtôn có bước sóng
+\begin{mcq}(2)
+	\item $\SI{1.1424}{\micro \meter}$.
+	\item $\SI{1.8744}{\micro \meter}$.
+	\item $\SI{0.1702}{\micro \meter}$.
+	\item $\SI{0.2793}{\micro \meter}$.
+\end{mcq}}
+{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+Gọi:
+\begin{itemize}
+	\item Bước sóng phát ra khi nguyên tử hiđrô chuyển từ quỹ đạo M ($n_2$) về quỹ đạo L ($n_1$) là $\lambda_{21}$.
+	\item Bước sóng phát ra khi nguyên tử hiđrô chuyển từ quỹ đạo N ($n_3$) về quỹ đạo L ($n_1$) là $\lambda_{31}$.
+	\item Bước sóng phát ra khi nguyên tử hiđrô chuyển từ quỹ đạo N ($n_3$) về quỹ đạo M ($n_2$) là $\lambda_{32}$.
+\end{itemize}
+
+Áp dụng công thức
+\begin{equation*}
+	\dfrac{1}{\lambda_{31}} = \dfrac{1}{\lambda_{32}}+ \dfrac{1}{\lambda_{21}},
+\end{equation*}
+suy ra
+\begin{equation*}
+	\lambda_{32} = \dfrac{\lambda_{31} \lambda_{21}}{\lambda_{21} - \lambda_{31}} = \SI{1.8744}{\micro \meter} .
+\end{equation*}
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+
+Khi chuyển từ quỹ đạo M về quỹ đạo L, nguyên tử hiđrô phát ra phôtôn có tần số $ \SI{4,57 e14}{Hz} $. Khi chuyển từ quỹ đạo N về quỹ đạo L, nguyên tử hiđrô phát ra phôtôn có tần số $\SI{6,17 e14}{\micro \meter}$. Khi chuyển từ quỹ đạo N về quỹ đạo M, nguyên tử hiđrô phát ra phôtôn có tần số
+\begin{mcq}(2)
+	\item $ \SI{2,626 e14}{Hz} $.
+	\item $ \SI{1,601 e14}{Hz} $.
+	\item $ \SI{1,763 e15}{Hz} $.
+	\item $ \SI{1,074 e15}{Hz} $.
+\end{mcq}
+
+\textbf{Đáp án:} B.}
+
+\viduii{3}
+{
+Đối với nguyên tử Hiđrô, khi electron chuyển từ quỹ đạo L về quỹ đạo K thì nguyên tử phát ra photon tương ứng với bước sóng $ \SI{121,8}{nm} $. Khi electron chuyển từ quỹ đạo M về quỹ đạo L nguyên tử phát ra photon tương ứng với bước sóng $ \SI{656,3}{nm} $. Khi electron chuyển từ quỹ đạo M về quỹ đạo K, nguyên tử phát ra photon tương ứng với bước sóng
+\begin{mcq}(2)
+	\item $ \SI{309,1}{nm} $.
+	\item $ \SI{534,5}{nm} $.
+	\item $ \SI{95,7}{nm} $.
+	\item $ \SI{102,7}{nm} $.
+\end{mcq}
+}
+{
+\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+Ta có: $ \lambda_{LK} = \SI{121,8}{nm} $ và $ \lambda_{ML} = \SI{656,3}{nm} $. \\
+$$
+	\dfrac{1}{\lambda_{MK}} = \dfrac{1}{\lambda_{ML}} + \dfrac{1}{\lambda_{LK}} \rightarrow \lambda_{MK} = \SI{102,7}{nm}.
+$$
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+Đối với nguyên tử Hiđrô, khi electron chuyển từ quỹ đạo L về quỹ đạo K thì nguyên tử phát ra photon tương ứng với tần số $ \SI{121,8}{nm} $. Khi electron chuyển từ quỹ đạo M về quỹ đạo L nguyên tử phát ra photon tương ứng với tần số $ \SI{656,3}{nm} $. Khi electron chuyển từ quỹ đạo M về quỹ đạo K, nguyên tử phát ra photon tương ứng với tần số
+\begin{mcq}(2)
+	\item $ \SI{9,706 e14}{Hz} $.
+	\item $ \SI{5,613 e14}{Hz} $.
+	\item $ \SI{3,135 e15}{Hz} $.
+	\item $ \SI{2,921 e14}{Hz} $.
+\end{mcq}
+\textbf{Đáp án:} D.
+}
+
+\end{dang}

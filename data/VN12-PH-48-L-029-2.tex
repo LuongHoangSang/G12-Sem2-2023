@@ -1,0 +1,165 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  37. Phóng xạ
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Các ứng dụng của hiện tượng phóng xạ (đọc thêm)]{Các ứng dụng của hiện tượng phóng xạ (đọc thêm)}
+\section{Lý thuyết}
+
+\subsection{Đồng vị phóng xạ}
+	Các đồng vị được chia làm hai loại: đồng vị bền và đồng vị phóng xạ (không bền).
+	
+	Đồng vị phóng xạ có sẵn trong tự nhiên gọi là đồng vị phóng xạ tự nhiên.
+	
+	Đồng vị phóng xạ do con người chế tạo gọi là đồng vị phóng xạ nhân tạo.
+	
+	Các đồng vị phóng xạ của một nguyên tố hóa học có cùng tính chất hóa học như đồng vị bền của nguyên tố đó.
+\subsection{Các ứng dụng của đồng vị phóng xạ}
+
+\subsubsection{Phương pháp nguyên tử đánh dấu}
+	Để khảo sát sự tồn tại, phân bố và vận chuyển của nguyên tố $X$, người ta trộn các nguyên tử của hạt nhân bình thường $^A_X$ với các nguyên tử của hạt nhân đồng vị phóng xạ $^{A+1}_X$. Do tính chất hóa học giống nhau nên hai loại nguyên tử này có sự phân bố, vận chuyển giống nhau, tuy nhiên các hạt nhân đồng vị phóng xạ dễ dàng được phát hiện nhờ máy đo phóng xạ. Các nguyên tử của hạt nhân phóng xạ trong phương pháp này gọi là các nguyên tử đánh dấu. 
+	
+	Phương pháp nguyên tử đánh dấu được ứng dụng trong Y học. Nhờ phương pháp nguyên tử đánh dấu, người ta có thể biết được chính xác nhu cầu với xác nguyên tố khác nhau của cơ thể trong từng thời kì phát triển của nó và tình trạng bệnh lý của các bộ phận khác nhau của cơ thể, khi thừa hoặc thiếu những nguyên tố nào đó.
+	
+\subsubsection{Phương pháp xác định tuổi theo lượng cacbon 14}
+	 
+	 Cacbon có ba đồng vị chính: $^{12}_{\ 6}\text{C}$ (phổ biến nhất) và $^{13}_{\ 6}\text{C}$ là đồng vị bền; $^{14}_{\ 6}\text{C}$ là đồng vị phóng xạ.
+	 
+	 $^{14}_{\ 6}\text{C}$ được tạo ra trong khí quyển và thâm nhập vào mọi vật. Khi thực vật còn sống, còn quá trình quang hợp, thì tỉ lệ giữa $^{14}_{\ 6}\text{C}$ và $^{12}_{\ 6}\text{C}$ là không đổi. Nhưng khi thực vật chết đi, nó không còn trao đổi gì với không khí, thì tỉ lệ này giảm dần. Như vậy bằng cách đo tỉ lệ $^{14}_{\ 6}\text{C}$ và $^{12}_{\ 6}\text{C}$ (đo độ phóng xạ $H$) trong các di vật cổ ta có thể tính ra tuổi của chúng. Phép định tuổi cổ vật này cho phép đo được tuổi các cổ vật từ 500 năm đến 5500 năm.
+
+\section{Mục tiêu bài học - Ví dụ minh họa}
+
+	\begin{dang}{Ứng dụng phương pháp\\ nguyên tử đánh dấu.}
+		
+		\ppgiai{
+		
+		Sử dụng công thức tính độ phóng xạ
+		\begin{equation}
+		H=H_0\cdot 2^{-\frac{t}{T}}=N_0\cdot e^{-\lambda t},
+		\end{equation}
+		trong đó:
+		\begin{itemize}
+			\item $H_0$ là số hạt nhân ở thời điểm ban đầu $t_0=0$;
+			\item $N_0$ là số hạt nhân ở thời điểm ban đầu $t_0=0$;
+			\item $\lambda$ là hằng số phóng xạ.
+		\end{itemize}	
+		\vspace{1em}
+		}
+		
+		\vidu{3}{ Để xác định lượng máu trong bệnh nhân người ta tiêm vào máu một lượng nhỏ dung dịch chứ đồng vị phóng xạ $^{24}\text{Na}$ (chu kì bán rã 15 giờ) có độ phóng xạ $\SI{2}{\micro Ci}$. Sau 7,5 giờ người ta lấy ra $\SI{1}{\centi\meter^3}$ máu người đó thì thấy nó có độ phóng xạ 502 phân rã/phút. Thể tích máu của người đó bằng bao nhiêu?
+		
+		\begin{mcq}(4)
+			\item 6,25 lít.
+			\item 6,54 lít.
+			\item 6,52 lít.
+			\item 6,00 lít.
+		\end{mcq}}
+	{
+		\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Độ phóng xạ độ phóng xạ sau 7,5 giờ của $^{24}\text{Na}$ trong $\SI{1}{\centi\meter^3}$ máu
+		\begin{equation*}
+		H'=502\, \textrm{phân rã}/\text{phút}\cdot\text{cm}^3=\dfrac{502}{60}\, \textrm{phân rã}/\text{s}\cdot\text{cm}^3=\SI{8,37}{Bq/cm^3}.
+		\end{equation*}
+		
+		Gọi $V$ là thể tích của máu trong cơ thể tính theo $\text{cm}^3$.
+		
+		Độ phóng xạ sau 7,5 giờ của $^{24}\text{Na}$ trong toàn bộ cơ thể
+		\begin{equation*}
+		H=H'\cdot V.
+		\end{equation*}
+
+		Độ phóng xạ ban đầu của $^{24}\text{Na}$ trong toàn bộ cơ thể
+		\begin{equation*}
+		H_0=\SI{2}{\micro Ci}=\num{2e-6} \cdot 3,7 \cdot 10^{10}=\SI{7,4e4}{Bq}.
+		\end{equation*}
+		
+		Áp dụng công thức tính độ phóng xạ để xác định thể tích của máu
+		\begin{eqnarray*}
+		H&=&H_0\cdot 2^{-\frac{t}{T}}\\
+		\Rightarrow H'\cdot V&=&H_0\cdot 2^{-\frac{t}{T}}\\
+		\Rightarrow \SI{8,37}{Bq/cm^3}\cdot V&=&\SI{7,4e4}{Bq}\cdot2^{-\frac{\text{7,5 giờ}}{\text{15 giờ}}}\\
+		\Rightarrow V&=&\SI{6251,6}{\centi\meter^3}=6,25\textrm{ lít}.
+		\end{eqnarray*}
+
+		\begin{center}
+			\textbf{Câu hỏi tương tự}
+		\end{center}		
+		
+		Để xác định lượng máu trong bệnh nhân người ta tiêm vào máu một lượng nhỏ dung dịch chứ đồng vị phóng xạ $^{24}\text{Na}$ (chu kì bán rã 15 giờ) có độ phóng xạ $\SI{2}{\micro Ci}$. Sau 7,5 giờ người ta lấy ra $\SI{1}{\centi\meter^3}$ máu người đó thì thấy nó có độ phóng xạ 502 phân rã/phút. Thể tích máu của người đó bằng bao nhiêu?
+		
+		\begin{mcq}(4)
+			\item 6,25 lít.
+			\item 6,54 lít.
+			\item 6,52 lít.
+			\item 6,00 lít.
+		\end{mcq}
+		
+		\textbf{Đáp án:} A.}
+	\end{dang}
+
+	\begin{dang}{Ứng dụng xác định tuổi của mẫu gỗ.}
+		
+		\ppgiai{
+		
+		\begin{description}
+			\item[Bước 1:] Xác định độ phóng xạ $H$ của mẫu gỗ. 
+			
+			\item[Bước 2:] Xác định độ phóng xạ $H_0$ của mẫu tươi vừa mới chặt.
+			
+			\item[Bước 3:] Tuổi của mẫu gỗ được xác định dựa vào công thức
+			\begin{equation}
+			H=H_0\cdot 2^{-\frac{t}{T}}=N_0\cdot e^{-\lambda t}\Rightarrow t=\dfrac{1}{\lambda}\ln \left(\dfrac{H_0}{H}\right)=\dfrac{T}{\ln2}\ln \left(\dfrac{H_0}{H}\right) .
+			\end{equation}
+		\end{description}	
+		
+		}
+		
+		\vidu{2}{ Độ phóng xạ của một tượng gỗ bằng 0,8 lần độ phóng xạ của mẫu gỗ cùng loại cùng khối lượng vừa mới chặt. Biết chu kì của $^{14}\text{C}$ là 5600 năm. Tuổi của tượng gỗ đó là
+		
+		\begin{mcq}(4)
+			\item 1900 năm.
+			\item 2016 năm.
+			\item 1802 năm.
+			\item 1890 năm.
+		\end{mcq}
+		}
+		{\begin{center}
+			\textbf{Hướng dẫn giải}
+		\end{center}
+		
+		Tuổi của tượng gỗ đó là
+		\begin{equation*}
+		H=H_0\cdot 2^{-\frac{t}{T}}\Rightarrow t=\dfrac{T}{\ln2}\ln \left(\dfrac{H_0}{H}\right)=\dfrac{\textrm{5600 năm}}{\ln2}\ln 1,25=\textrm{1802 năm}.
+		\end{equation*}
+		
+		\begin{center}
+			\textbf{Câu hỏi tương tự}
+		\end{center}
+		
+Phân tích một tượng gỗ cổ (đồ cổ) người ta thấy rằng độ phóng xạ $ \beta^{-} $ của nó bằng $ \num{0,385} $ lần độ phóng xạ của một khúc gỗ mới chặt có khối lượng gấp đôi khối lượng của tượng gỗ đó. Đồng vị $ ^{14} \text{C} $ có chu kì bán rã là 5600 năm. Tuổi tượng gỗ là
+\begin{mcq}(2)
+	\item 35000 năm.
+	\item 2,11 nghìn năm.
+	\item 7,71 nghìn năm.
+	\item 13312 năm.
+\end{mcq}	
+		
+		\textbf{Đáp án:} B.}
+	\end{dang}
+
+

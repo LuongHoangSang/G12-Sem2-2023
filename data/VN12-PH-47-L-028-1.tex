@@ -1,0 +1,226 @@
+% --- chapter
+\newcommand{\chapter}[2][]{
+	\newcommand{\chapname}{#2}
+	\begin{flushleft}
+		\begin{minipage}[t]{\linewidth}
+			\includegraphics[height=1cm]{hdht-logo.png}
+			\hspace{0pt}	
+			\sffamily\bfseries\large Bài  36. Năng lượng liên kết của hạt nhân. Phản ứng hạt nhân
+			\begin{flushleft}
+				\huge\bfseries #1
+			\end{flushleft}
+		\end{minipage}
+	\end{flushleft}
+	\vspace{1cm}
+	\normalfont\normalsize
+}
+%-----------------------------------------------------
+\chapter[Năng lượng liên kết, \\năng lượng liên kết riêng của hạt nhân]{Năng lượng liên kết,\\ năng lượng liên kết riêng của hạt nhân}
+\section{Lý thuyết}
+
+\subsection{Độ hụt khối}
+	Khối lượng của một hạt nhân luôn nhỏ hơn tổng khối lượng của các nuclon tạo thành hạt nhân đó. Độ chênh lệch giữa hai khối lượng đó được gọi là độ hụt khối của hạt nhân
+	\begin{equation}
+	\Delta m = m_0 - m_X = Z m_p+ (A-Z) m_n - m_X,
+	\end{equation}
+	trong đó:
+	\begin{itemize}
+		\item $m_0=Z m_p+ (A-Z) m_n$ là tổng khối lượng các nuclon lúc đầu chưa liên kết;
+		\item $m_X$ khối lượng của hạt nhân $^A_Z X$;
+		\item $m_p$ và $m_n$ lần lượt là khối lượng của các proton và nơtron.
+	\end{itemize}
+\subsection{Năng lượng liên kết}
+	Năng lượng liên kết của hạt nhân được tính bằng tích của độ hụt khối của hạt nhân với bình phương vận tốc ánh sáng
+	\begin{equation}
+	W_\text{lk}=\Delta m c^2 = \left[ Z m_p+ (A-Z) m_n - m_X \right] c^2,
+	\end{equation}
+	trong đó:
+		\begin{itemize}
+		\item $m_0=Z m_p+ (A-Z) m_n$ là tổng khối lượng các nuclon lúc đầu chưa liên kết;
+		\item $m_X$ là khối lượng của hạt nhân $^A_Z X$;
+		\item $m_p$ và $m_n$ lần lượt là khối lượng của các proton và nơtron;
+		\item $c$ là tốc độ ánh sáng trong chân không.
+	\end{itemize}
+\subsection{Năng lượng liên kết riêng}
+	Mức độ bền vững của một hạt nhân không những phụ thuộc vào năng lượng liên kết mà còn phụ thuộc vào số nuclon của hạt nhân đó. Vì vậy người ta định nghĩa năng lượng liên kết riêng là thương số giữa năng lượng liên kết và số nuclon
+	\begin{equation}
+	W_\text{lkr}=\dfrac{W_\text{lk}}{A},
+	\end{equation}
+	trong đó:
+	\begin{itemize}
+		\item $W_\text{lkr}$ là năng lượng liên kết riêng;
+		\item $W_\text{lk}$ là năng lượng liên kết;
+		\item A là số khối.
+	\end{itemize}
+	
+\section{Mục tiêu bài học - Ví dụ minh họa}
+
+\begin{dang}{Áp dụng trực tiếp công thức.}
+
+\ppgiai{
+Áp dụng công thức tính độ hụt khối:
+$$
+	Z m_p+ (A-Z) m_n - m_X.
+$$
+Áp dụng công thức tính năng lượng liên kết:
+$$
+	W_\text{lk}=\Delta m c^2 = \left[ Z m_p+ (A-Z) m_n - m_X \right] c^2.
+$$
+Áp dụng công thức tính năng lượng liên kết riêng:
+$$
+	W_\text{lkr}=\dfrac{W_\text{lk}}{A}
+$$
+}
+
+\viduii{2}
+{
+Xét đồng vị Côban $ ^{60}_{27} \text{Co} $ hạt nhân có khối lượng $ m_{\text{Co}} = \SI{59,934}{u}$. Biết khối lượng của các hạt $ m_{\text{P}} = \SI{1,007276}{u} $; $ m_{\text{n}} = \SI{1,008565}{u} $. Độ hụt khối của hạt nhân đó là
+\begin{mcq}(4)
+	\item $ \SI{0,401}{u} $.
+	\item $ \SI{0,302}{u} $.
+	\item $ \SI{0,548}{u} $.
+	\item $ \SI{0,544}{u} $.
+\end{mcq} 
+}
+{
+\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+Ta có:
+$$
+	\Delta m = 27 m_{\text{p}} + (60 - 27) m_{\text{n}} - m_{\text{Co}} = \SI{0,548}{u}.
+$$
+
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+Khối lượng của nguyên tử nhôm $ ^{27}_{13} \text{Al} $ là $ \SI{26,9803}{u} $. Khối lượng của nguyên tử $ ^{1}_{1} \text{H} $ là $ \SI{1,007825}{u} $, khối lượng của proton là $ \SI{1,00728}{u} $ và khối lượng của neutron là $ \SI{1,00866}{u} $. Độ hụt khối của hạt nhân nhôm là
+\begin{mcq}(2)
+	\item $ \SI{0,242665}{u} $.
+	\item $ \SI{0,23558}{u} $.
+	\item $ \SI{0,23548}{u} $.
+	\item $ \SI{0,23544}{u} $.
+\end{mcq}
+\textbf{Đáp án:} A.
+}
+
+\viduii{2}
+{	[THPT QG 2017 - Mã đề 202]  Hạt nhân $^{235}_{\ 92}\text{U}$ có năng lượng liên kết $\SI{1784}{\mega\electronvolt}$. Năng lượng liên kết riêng của hạt nhân là
+	\begin{mcq}(2)
+		\item $\SI{5,46}{\mega\electronvolt}$.
+		\item $\SI{12,48}{\mega\electronvolt}$.
+		\item $\SI{19,39}{\mega\electronvolt}$.
+		\item $\SI{7,59}{\mega\electronvolt}$.
+	\end{mcq}}
+{
+	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+
+	Năng lượng liên kết riêng của hạt nhân là
+	\begin{equation*}
+	W_\text{lkr}=\dfrac{W_\text{lk}}{A}=\dfrac{\SI{1784}{\mega\electronvolt}}{235}=\SI{7,59}{\mega\electronvolt}.
+	\end{equation*}
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+Cho $ m_{C} = \SI{12,00000}{u} $ ; $ m_{p} = \SI{1,00728}{u} $ ; $ m_{n} = \SI{1,00867}{u} $ ; $ \SI{1}{u} = \SI{1,66058 e-27}{kg} $ ; $ \SI{1}{eV} = \SI{1,6 e-19}{J} $ ; $ c = \SI{3 e8}{m/s} $. Năng lượng tối thiểu để tách hạt nhân $ ^{12} \text{C} $ thành các nuclôn riêng biệt bằng
+\begin{mcq}(4)
+	\item $ \SI{72,7}{MeV} $.
+	\item $ \SI{89,4}{MeV} $.
+	\item $ \SI{44,7}{MeV} $.
+	\item $ \SI{8,94}{MeV} $.
+\end{mcq}
+	
+	\textbf{Đáp án:} B.
+}
+
+\end{dang}
+
+\begin{dang}{So sánh và sắp xếp mức độ bền vững\\ của hạt nhân.}
+
+\ppgiai{
+\begin{description}
+	\item[Bước 1:] Tính năng lượng liên kết riêng của từng hạt nhân:
+	$$
+		W_\text{lkr}=\dfrac{W_\text{lk}}{A}.
+	$$
+	\item[Bước 2:] Sắp xếp thứ tự các hạt nhân theo yêu cầu bài toán.
+\end{description}
+}
+
+\luuy{Hạt nhân càng bên vững thì có năng lượng liên kết riêng càng lớn và ngược lại.}
+
+
+\viduii{2}
+{[Đề thi đại học khối A, 2010] Cho ba hạt nhân $X$, $Y$ và $Z$ có số nuclôn tương ứng là $A_X$, $A_Y$, $A_Z$ với $A_X = 2A_Y = 0,5A_Z$. Biết năng lượng liên kết của từng hạt nhân tương ứng là $\Delta E_X$, $\Delta E_Y$, $\Delta E_Z$ với $\Delta E_Z < \Delta E_Y < \Delta E_X$. Sắp xếp các hạt nhân này theo thứ tự tính bền vững giảm dần là
+	\begin{mcq}(4)
+		\item $X$, $Y$, $Z$.
+		\item $Z$, $X$, $Y$. 
+		\item $Y$, $Z$, $X$.
+		\item $Y$, $X$, $Z$.
+	\end{mcq}
+}{\begin{center}
+	\textbf{Hướng dẫn giải}
+\end{center}
+
+	Năng lượng liên kết riêng của $X$, $Y$, $Z$ lần lượt là $W_\textrm{lkr X}=\dfrac{E_X}{A_X}$, $W_\textrm{lkr Y}=\dfrac{E_Y}{A_Y}$ và $W_\textrm{lkr Z}=\dfrac{E_Z}{A_Z}$.
+	
+	Vì $\Delta E_Z < \Delta E_Y < \Delta E_X$ và $A_X = 2A_Y = 0,5A_Z$ ($A_Z>A_X>A_Y$) nên sắp xếp các hạt nhân này theo thứ tự tính bền vững giảm dần là $Y$, $X$, $Z$.
+	
+\begin{center}
+	\textbf{Câu hỏi tương tự}
+\end{center}
+Các hạt nhân đơteri $ ^{2}_{1} \text{H} $ ; triti $ ^{3}_{1} \text{H} $ ; heli $ ^{4}_{2} \text{He} $ có năng lượng liên kết lần lượt là $ \SI{2,22}{MeV} $ ; $ \SI{8,49}{MeV} $ ; $ \SI{28,16}{MeV} $. Các hạt nhân trên được sắp xếp theo thứ tự giảm dần về độ bền vững hạt nhân là
+\begin{mcq}(2)
+	\item $ ^{2}_{1} \text{H} $ ; $ ^{4}_{2} \text{He} $ ; $ ^{3}_{1} \text{H} $.
+	\item $ ^{2}_{1} \text{H} $ ; $ ^{3}_{1} \text{H} $ ; $ ^{4}_{2} \text{He} $.
+	\item $ ^{4}_{2} \text{He} $ ; $ ^{3}_{1} \text{H} $ ; $ ^{2}_{1} \text{H} $.
+	\item $ ^{3}_{1} \text{H} $ ; $ ^{4}_{2} \text{He} $ ; $ ^{2}_{1} \text{H} $.
+\end{mcq}
+
+\textbf{Đáp án:} C.
+}
+
+\viduii{3}
+{[Đề thi đại học khối A, 2010] Cho khối lượng của proton, nơtron, $^{40}_{18}\text{Ar}$, $^{6}_{3}\text{Li}$ lần lượt là 1,0073 u; 1,0087u; 39,9525u; 6,0145u và $\SI{1}{u}=\SI{931,5}{\mega\electronvolt/c^2}$. So với năng lượng liên kết riêng của hạt nhân $^{6}_{3}\text{Li}$ thì năng lượng liên kết riêng của hạt nhân $^{40}_{18}\text{Ar}$
+	\begin{mcq}(2)
+		\item nhỏ hơn một lượng $\SI{3,42}{\mega\electronvolt}$.
+		\item lớn hơn một lượng $\SI{5,20}{\mega\electronvolt}$.
+		\item lớn hơn một lượng $\SI{3,42}{\mega\electronvolt}$.
+		\item nhỏ hơn một lượng $\SI{5,20}{\mega\electronvolt}$.
+	\end{mcq}}
+	{
+	\begin{center}
+		\textbf{Hướng dẫn giải}
+	\end{center}
+
+	Năng lượng liên kết riêng của hạt nhân $^{40}_{18}\text{Ar}$ là
+	\begin{equation*}
+		W_\text{lkr}=\dfrac{W_\text{lk}}{A}= \dfrac{18 m_p+ 22 m_n - m_\text{Ar}}{40}\approx \SI{8,62}{\mega\electronvolt}.
+	\end{equation*}
+	
+	Năng lượng liên kết riêng của hạt nhân $^{6}_{3}\text{Li}$ là
+	\begin{equation*}
+	W_\text{lkr}=\dfrac{W_\text{lk}}{A}= \dfrac{3 m_p+ 3 m_n - m_\text{Li}}{6}\approx \SI{5,20}{\mega\electronvolt}.
+	\end{equation*}
+	
+	Vậy so với năng lượng liên kết riêng của hạt nhân $^{6}_{3}\text{Li}$ thì năng lượng liên kết riêng của hạt nhân $^{40}_{18}\text{Ar}$ $\SI{8,62}{\mega\electronvolt} - \SI{5,20}{\mega\electronvolt} = \SI{3,42}{\mega\electronvolt}.$
+	
+	\begin{center}
+		\textbf{Câu hỏi tương tự}
+	\end{center}
+	
+Trong các hạt nhân: $ ^{4}_{2} \text{He} $ , $ ^{7}_{3} \text{Li} $ , $ ^{56}_{26} \text{Fe} $ và $ ^{235}_{92} \text{U} $ hạt nhân bền vững nhất là
+\begin{mcq}(4)
+	\item $ ^{235}_{92} \text{U} $.
+	\item $ ^{56}_{26} \text{Fe} $.
+	\item $ ^{7}_{3} \text{Li} $.
+	\item $ ^{4}_{2} \text{He} $.
+\end{mcq}
+	
+	\textbf{Đáp án:} B.
+}
+
+\end{dang}
